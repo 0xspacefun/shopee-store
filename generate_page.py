@@ -94,14 +94,16 @@ def main():
     sections += category_section("skincare", "SKINCARE", "🧴", products)
     sections += category_section("makeup", "MAKEUP", "💄", products)
     sections += category_section("body_care", "BODY CARE", "🧴", products)
-    sections += category_section("parfum", "PARFUM", "🌸", products)
+    sections += category_section("cleansing", "CLEANSING", "🫧", products)
     sections += category_section("skintific", "SKINTIFIC", "💎", products)
+    sections += category_section("parfum", "PARFUM", "🌸", products)
 
     # Category nav
     cats = [
         ("skincare", "🧴", "Skincare"),
         ("makeup", "💄", "Makeup"),
         ("body_care", "🧴", "Body Care"),
+        ("cleansing", "🫧", "Cleansing"),
         ("parfum", "🌸", "Parfum"),
         ("skintific", "💎", "Skintific"),
     ]

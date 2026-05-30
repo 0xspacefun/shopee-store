@@ -1,8 +1,8 @@
 {
-  "fetched_at": "2026-05-30T08:09:55Z",
-  "total": 35,
-  "with_meta": 35,
-  "with_image": 34,
+  "fetched_at": "2026-05-30T08:40:27Z",
+  "total": 49,
+  "with_meta": 49,
+  "with_image": 49,
   "products": [
     {
       "id": 1,
@@ -15,9 +15,9 @@
       "scraped": {
         "image_url": "https://down-id.img.susercontent.com/file/sg-11134201-821f9-mgorrkk31vda91",
         "rating": 4.9,
-        "reviews": 44328,
-        "comments": 22164,
-        "liked": 9176
+        "reviews": 44358,
+        "comments": 22178,
+        "liked": 9188
       },
       "image_local": "img/products/01_cleanser.jpg",
       "shop_id": 1346168602,
@@ -34,9 +34,9 @@
       "scraped": {
         "image_url": "https://down-id.img.susercontent.com/file/sg-11134201-7rdwl-m0so3ewaubmtd5",
         "rating": 4.9,
-        "reviews": 57092,
-        "comments": 28546,
-        "liked": 9096
+        "reviews": 57150,
+        "comments": 28575,
+        "liked": 9113
       },
       "image_local": "img/products/02_sunscreen.jpg",
       "shop_id": 1346168602,
@@ -53,9 +53,9 @@
       "scraped": {
         "image_url": "https://down-id.img.susercontent.com/file/id-11134207-822ws-modp2ffrti4s63",
         "rating": 4.9,
-        "reviews": 33522,
-        "comments": 16761,
-        "liked": 8052
+        "reviews": 33566,
+        "comments": 16783,
+        "liked": 8065
       },
       "image_local": "img/products/03_cleanser.jpg",
       "shop_id": 1346168602,
@@ -72,9 +72,9 @@
       "scraped": {
         "image_url": "https://down-id.img.susercontent.com/file/id-11134207-8224v-mjin7pzt2w3mb8",
         "rating": 4.8,
-        "reviews": 18330,
-        "comments": 9165,
-        "liked": 8831
+        "reviews": 18350,
+        "comments": 9175,
+        "liked": 8835
       },
       "image_local": "img/products/04_mask.jpg",
       "shop_id": 897794453,
@@ -91,9 +91,9 @@
       "scraped": {
         "image_url": "https://down-id.img.susercontent.com/file/id-11134207-7rasa-m0saztefgxa637",
         "rating": 4.9,
-        "reviews": 212218,
-        "comments": 106110,
-        "liked": 48952
+        "reviews": 212432,
+        "comments": 106217,
+        "liked": 48981
       },
       "image_local": "img/products/05_liptint.jpg",
       "shop_id": 1346168602,
@@ -110,9 +110,9 @@
       "scraped": {
         "image_url": "https://down-id.img.susercontent.com/file/id-11134207-822wt-monf6qeneo0262",
         "rating": 4.9,
-        "reviews": 5575052,
-        "comments": 2732785,
-        "liked": 607988
+        "reviews": 5575172,
+        "comments": 2732846,
+        "liked": 608006
       },
       "image_local": "img/products/06_liptint.jpg",
       "shop_id": 62582411,
@@ -129,9 +129,9 @@
       "scraped": {
         "image_url": "https://down-id.img.susercontent.com/file/id-11134207-822wr-moqbl73phu6l81",
         "rating": 5.0,
-        "reviews": 3874,
-        "comments": 1937,
-        "liked": 3345
+        "reviews": 3890,
+        "comments": 1946,
+        "liked": 3350
       },
       "image_local": "img/products/07_cushion.jpg",
       "shop_id": 380266264,
@@ -148,9 +148,9 @@
       "scraped": {
         "image_url": "https://down-id.img.susercontent.com/file/id-11134207-822wn-momswj899wxte9",
         "rating": 4.9,
-        "reviews": 19532,
-        "comments": 9766,
-        "liked": 5675
+        "reviews": 19562,
+        "comments": 9781,
+        "liked": 5682
       },
       "image_local": "img/products/08_liptint.jpg",
       "shop_id": 94309880,
@@ -167,9 +167,9 @@
       "scraped": {
         "image_url": "https://down-id.img.susercontent.com/file/id-11134207-82252-ml3945lba9z570",
         "rating": 4.9,
-        "reviews": 507944,
-        "comments": 253972,
-        "liked": 113369
+        "reviews": 508000,
+        "comments": 253999,
+        "liked": 113383
       },
       "image_local": "img/products/09_body_lotion.jpg",
       "shop_id": 790166426,
@@ -186,9 +186,9 @@
       "scraped": {
         "image_url": "https://down-id.img.susercontent.com/file/id-11134207-7qul7-ljnn2uw0juhu9f",
         "rating": 4.8,
-        "reviews": 216228,
-        "comments": 106005,
-        "liked": 34854
+        "reviews": 216246,
+        "comments": 106014,
+        "liked": 34855
       },
       "image_local": "img/products/10_body_lotion.jpg",
       "shop_id": 932470899,
@@ -205,8 +205,8 @@
       "scraped": {
         "image_url": "https://down-id.img.susercontent.com/file/id-11134201-822wj-mnjnzqdztxxec8",
         "rating": 4.9,
-        "reviews": 26910,
-        "comments": 13455,
+        "reviews": 26918,
+        "comments": 13459,
         "liked": 2919
       },
       "image_local": "img/products/11_body_wash.jpg",
@@ -224,9 +224,9 @@
       "scraped": {
         "image_url": "https://down-id.img.susercontent.com/file/sg-11134301-7ra17-mbeyvrws4v7n8f",
         "rating": 4.9,
-        "reviews": 447520,
-        "comments": 217879,
-        "liked": 48852
+        "reviews": 447532,
+        "comments": 217885,
+        "liked": 48853
       },
       "image_local": "img/products/12_body_wash.jpg",
       "shop_id": 64474495,
@@ -243,9 +243,9 @@
       "scraped": {
         "image_url": "https://down-id.img.susercontent.com/file/id-11134201-822wg-mnjnzr61h0xw21",
         "rating": 4.9,
-        "reviews": 29094,
-        "comments": 14547,
-        "liked": 3036
+        "reviews": 29100,
+        "comments": 14550,
+        "liked": 3037
       },
       "image_local": "img/products/13_body_wash.jpg",
       "shop_id": 1517647103,
@@ -262,8 +262,8 @@
       "scraped": {
         "image_url": "https://down-id.img.susercontent.com/file/id-11134201-822wg-mnjnzpn0mgao48",
         "rating": 4.9,
-        "reviews": 35678,
-        "comments": 17839,
+        "reviews": 35686,
+        "comments": 17843,
         "liked": 3798
       },
       "image_local": "img/products/14_body_wash.jpg",
@@ -281,9 +281,9 @@
       "scraped": {
         "image_url": "https://down-id.img.susercontent.com/file/id-11134207-822wr-mmqv4j8fzim8b6",
         "rating": 4.3,
-        "reviews": 4304,
-        "comments": 2152,
-        "liked": 1489
+        "reviews": 4320,
+        "comments": 2161,
+        "liked": 1495
       },
       "image_local": "img/products/15_women.jpg",
       "shop_id": 1560241666,
@@ -319,8 +319,8 @@
       "scraped": {
         "image_url": "https://down-id.img.susercontent.com/file/id-11134207-82252-mgol5daabkso46",
         "rating": 4.9,
-        "reviews": 8590,
-        "comments": 4295,
+        "reviews": 8596,
+        "comments": 4298,
         "liked": 6408
       },
       "image_local": "img/products/17_unisex.jpg",
@@ -338,9 +338,9 @@
       "scraped": {
         "image_url": "https://down-id.img.susercontent.com/file/id-11134207-822wm-moii57kc1dsd8c",
         "rating": 4.6,
-        "reviews": 7532,
-        "comments": 3766,
-        "liked": 688
+        "reviews": 7536,
+        "comments": 3768,
+        "liked": 691
       },
       "image_local": "img/products/18_women.jpg",
       "shop_id": 1428678800,
@@ -376,9 +376,9 @@
       "scraped": {
         "image_url": "https://down-id.img.susercontent.com/file/id-11134207-822wp-mnk711kd2dxgc8",
         "rating": 4.9,
-        "reviews": 271236,
-        "comments": 127745,
-        "liked": 97106
+        "reviews": 271240,
+        "comments": 127747,
+        "liked": 97105
       },
       "image_local": "img/products/20_moisturizer.jpg",
       "shop_id": 600719961,
@@ -395,8 +395,8 @@
       "scraped": {
         "image_url": "https://down-id.img.susercontent.com/file/id-11134207-822wj-mlrl7wahwkcj94",
         "rating": 4.9,
-        "reviews": 78102,
-        "comments": 39051,
+        "reviews": 78110,
+        "comments": 39055,
         "liked": 21116
       },
       "image_local": "img/products/21_moisturizer.jpg",
@@ -414,9 +414,9 @@
       "scraped": {
         "image_url": "https://down-id.img.susercontent.com/file/id-11134207-822wr-moqbl73phu6l81",
         "rating": 5.0,
-        "reviews": 3874,
-        "comments": 1937,
-        "liked": 3345
+        "reviews": 3890,
+        "comments": 1948,
+        "liked": 3350
       },
       "image_local": "img/products/22_cushion.jpg",
       "shop_id": 380266264,
@@ -509,8 +509,8 @@
       "scraped": {
         "image_url": "https://down-id.img.susercontent.com/file/id-11134207-822ws-mogpebaq2xhn45",
         "rating": 5.0,
-        "reviews": 62,
-        "comments": 31,
+        "reviews": 64,
+        "comments": 32,
         "liked": 51
       },
       "image_local": "img/products/27_set.jpg",
@@ -530,7 +530,7 @@
         "rating": 4.9,
         "reviews": 56,
         "comments": 28,
-        "liked": 51
+        "liked": 52
       },
       "image_local": "img/products/28_set.jpg",
       "shop_id": 380266264,
@@ -568,7 +568,7 @@
         "rating": 5.0,
         "reviews": 190,
         "comments": 95,
-        "liked": 189
+        "liked": 192
       },
       "image_local": "img/products/30_serum.jpg",
       "shop_id": 380266264,
@@ -587,7 +587,7 @@
         "rating": 4.9,
         "reviews": 92,
         "comments": 46,
-        "liked": 126
+        "liked": 127
       },
       "image_local": "img/products/31_set.jpg",
       "shop_id": 380266264,
@@ -608,7 +608,7 @@
         "comments": 30,
         "liked": 46
       },
-      "image_local": "",
+      "image_local": "img/products/32_cushion.jpg",
       "shop_id": 380266264,
       "item_id": 28191952988
     },
@@ -642,9 +642,9 @@
       "scraped": {
         "image_url": "https://down-id.img.susercontent.com/file/id-11134207-822wg-moq9inwwzqbw7a",
         "rating": 4.9,
-        "reviews": 713822,
-        "comments": 344616,
-        "liked": 206974
+        "reviews": 713832,
+        "comments": 344621,
+        "liked": 206975
       },
       "image_local": "img/products/34_cushion.jpg",
       "shop_id": 380266264,
@@ -661,13 +661,279 @@
       "scraped": {
         "image_url": "https://down-id.img.susercontent.com/file/id-11134207-822wq-moq9wzrbnbb4ee",
         "rating": 4.9,
-        "reviews": 162552,
-        "comments": 81276,
-        "liked": 14548
+        "reviews": 162560,
+        "comments": 81280,
+        "liked": 14550
       },
       "image_local": "img/products/35_sunscreen.jpg",
       "shop_id": 380266264,
       "item_id": 26082419257
+    },
+    {
+      "id": 36,
+      "category": "cleansing",
+      "sub": "cleansing_oil",
+      "name": "Sea Makeup Gentle & Deep Cleansing Oil 120ml",
+      "short_name": "Sea Makeup Cleansing Oil 120ml",
+      "price": 38000,
+      "affiliate_link": "https://s.shopee.co.id/2g8MX75oAf",
+      "scraped": {
+        "image_url": "https://down-id.img.susercontent.com/file/id-11134207-822wh-mn16wqhcp8n427",
+        "rating": 4.9,
+        "reviews": 42658,
+        "comments": 21329,
+        "liked": 27235
+      },
+      "image_local": "img/products/36_cleansing_oil.jpg",
+      "shop_id": 595003600,
+      "item_id": 28284197414
+    },
+    {
+      "id": 37,
+      "category": "cleansing",
+      "sub": "cleansing_balm",
+      "name": "Sea Makeup Cleansing Balm Salicylic Acid BPOM",
+      "short_name": "Sea Makeup Cleansing Balm",
+      "price": 126000,
+      "affiliate_link": "https://s.shopee.co.id/1gFpLI94d6",
+      "scraped": {
+        "image_url": "https://down-id.img.susercontent.com/file/id-11134207-81ztp-mefhyzd8mepv7e",
+        "rating": 4.9,
+        "reviews": 196108,
+        "comments": 95902,
+        "liked": 100188
+      },
+      "image_local": "img/products/37_cleansing_balm.jpg",
+      "shop_id": 595003600,
+      "item_id": 15329101596
+    },
+    {
+      "id": 38,
+      "category": "cleansing",
+      "sub": "micellar",
+      "name": "Glad2Glow Micellar Water 300ml Centella Salicylic Acid",
+      "short_name": "Glad2Glow Micellar Water 300ml",
+      "price": 48900,
+      "affiliate_link": "https://s.shopee.co.id/AUrDrYjMw5",
+      "scraped": {
+        "image_url": "https://down-id.img.susercontent.com/file/id-11134207-822wn-mo9lwmy7agao14",
+        "rating": 4.9,
+        "reviews": 548434,
+        "comments": 258986,
+        "liked": 108119
+      },
+      "image_local": "img/products/38_micellar.jpg",
+      "shop_id": 809769142,
+      "item_id": 25614268730
+    },
+    {
+      "id": 39,
+      "category": "cleansing",
+      "sub": "cleanser",
+      "name": "FACERINNA Salicylic Acid Acne Gel Cleanser 70ml/120ml",
+      "short_name": "FACERINNA Salicylic Acid Cleanser",
+      "price": 48900,
+      "affiliate_link": "https://s.shopee.co.id/50WHJTZ2pP",
+      "scraped": {
+        "image_url": "https://down-id.img.susercontent.com/file/id-11134207-822wp-mo4rwijfwop4e9",
+        "rating": 4.9,
+        "reviews": 9264,
+        "comments": 4632,
+        "liked": 2326
+      },
+      "image_local": "img/products/39_cleanser.jpg",
+      "shop_id": 1470319970,
+      "item_id": 44352415182
+    },
+    {
+      "id": 40,
+      "category": "cleansing",
+      "sub": "micellar",
+      "name": "SKINTIFIC Brightening & 5X Barrier & Cleansing Oil Micellar Water",
+      "short_name": "SKINTIFIC Purifying Micellar Water",
+      "price": 73000,
+      "affiliate_link": "https://s.shopee.co.id/7VDcI5GfS7",
+      "scraped": {
+        "image_url": "https://down-id.img.susercontent.com/file/id-11134207-8224s-mhzo3ecbcbghb3",
+        "rating": 4.9,
+        "reviews": 10928,
+        "comments": 5464,
+        "liked": 2044
+      },
+      "image_local": "img/products/40_micellar.jpg",
+      "shop_id": 380266264,
+      "item_id": 27419519466
+    },
+    {
+      "id": 41,
+      "category": "cleansing",
+      "sub": "micellar",
+      "name": "Glad2Glow Micellar Water 300ml (LIVE ONLY)",
+      "short_name": "Glad2Glow Micellar Water LIVE",
+      "price": 48900,
+      "affiliate_link": "https://s.shopee.co.id/1108Y9IwQK",
+      "scraped": {
+        "image_url": "https://down-id.img.susercontent.com/file/id-11134207-822wq-mmtrj6bb44qwd5",
+        "rating": 4.9,
+        "reviews": 770,
+        "comments": 385,
+        "liked": 139
+      },
+      "image_local": "img/products/41_micellar.jpg",
+      "shop_id": 809769142,
+      "item_id": 55358464620
+    },
+    {
+      "id": 42,
+      "category": "cleansing",
+      "sub": "cleansing_balm",
+      "name": "Skintific Zero Oil Cleansing Balm 100Gr",
+      "short_name": "Skintific Zero Oil Cleansing Balm",
+      "price": 121000,
+      "affiliate_link": "https://s.shopee.co.id/3qKJvNCUiu",
+      "scraped": {
+        "image_url": "https://down-id.img.susercontent.com/file/id-11134201-7rash-m3a2tprwhz4fe3",
+        "rating": 4.9,
+        "reviews": 2830,
+        "comments": 1415,
+        "liked": 1955
+      },
+      "image_local": "img/products/42_cleansing_balm.jpg",
+      "shop_id": 186214521,
+      "item_id": 26869419076
+    },
+    {
+      "id": 43,
+      "category": "cleansing",
+      "sub": "set",
+      "name": "SKINTIFIC 2-IN-1 Cleanser Set Cleansing Oil & Cleansing Balm",
+      "short_name": "SKINTIFIC 2-IN-1 Cleanser Set",
+      "price": 96000,
+      "affiliate_link": "https://s.shopee.co.id/50WHJWth4s",
+      "scraped": {
+        "image_url": "https://down-id.img.susercontent.com/file/id-11134207-822wk-mn1382sgmark49",
+        "rating": 4.9,
+        "reviews": 2364,
+        "comments": 1182,
+        "liked": 927
+      },
+      "image_local": "img/products/43_set.jpg",
+      "shop_id": 380266264,
+      "item_id": 26781905234
+    },
+    {
+      "id": 44,
+      "category": "makeup",
+      "sub": "powder",
+      "name": "AZZURA Loose Powder Bedak Tabur",
+      "short_name": "AZZURA Loose Powder",
+      "price": 33000,
+      "affiliate_link": "https://s.shopee.co.id/9zuxGmalK6",
+      "scraped": {
+        "image_url": "https://down-id.img.susercontent.com/file/ea3879ba6586c62b9f626b136ad0e16f",
+        "rating": 4.9,
+        "reviews": 730922,
+        "comments": 359653,
+        "liked": 179090
+      },
+      "image_local": "img/products/44_powder.jpg",
+      "shop_id": 431031985,
+      "item_id": 8472839071
+    },
+    {
+      "id": 45,
+      "category": "makeup",
+      "sub": "powder",
+      "name": "SKINTIFIC Ultra Cover Powder Foundation",
+      "short_name": "SKINTIFIC Ultra Cover Powder",
+      "price": 100100,
+      "affiliate_link": "https://s.shopee.co.id/2BC5wPXG52",
+      "scraped": {
+        "image_url": "https://down-id.img.susercontent.com/file/id-11134207-822wl-moq9inwx2jgs7e",
+        "rating": 4.9,
+        "reviews": 268738,
+        "comments": 134369,
+        "liked": 86367
+      },
+      "image_local": "img/products/45_powder.jpg",
+      "shop_id": 380266264,
+      "item_id": 28511871185
+    },
+    {
+      "id": 46,
+      "category": "makeup",
+      "sub": "powder",
+      "name": "WARDAH Loose Powder Lightening Matte Powder SPF 20",
+      "short_name": "WARDAH Loose Powder Matte SPF20",
+      "price": 40740,
+      "affiliate_link": "https://s.shopee.co.id/AKXnfRBwH7",
+      "scraped": {
+        "image_url": "https://down-id.img.susercontent.com/file/id-11134207-822wm-mof5q75q25ts93",
+        "rating": 4.9,
+        "reviews": 294256,
+        "comments": 144666,
+        "liked": 55063
+      },
+      "image_local": "img/products/46_powder.jpg",
+      "shop_id": 59763733,
+      "item_id": 1321838269
+    },
+    {
+      "id": 47,
+      "category": "makeup",
+      "sub": "skin_tint",
+      "name": "SKINTIFIC Perfect Coverage Blurring Skin Tint",
+      "short_name": "SKINTIFIC Blurring Skin Tint",
+      "price": 93000,
+      "affiliate_link": "https://s.shopee.co.id/50WHJeQgNw",
+      "scraped": {
+        "image_url": "https://down-id.img.susercontent.com/file/id-11134207-822wm-moqb14tx1n2l39",
+        "rating": 4.9,
+        "reviews": 93136,
+        "comments": 46568,
+        "liked": 37283
+      },
+      "image_local": "img/products/47_skin_tint.jpg",
+      "shop_id": 380266264,
+      "item_id": 41854024819
+    },
+    {
+      "id": 48,
+      "category": "makeup",
+      "sub": "eyebrow",
+      "name": "SVMY Eyebrow Cream Waterproof Long Lasting Gel",
+      "short_name": "SVMY Eyebrow Cream Waterproof",
+      "price": 11499,
+      "affiliate_link": "https://s.shopee.co.id/7VDcIHu5my",
+      "scraped": {
+        "image_url": "https://down-id.img.susercontent.com/file/sg-11134201-81zut-miegoiywgt8h94",
+        "rating": 4.7,
+        "reviews": 34202,
+        "comments": 17101,
+        "liked": 2435
+      },
+      "image_local": "img/products/48_eyebrow.jpg",
+      "shop_id": 49112835,
+      "item_id": 56553280784
+    },
+    {
+      "id": 49,
+      "category": "makeup",
+      "sub": "eyebrow",
+      "name": "FOCALLURE Eyebrow Cream Gel Waterproof Pensil Alis",
+      "short_name": "FOCALLURE Eyebrow Cream Gel",
+      "price": 39900,
+      "affiliate_link": "https://s.shopee.co.id/5VSXucrg5s",
+      "scraped": {
+        "image_url": "https://down-id.img.susercontent.com/file/id-11134207-822wn-mohr6drh807517",
+        "rating": 4.9,
+        "reviews": 920062,
+        "comments": 453136,
+        "liked": 287499
+      },
+      "image_local": "img/products/49_eyebrow.jpg",
+      "shop_id": 79745198,
+      "item_id": 1343260970
     }
   ]
 }

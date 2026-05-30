@@ -314,6 +314,132 @@
       "short_name": "SKINTIFIC UV Shield SPF50+ Sunscreen",
       "price": 96000,
       "affiliate_link": "https://s.shopee.co.id/6AiEfrADd3"
+    },
+    {
+      "id": 36,
+      "category": "cleansing",
+      "sub": "cleansing_oil",
+      "name": "Sea Makeup Gentle & Deep Cleansing Oil 120ml",
+      "short_name": "Sea Makeup Cleansing Oil 120ml",
+      "price": 38000,
+      "affiliate_link": "https://s.shopee.co.id/2g8MX75oAf"
+    },
+    {
+      "id": 37,
+      "category": "cleansing",
+      "sub": "cleansing_balm",
+      "name": "Sea Makeup Cleansing Balm Salicylic Acid BPOM",
+      "short_name": "Sea Makeup Cleansing Balm",
+      "price": 126000,
+      "affiliate_link": "https://s.shopee.co.id/1gFpLI94d6"
+    },
+    {
+      "id": 38,
+      "category": "cleansing",
+      "sub": "micellar",
+      "name": "Glad2Glow Micellar Water 300ml Centella Salicylic Acid",
+      "short_name": "Glad2Glow Micellar Water 300ml",
+      "price": 48900,
+      "affiliate_link": "https://s.shopee.co.id/AUrDrYjMw5"
+    },
+    {
+      "id": 39,
+      "category": "cleansing",
+      "sub": "cleanser",
+      "name": "FACERINNA Salicylic Acid Acne Gel Cleanser 70ml/120ml",
+      "short_name": "FACERINNA Salicylic Acid Cleanser",
+      "price": 48900,
+      "affiliate_link": "https://s.shopee.co.id/50WHJTZ2pP"
+    },
+    {
+      "id": 40,
+      "category": "cleansing",
+      "sub": "micellar",
+      "name": "SKINTIFIC Brightening & 5X Barrier & Cleansing Oil Micellar Water",
+      "short_name": "SKINTIFIC Purifying Micellar Water",
+      "price": 73000,
+      "affiliate_link": "https://s.shopee.co.id/7VDcI5GfS7"
+    },
+    {
+      "id": 41,
+      "category": "cleansing",
+      "sub": "micellar",
+      "name": "Glad2Glow Micellar Water 300ml (LIVE ONLY)",
+      "short_name": "Glad2Glow Micellar Water LIVE",
+      "price": 48900,
+      "affiliate_link": "https://s.shopee.co.id/1108Y9IwQK"
+    },
+    {
+      "id": 42,
+      "category": "cleansing",
+      "sub": "cleansing_balm",
+      "name": "Skintific Zero Oil Cleansing Balm 100Gr",
+      "short_name": "Skintific Zero Oil Cleansing Balm",
+      "price": 121000,
+      "affiliate_link": "https://s.shopee.co.id/3qKJvNCUiu"
+    },
+    {
+      "id": 43,
+      "category": "cleansing",
+      "sub": "set",
+      "name": "SKINTIFIC 2-IN-1 Cleanser Set Cleansing Oil & Cleansing Balm",
+      "short_name": "SKINTIFIC 2-IN-1 Cleanser Set",
+      "price": 96000,
+      "affiliate_link": "https://s.shopee.co.id/50WHJWth4s"
+    },
+    {
+      "id": 44,
+      "category": "makeup",
+      "sub": "powder",
+      "name": "AZZURA Loose Powder Bedak Tabur",
+      "short_name": "AZZURA Loose Powder",
+      "price": 33000,
+      "affiliate_link": "https://s.shopee.co.id/9zuxGmalK6"
+    },
+    {
+      "id": 45,
+      "category": "makeup",
+      "sub": "powder",
+      "name": "SKINTIFIC Ultra Cover Powder Foundation",
+      "short_name": "SKINTIFIC Ultra Cover Powder",
+      "price": 100100,
+      "affiliate_link": "https://s.shopee.co.id/2BC5wPXG52"
+    },
+    {
+      "id": 46,
+      "category": "makeup",
+      "sub": "powder",
+      "name": "WARDAH Loose Powder Lightening Matte Powder SPF 20",
+      "short_name": "WARDAH Loose Powder Matte SPF20",
+      "price": 40740,
+      "affiliate_link": "https://s.shopee.co.id/AKXnfRBwH7"
+    },
+    {
+      "id": 47,
+      "category": "makeup",
+      "sub": "skin_tint",
+      "name": "SKINTIFIC Perfect Coverage Blurring Skin Tint",
+      "short_name": "SKINTIFIC Blurring Skin Tint",
+      "price": 93000,
+      "affiliate_link": "https://s.shopee.co.id/50WHJeQgNw"
+    },
+    {
+      "id": 48,
+      "category": "makeup",
+      "sub": "eyebrow",
+      "name": "SVMY Eyebrow Cream Waterproof Long Lasting Gel",
+      "short_name": "SVMY Eyebrow Cream Waterproof",
+      "price": 11499,
+      "affiliate_link": "https://s.shopee.co.id/7VDcIHu5my"
+    },
+    {
+      "id": 49,
+      "category": "makeup",
+      "sub": "eyebrow",
+      "name": "FOCALLURE Eyebrow Cream Gel Waterproof Pensil Alis",
+      "short_name": "FOCALLURE Eyebrow Cream Gel",
+      "price": 39900,
+      "affiliate_link": "https://s.shopee.co.id/5VSXucrg5s"
     }
   ]
 }
