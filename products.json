@@ -404,6 +404,94 @@
       "short_name": "SOME BY MI Real Care Sheet Mask 20gr",
       "affiliate_link": "https://s.shopee.co.id/20sfkThv4p",
       "price": 8700
+    },
+    {
+      "id": 58,
+      "category": "skincare",
+      "sub": "serum",
+      "short_name": "SOMETHINC Glass-C 12% Vitamin C+",
+      "affiliate_link": "https://s.shopee.co.id/8KmjIXTaPx",
+      "price": 107000
+    },
+    {
+      "id": 59,
+      "category": "skincare",
+      "sub": "serum",
+      "short_name": "SKIN1004 Centella Tone Brightening Ampoule 50ml",
+      "affiliate_link": "https://s.shopee.co.id/BR1ZXygWB",
+      "price": 159000
+    },
+    {
+      "id": 60,
+      "category": "skincare",
+      "sub": "serum",
+      "short_name": "TRUEVE Luminous Dark Spot Brightening Serum",
+      "affiliate_link": "https://s.shopee.co.id/4qCr88t5zU",
+      "price": 100000
+    },
+    {
+      "id": 61,
+      "category": "skincare",
+      "sub": "serum",
+      "short_name": "SOME BY MI Yuja Niacin Anti Blemish Serum",
+      "affiliate_link": "https://s.shopee.co.id/AAENTxdPHc",
+      "price": 109900
+    },
+    {
+      "id": 62,
+      "category": "skincare",
+      "sub": "serum",
+      "short_name": "COSRX Niacinamide 15 Serum 20ml",
+      "affiliate_link": "https://s.shopee.co.id/9UyggkcRmB",
+      "price": 174900
+    },
+    {
+      "id": 63,
+      "category": "skincare",
+      "sub": "serum",
+      "short_name": "Somethinc Gentle Bright Niacinamide Serum 20ml",
+      "affiliate_link": "https://s.shopee.co.id/9zuxHh50Ti",
+      "price": 107100
+    },
+    {
+      "id": 64,
+      "category": "skincare",
+      "sub": "toner",
+      "short_name": "COSRX AHA/BHA Clarifying Toner 150ml",
+      "affiliate_link": "https://s.shopee.co.id/5AphWxQe5B",
+      "price": 123900
+    },
+    {
+      "id": 65,
+      "category": "skincare",
+      "sub": "toner",
+      "short_name": "Avoskin Miraculous Refining Toner 100ml",
+      "affiliate_link": "https://s.shopee.co.id/5q5OKCXG8U",
+      "price": 163000
+    },
+    {
+      "id": 66,
+      "category": "skincare",
+      "sub": "toner",
+      "short_name": "Autumn 7% Glycolic Acid Toner 100ML",
+      "affiliate_link": "https://s.shopee.co.id/7fX2VavqJf",
+      "price": 23900
+    },
+    {
+      "id": 67,
+      "category": "skincare",
+      "sub": "toner",
+      "short_name": "WARDAH Toner All Series",
+      "affiliate_link": "https://s.shopee.co.id/30lCx1y52f",
+      "price": 30070
+    },
+    {
+      "id": 68,
+      "category": "skincare",
+      "sub": "toner",
+      "short_name": "Finally Found You HYDRICEING Essence Booster Toner",
+      "affiliate_link": "https://s.shopee.co.id/5q5OKFR1sD",
+      "price": 159000
     }
   ]
 }
