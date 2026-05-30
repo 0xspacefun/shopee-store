@@ -110,10 +110,10 @@ def main():
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Merah Jingga Official — Rekomendasi Skincare, Makeup & Parfum</title>
-  <meta name="description" content="Temukan produk skincare, makeup, parfum & body care pilihan terbaik dari Merah Jingga Official. Harga terjangkau, kualitas terjamin!">
-  <meta property="og:title" content="Merah Jingga Official — Rekomendasi Produk Terbaik">
-  <meta property="og:description" content="Skincare, makeup, parfum & body care pilihan dari Merah Jingga Official">
+  <title>SweetFinds — Curated Skincare, Makeup & Parfum Picks</title>
+  <meta name="description" content="Temukan produk skincare, makeup, parfum & body care pilihan terbaik dari SweetFinds. Harga terjangkau, kualitas terjamin!">
+  <meta property="og:title" content="SweetFinds — Rekomendasi Produk Terbaik">
+  <meta property="og:description" content="Skincare, makeup, parfum & body care pilihan dari SweetFinds">
   <meta property="og:type" content="website">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
@@ -280,13 +280,13 @@ def main():
 
 <header class="header">
   <div class="header-inner">
-    <a href="/" class="logo">MERAH JINGGA <span>Official</span></a>
+    <a href="/" class="logo">SWEETFINDS <span>Beauty Picks</span></a>
   </div>
 </header>
 
 <section class="banner">
-  <h1>🧴 MERAH JINGGA OFFICIAL 🧴</h1>
-  <p>Produk Pilihan • Harga Terjangkau • Kualitas Terjamin</p>
+  <h1>✨ SWEETFINDS ✨</h1>
+  <p>Curated Beauty Picks • Harga Terjangkau • Kualitas Terjamin</p>
 </section>
 
 <nav class="cat-nav">
@@ -299,7 +299,7 @@ def main():
 {sections}
 
 <footer class="footer">
-  <p>Merah Jingga Official — Shopee Affiliate</p>
+  <p>SweetFinds — Shopee Affiliate Picks</p>
   <p style="margin-top:4px">Data diperbarui: {fetched} • {total} produk</p>
   <p style="margin-top:8px;color:#bbb">Harga dan ketersediaan dapat berubah sewaktu-waktu di Shopee</p>
 </footer>
