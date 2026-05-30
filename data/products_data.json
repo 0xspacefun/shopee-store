@@ -1274,10 +1274,244 @@
       "image_local": "img/products/68_toner.jpg",
       "shop_id": 856580029,
       "item_id": 24064685065
+    },
+    {
+      "id": 69,
+      "category": "body_care",
+      "sub": "body_scrub",
+      "short_name": "Dove Ice Cream Body Scrub Pomegranate 280G",
+      "affiliate_link": "https://s.shopee.co.id/17bNeKE0G",
+      "price": 108500,
+      "scraped": {
+        "image_url": "https://down-id.img.susercontent.com/file/sg-11134301-822zk-mi1h8b81x3b915",
+        "rating": 5.0,
+        "reviews": 3724,
+        "comments": 1862,
+        "liked": 11197
+      },
+      "image_local": "img/products/69_body_scrub.jpg",
+      "shop_id": 1517647103,
+      "item_id": 27243763968
+    },
+    {
+      "id": 70,
+      "category": "body_care",
+      "sub": "body_scrub",
+      "short_name": "Purbasari Lulur Pengantin 500G",
+      "affiliate_link": "https://s.shopee.co.id/809suNgA78",
+      "price": 31800,
+      "scraped": {
+        "image_url": "https://down-id.img.susercontent.com/file/id-11134207-7r991-lxrrf5zlr4mi80",
+        "rating": 4.9,
+        "reviews": 149186,
+        "comments": 74198,
+        "liked": 63867
+      },
+      "image_local": "img/products/70_body_scrub.jpg",
+      "shop_id": 3741929,
+      "item_id": 29054971236
+    },
+    {
+      "id": 71,
+      "category": "body_care",
+      "sub": "body_scrub",
+      "short_name": "SALSA Hans Jebb Peeling Gel",
+      "affiliate_link": "https://s.shopee.co.id/3qKJwlqYB5",
+      "price": 19900,
+      "scraped": {
+        "image_url": "https://down-id.img.susercontent.com/file/id-11134207-7r98w-lqpqf9thhgaae3",
+        "rating": 4.7,
+        "reviews": 226494,
+        "comments": 111990,
+        "liked": 115438
+      },
+      "image_local": "img/products/71_body_scrub.jpg",
+      "shop_id": 17318245,
+      "item_id": 864196167
+    },
+    {
+      "id": 72,
+      "category": "makeup",
+      "sub": "setting_spray",
+      "short_name": "Sea Makeup Stayput Glow Fix Setting Spray",
+      "affiliate_link": "https://s.shopee.co.id/1BJYlu49kv",
+      "price": 78000,
+      "scraped": {
+        "image_url": "https://down-id.img.susercontent.com/file/id-11134207-822wk-mnuy5vb61frcda",
+        "rating": 4.9,
+        "reviews": 56576,
+        "comments": 28288,
+        "liked": 31195
+      },
+      "image_local": "img/products/72_setting_spray.jpg",
+      "shop_id": 595003600,
+      "item_id": 53204326597
+    },
+    {
+      "id": 73,
+      "category": "makeup",
+      "sub": "setting_spray",
+      "short_name": "Sea Makeup Stayput Prime Set Matte Spray",
+      "affiliate_link": "https://s.shopee.co.id/1VwPAX7z0v",
+      "price": 78000,
+      "scraped": {
+        "image_url": "https://down-id.img.susercontent.com/file/id-11134207-822wi-mmbky19urv2b54",
+        "rating": 4.9,
+        "reviews": 133044,
+        "comments": 66522,
+        "liked": 72915
+      },
+      "image_local": "img/products/73_setting_spray.jpg",
+      "shop_id": 595003600,
+      "item_id": 29669755730
+    },
+    {
+      "id": 74,
+      "category": "makeup",
+      "sub": "setting_spray",
+      "short_name": "The Originote Setting Spray",
+      "affiliate_link": "https://s.shopee.co.id/qgiNLdClu",
+      "price": 42900,
+      "scraped": {
+        "image_url": "https://down-id.img.susercontent.com/file/id-11134207-8224r-mg0zazi5ylu51d",
+        "rating": 4.9,
+        "reviews": 18170,
+        "comments": 9085,
+        "liked": 10989
+      },
+      "image_local": "img/products/74_setting_spray.jpg",
+      "shop_id": 710619388,
+      "item_id": 41874759994
+    },
+    {
+      "id": 75,
+      "category": "makeup",
+      "sub": "setting_spray",
+      "short_name": "PIXY Aqua Beauty Protecting Mist Matte",
+      "affiliate_link": "https://s.shopee.co.id/6feVK6tAWv",
+      "price": 29400,
+      "scraped": {
+        "image_url": "https://down-id.img.susercontent.com/file/a7daf80fe58657d084d27919f487ffde",
+        "rating": 4.9,
+        "reviews": 22594,
+        "comments": 11013,
+        "liked": 6859
+      },
+      "image_local": "img/products/75_setting_spray.jpg",
+      "shop_id": 168693892,
+      "item_id": 22280780345
+    },
+    {
+      "id": 76,
+      "category": "makeup",
+      "sub": "setting_spray",
+      "short_name": "PIXY Aqua Beauty Protecting Mist 100ml",
+      "affiliate_link": "https://s.shopee.co.id/AAENUYYDqj",
+      "price": 40300,
+      "scraped": {
+        "image_url": "https://down-id.img.susercontent.com/file/32b1300fe3e24d82cb93e46ab9a042cb",
+        "rating": 4.9,
+        "reviews": 7464,
+        "comments": 3643,
+        "liked": 1736
+      },
+      "image_local": "img/products/76_setting_spray.jpg",
+      "shop_id": 168693892,
+      "item_id": 20765468689
+    },
+    {
+      "id": 77,
+      "category": "skincare",
+      "sub": "cleanser",
+      "short_name": "SCORA Salicylic Acid Gentle Cleanser 100ml",
+      "affiliate_link": "https://s.shopee.co.id/9KfGV4vHuK",
+      "price": 38000,
+      "scraped": {
+        "image_url": "https://down-id.img.susercontent.com/file/id-11134207-7rbk6-m94ce52d591tfe",
+        "rating": 4.9,
+        "reviews": 674888,
+        "comments": 313768,
+        "liked": 90600
+      },
+      "image_local": "img/products/77_cleanser.jpg",
+      "shop_id": 1112776376,
+      "item_id": 25815711335
+    },
+    {
+      "id": 78,
+      "category": "skincare",
+      "sub": "cleanser",
+      "short_name": "ACNAWAY Mugwort Gel Facial Wash",
+      "affiliate_link": "https://s.shopee.co.id/1108Zm8wNv",
+      "price": 35900,
+      "scraped": {
+        "image_url": "https://down-id.img.susercontent.com/file/id-11134207-822wt-mmbzs1z8hkw221",
+        "rating": 4.9,
+        "reviews": 260806,
+        "comments": 127684,
+        "liked": 28642
+      },
+      "image_local": "img/products/78_cleanser.jpg",
+      "shop_id": 600850936,
+      "item_id": 26152696153
+    },
+    {
+      "id": 79,
+      "category": "skincare",
+      "sub": "cleanser",
+      "short_name": "SKINTIFIC Damask Rose Whipped Cream Cleanser 120g",
+      "affiliate_link": "https://s.shopee.co.id/5VSXw3qzdH",
+      "price": 50900,
+      "scraped": {
+        "image_url": "https://down-id.img.susercontent.com/file/id-11134207-822wh-mm15disgc5q891",
+        "rating": 4.9,
+        "reviews": 21160,
+        "comments": 10580,
+        "liked": 9006
+      },
+      "image_local": "img/products/79_cleanser.jpg",
+      "shop_id": 380266264,
+      "item_id": 47355875188
+    },
+    {
+      "id": 80,
+      "category": "skincare",
+      "sub": "cleanser",
+      "short_name": "Cetaphil Gentle Skin Cleanser 59ml",
+      "affiliate_link": "https://s.shopee.co.id/1LcyyXCDWL",
+      "price": 54900,
+      "scraped": {
+        "image_url": "https://down-id.img.susercontent.com/file/id-11134207-822wr-mntx4jatjwg2e9",
+        "rating": 4.9,
+        "reviews": 218584,
+        "comments": 107788,
+        "liked": 64218
+      },
+      "image_local": "img/products/80_cleanser.jpg",
+      "shop_id": 11277516,
+      "item_id": 519802830
+    },
+    {
+      "id": 81,
+      "category": "skincare",
+      "sub": "cleanser",
+      "short_name": "Facetology Triple Care Facial Gel Cleanser",
+      "affiliate_link": "https://s.shopee.co.id/50WHLIzNK0",
+      "price": 51900,
+      "scraped": {
+        "image_url": "https://down-id.img.susercontent.com/file/id-11134207-7rbk7-m95rsm88hipu40",
+        "rating": 4.9,
+        "reviews": 249252,
+        "comments": 119338,
+        "liked": 59838
+      },
+      "image_local": "img/products/81_cleanser.jpg",
+      "shop_id": 684531921,
+      "item_id": 22181253688
     }
   ],
   "fetched_at": "2026-05-30T11:55:22Z",
-  "total": 68,
-  "with_meta": 68,
-  "with_image": 68
+  "total": 81,
+  "with_meta": 81,
+  "with_image": 81
 }

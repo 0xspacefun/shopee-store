@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SweetFinds — 🔥 All Products</title>
+  <meta name="description" content="SweetFinds — curated All Products picks. Harga terjangkau, kualitas terjamin!">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: 'Inter', -apple-system, sans-serif; background: #f5f5f5; color: #333; }
+    .header { background: linear-gradient(135deg, #ee4d2d 0%, #ff6633 50%, #ff8533 100%); position: sticky; top: 0; z-index: 100; box-shadow: 0 2px 12px rgba(238,77,45,0.3); }
+    .header-inner { max-width: 1200px; margin: 0 auto; padding: 12px 20px; display: flex; align-items: center; gap: 16px; }
+    .logo { font-size: 20px; font-weight: 800; color: #fff; text-shadow: 1px 1px 2px rgba(0,0,0,0.2); white-space: nowrap; text-decoration: none; }
+    .logo span { font-weight: 400; font-size: 13px; opacity: 0.85; }
+    .banner { background: linear-gradient(135deg, #ee4d2d, #ff6633, #ff8533); padding: 24px 20px; text-align: center; }
+    .banner h1 { font-size: 24px; font-weight: 800; color: #fff; text-shadow: 2px 2px 4px rgba(0,0,0,0.2); margin-bottom: 4px; }
+    .banner p { color: rgba(255,255,255,0.85); font-size: 13px; }
+    .cat-nav { background: #fff; border-bottom: 1px solid #eee; position: sticky; top: 48px; z-index: 99; }
+    .cat-nav-inner { max-width: 1200px; margin: 0 auto; display: flex; gap: 8px; padding: 10px 20px; overflow-x: auto; scrollbar-width: none; }
+    .cat-nav-inner::-webkit-scrollbar { display: none; }
+    .cat-pill { display: flex; align-items: center; gap: 6px; padding: 8px 16px; border-radius: 24px; background: #fff3ef; color: #ee4d2d; font-size: 13px; font-weight: 600; text-decoration: none; white-space: nowrap; border: 1px solid #ffe0d6; transition: all 0.2s; cursor: pointer; }
+    .cat-pill:hover, .cat-pill.active { background: #ee4d2d; color: #fff; }
+    .cat-emoji { font-size: 16px; }
+    .page-header { max-width: 1200px; margin: 0 auto; padding: 16px 20px 0; display: flex; align-items: center; justify-content: space-between; }
+    .page-header h2 { font-size: 18px; font-weight: 700; color: #222; }
+    .page-header .count { font-size: 13px; color: #999; }
+    .products-grid { max-width: 1200px; margin: 0 auto; padding: 12px 20px 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(170px, 1fr)); gap: 12px; }
+    @media (max-width: 480px) { .products-grid { grid-template-columns: repeat(2, 1fr); gap: 8px; } }
+    .product-card { background: #fff; border-radius: 8px; overflow: hidden; text-decoration: none; color: inherit; border: 1px solid #f0f0f0; transition: all 0.25s ease; display: flex; flex-direction: column; }
+    .product-card:hover { transform: translateY(-3px); box-shadow: 0 8px 24px rgba(0,0,0,0.1); }
+    .product-img-wrap { position: relative; width: 100%; aspect-ratio: 1; background: #fafafa; overflow: hidden; }
+    .product-img-wrap img { width: 100%; height: 100%; object-fit: cover; transition: transform 0.3s; }
+    .product-card:hover .product-img-wrap img { transform: scale(1.05); }
+    .badge-cat { position: absolute; top: 6px; left: 6px; background: rgba(255,255,255,0.9); border-radius: 50%; width: 28px; height: 28px; font-size: 14px; display: flex; align-items: center; justify-content: center; box-shadow: 0 1px 4px rgba(0,0,0,0.1); }
+    .product-info { padding: 10px; flex: 1; display: flex; flex-direction: column; }
+    .product-name { font-size: 12px; font-weight: 500; color: #333; line-height: 1.4; min-height: 34px; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+    .product-price { font-size: 16px; font-weight: 700; color: #ee4d2d; margin-top: 6px; }
+    .product-meta { margin-top: 6px; display: flex; flex-direction: column; gap: 3px; }
+    .rating { display: flex; align-items: center; gap: 4px; font-size: 11px; }
+    .stars { color: #ffce3d; letter-spacing: -1px; }
+    .star-empty { color: #ddd; }
+    .rating-num { color: #ee4d2d; font-weight: 600; }
+    .stats { display: flex; gap: 10px; font-size: 10px; color: #999; }
+    .product-cta { margin-top: 8px; padding: 6px 0; text-align: center; font-size: 11px; font-weight: 600; color: #fff; background: #ee4d2d; border-radius: 4px; transition: background 0.2s; }
+    .product-card:hover .product-cta { background: #d4411c; }
+    .pagination { max-width: 1200px; margin: 24px auto; padding: 0 20px; display: flex; justify-content: center; gap: 6px; flex-wrap: wrap; }
+    .pagination a, .pagination span { padding: 8px 14px; border-radius: 6px; font-size: 13px; font-weight: 600; text-decoration: none; border: 1px solid #ddd; color: #333; transition: all 0.2s; }
+    .pagination a:hover { background: #ee4d2d; color: #fff; border-color: #ee4d2d; }
+    .pagination .current { background: #ee4d2d; color: #fff; border-color: #ee4d2d; }
+    .footer { max-width: 1200px; margin: 20px auto 0; padding: 20px; text-align: center; color: #999; font-size: 12px; border-top: 1px solid #eee; }
+    </style>
+</head>
+<body>
+
+<header class="header">
+  <div class="header-inner">
+    <a href="page1.html" class="logo">SWEETFINDS <span>Beauty Picks</span></a>
+  </div>
+</header>
+
+<section class="banner">
+  <h1>✨ SWEETFINDS ✨</h1>
+  <p>Curated Beauty Picks • Harga Terjangkau • Kualitas Terjamin</p>
+</section>
+
+<nav class="cat-nav">
+  <div class="cat-nav-inner">
+    <a href="page1.html" class="cat-pill active"><span class="cat-emoji">🔥</span><span>All</span></a><a href="skincare_page1.html" class="cat-pill "><span class="cat-emoji">🧴</span><span>Skincare</span></a><a href="makeup_page1.html" class="cat-pill "><span class="cat-emoji">💄</span><span>Makeup</span></a><a href="body_care_page1.html" class="cat-pill "><span class="cat-emoji">🧴</span><span>Body Care</span></a><a href="cleansing_page1.html" class="cat-pill "><span class="cat-emoji">🫧</span><span>Cleansing</span></a><a href="parfum_page1.html" class="cat-pill "><span class="cat-emoji">🌸</span><span>Parfum</span></a><a href="set_bundle_page1.html" class="cat-pill "><span class="cat-emoji">📦</span><span>Set & Bundle</span></a>
+  </div>
+</nav>
+
+<div class="page-header">
+  <h2>🔥 All Products</h2>
+  <span class="count">Menampilkan 81–81 dari 81 produk</span>
+</div>
+
+<div class="products-grid">
+  
+    <a href="https://s.shopee.co.id/50WHLIzNK0" target="_blank" rel="noopener noreferrer" class="product-card" data-category="skincare">
+      <div class="product-img-wrap">
+        <img src="https://down-id.img.susercontent.com/file/id-11134207-7rbk7-m95rsm88hipu40" alt="Facetology Triple Care Facial Gel Cleanser" loading="lazy" />
+        <span class="badge-cat">🧴</span>
+      </div>
+      <div class="product-info">
+        <h3 class="product-name">Facetology Triple Care Facial Gel Cleanser</h3>
+        <div class="product-price">Rp51.900</div>
+        <div class="product-meta">
+          <div class="rating">
+            <span class="stars">★★★★★</span>
+            <span class="rating-num">4.9</span>
+          </div>
+          <div class="stats">
+            <span class="sold">💬 119.3rb</span>
+            <span class="liked">❤️ 59.8rb</span>
+          </div>
+        </div>
+        <div class="product-cta">Beli di Shopee →</div>
+      </div>
+    </a>
+</div>
+
+<div class="pagination">
+  <a href="page1.html">1</a><a href="page2.html">2</a><a href="page3.html">3</a><a href="page4.html">4</a><a href="page5.html">5</a><a href="page6.html">6</a><a href="page7.html">7</a><a href="page8.html">8</a><span class="current">9</span>
+</div>
+
+<footer class="footer">
+  <p>SweetFinds — Shopee Affiliate Picks</p>
+  <p style="margin-top:4px">Halaman 9/9 • 81 produk</p>
+</footer>
+
+<script>
+document.querySelectorAll('.product-img-wrap img').forEach(img => {
+  img.onerror = function() { this.style.background='#f5f5f5'; this.style.objectFit='contain'; };
+});
+</script>
+
+</body>
+</html>

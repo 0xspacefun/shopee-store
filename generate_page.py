@@ -118,7 +118,8 @@ def generate_page_html(page_num, total_pages, products_on_page, all_products, ca
         "body_lotion": "Body Lotion", "body_wash": "Body Wash",
         "women": "Women", "unisex": "Unisex",
         "cleansing_oil": "Cleansing Oil", "cleansing_balm": "Cleansing Balm",
-        "micellar": "Micellar Water",
+        "micellar": "Micellar Water", "toner": "Toner",
+        "body_scrub": "Body Scrub", "setting_spray": "Setting Spray",
     }
 
     # Category nav

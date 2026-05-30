@@ -492,6 +492,110 @@
       "short_name": "Finally Found You HYDRICEING Essence Booster Toner",
       "affiliate_link": "https://s.shopee.co.id/5q5OKFR1sD",
       "price": 159000
+    },
+    {
+      "id": 69,
+      "category": "body_care",
+      "sub": "body_scrub",
+      "short_name": "Dove Ice Cream Body Scrub Pomegranate 280G",
+      "affiliate_link": "https://s.shopee.co.id/17bNeKE0G",
+      "price": 108500
+    },
+    {
+      "id": 70,
+      "category": "body_care",
+      "sub": "body_scrub",
+      "short_name": "Purbasari Lulur Pengantin 500G",
+      "affiliate_link": "https://s.shopee.co.id/809suNgA78",
+      "price": 31800
+    },
+    {
+      "id": 71,
+      "category": "body_care",
+      "sub": "body_scrub",
+      "short_name": "SALSA Hans Jebb Peeling Gel",
+      "affiliate_link": "https://s.shopee.co.id/3qKJwlqYB5",
+      "price": 19900
+    },
+    {
+      "id": 72,
+      "category": "makeup",
+      "sub": "setting_spray",
+      "short_name": "Sea Makeup Stayput Glow Fix Setting Spray",
+      "affiliate_link": "https://s.shopee.co.id/1BJYlu49kv",
+      "price": 78000
+    },
+    {
+      "id": 73,
+      "category": "makeup",
+      "sub": "setting_spray",
+      "short_name": "Sea Makeup Stayput Prime Set Matte Spray",
+      "affiliate_link": "https://s.shopee.co.id/1VwPAX7z0v",
+      "price": 78000
+    },
+    {
+      "id": 74,
+      "category": "makeup",
+      "sub": "setting_spray",
+      "short_name": "The Originote Setting Spray",
+      "affiliate_link": "https://s.shopee.co.id/qgiNLdClu",
+      "price": 42900
+    },
+    {
+      "id": 75,
+      "category": "makeup",
+      "sub": "setting_spray",
+      "short_name": "PIXY Aqua Beauty Protecting Mist Matte",
+      "affiliate_link": "https://s.shopee.co.id/6feVK6tAWv",
+      "price": 29400
+    },
+    {
+      "id": 76,
+      "category": "makeup",
+      "sub": "setting_spray",
+      "short_name": "PIXY Aqua Beauty Protecting Mist 100ml",
+      "affiliate_link": "https://s.shopee.co.id/AAENUYYDqj",
+      "price": 40300
+    },
+    {
+      "id": 77,
+      "category": "skincare",
+      "sub": "cleanser",
+      "short_name": "SCORA Salicylic Acid Gentle Cleanser 100ml",
+      "affiliate_link": "https://s.shopee.co.id/9KfGV4vHuK",
+      "price": 38000
+    },
+    {
+      "id": 78,
+      "category": "skincare",
+      "sub": "cleanser",
+      "short_name": "ACNAWAY Mugwort Gel Facial Wash",
+      "affiliate_link": "https://s.shopee.co.id/1108Zm8wNv",
+      "price": 35900
+    },
+    {
+      "id": 79,
+      "category": "skincare",
+      "sub": "cleanser",
+      "short_name": "SKINTIFIC Damask Rose Whipped Cream Cleanser 120g",
+      "affiliate_link": "https://s.shopee.co.id/5VSXw3qzdH",
+      "price": 50900
+    },
+    {
+      "id": 80,
+      "category": "skincare",
+      "sub": "cleanser",
+      "short_name": "Cetaphil Gentle Skin Cleanser 59ml",
+      "affiliate_link": "https://s.shopee.co.id/1LcyyXCDWL",
+      "price": 54900
+    },
+    {
+      "id": 81,
+      "category": "skincare",
+      "sub": "cleanser",
+      "short_name": "Facetology Triple Care Facial Gel Cleanser",
+      "affiliate_link": "https://s.shopee.co.id/50WHLIzNK0",
+      "price": 51900
     }
   ]
 }
