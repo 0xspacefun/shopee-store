@@ -106,8 +106,19 @@ def generate_page_html(page_num, total_pages, products_on_page, all_products, ca
         "body_care": "🧴 Body Care",
         "cleansing": "🫧 Cleansing",
         "parfum": "🌸 Parfum",
-        "skintific": "💎 Skintific",
     }.get(category_filter, "🔥 All Products")
+
+    # Sub-category labels
+    sub_labels = {
+        "cleanser": "Cleanser", "sunscreen": "Sunscreen", "mask": "Masker",
+        "moisturizer": "Moisturizer", "serum": "Serum", "eye_cream": "Eye Cream",
+        "set": "Paket", "liptint": "Lip Tint", "cushion": "Cushion",
+        "powder": "Powder", "skin_tint": "Skin Tint", "eyebrow": "Eyebrow",
+        "body_lotion": "Body Lotion", "body_wash": "Body Wash",
+        "women": "Women", "unisex": "Unisex",
+        "cleansing_oil": "Cleansing Oil", "cleansing_balm": "Cleansing Balm",
+        "micellar": "Micellar Water",
+    }
 
     # Category nav
     cats = [
@@ -117,7 +128,6 @@ def generate_page_html(page_num, total_pages, products_on_page, all_products, ca
         ("body_care", "🧴", "Body Care"),
         ("cleansing", "🫧", "Cleansing"),
         ("parfum", "🌸", "Parfum"),
-        ("skintific", "💎", "Skintific"),
     ]
 
     cat_nav = ""
