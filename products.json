@@ -1,0 +1,166 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "category": "skincare",
+      "sub": "cleanser",
+      "name": "WARDAH Crystal Secret NMF Amino + AHA PHA Clarifying Foaming Cleanser 100 mL",
+      "short_name": "WARDAH Crystal Secret Foaming Cleanser",
+      "price": 28710,
+      "affiliate_link": "https://s.shopee.co.id/5VSXo1KuBB"
+    },
+    {
+      "id": 2,
+      "category": "skincare",
+      "sub": "sunscreen",
+      "name": "Emina Sun Battle Bright Glow SPF 35 PA+++ - Sunscreen Wajah",
+      "short_name": "Emina Sun Battle SPF 35 PA+++",
+      "price": 19740,
+      "affiliate_link": "https://s.shopee.co.id/5AphPZvjRw"
+    },
+    {
+      "id": 3,
+      "category": "skincare",
+      "sub": "cleanser",
+      "name": "Kahf Oil and Acne Care Face Wash - Sabun Pembersih Wajah Pria",
+      "short_name": "Kahf Oil and Acne Care Face Wash",
+      "price": 40700,
+      "affiliate_link": "https://s.shopee.co.id/4Va0cNkkCc"
+    },
+    {
+      "id": 4,
+      "category": "skincare",
+      "sub": "mask",
+      "name": "Fav Beauty Yogurt Peel Off Mask Mini 50 gr",
+      "short_name": "Fav Beauty Yogurt Peel Off Mask 50gr",
+      "price": 35000,
+      "affiliate_link": "https://s.shopee.co.id/6L1enn78Vh"
+    },
+    {
+      "id": 5,
+      "category": "makeup",
+      "sub": "liptint",
+      "name": "OMG OH MY GLAM Mattelast Lip Cream 2.9 g",
+      "short_name": "OMG Mattelast Lip Cream",
+      "price": 24700,
+      "affiliate_link": "https://s.shopee.co.id/1BJYeClW11"
+    },
+    {
+      "id": 6,
+      "category": "makeup",
+      "sub": "liptint",
+      "name": "MAYBELLINE Superstay Matte Ink Liquid Lipstick",
+      "short_name": "Maybelline Superstay Matte Ink",
+      "price": 87000,
+      "affiliate_link": "https://s.shopee.co.id/40dk1TYlm5"
+    },
+    {
+      "id": 7,
+      "category": "makeup",
+      "sub": "cushion",
+      "name": "SKINTIFIC Perfect Stay Serum Matte Cushion SPF 50 PA++++",
+      "short_name": "SKINTIFIC Serum Matte Cushion SPF50",
+      "price": 162000,
+      "affiliate_link": "https://s.shopee.co.id/50WHDM3hEC"
+    },
+    {
+      "id": 8,
+      "category": "makeup",
+      "sub": "liptint",
+      "name": "Madame Gie Always On Lip Comfort Matte",
+      "short_name": "Madame Gie Lip Comfort Matte",
+      "price": 23500,
+      "affiliate_link": "https://s.shopee.co.id/70HLb2nlyH"
+    },
+    {
+      "id": 9,
+      "category": "body_care",
+      "sub": "body_lotion",
+      "name": "WHITE INC Alpha Glow White Body Lotion 400ml",
+      "short_name": "WHITE INC Alpha Glow Body Lotion 400ml",
+      "price": 49000,
+      "affiliate_link": "https://s.shopee.co.id/40dk1RxE4V"
+    },
+    {
+      "id": 10,
+      "category": "body_care",
+      "sub": "body_lotion",
+      "name": "Vaseline Healthy Bright UV Brightening Lotion 400ml Triplepack",
+      "short_name": "Vaseline Healthy Bright UV Lotion",
+      "price": 148900,
+      "affiliate_link": "https://s.shopee.co.id/6pxvOhJnYf"
+    },
+    {
+      "id": 11,
+      "category": "body_care",
+      "sub": "body_wash",
+      "name": "Lifebuoy Sabun Mandi Cair Mild Care 800ml x 4",
+      "short_name": "Lifebuoy Mild Care 800ml x4",
+      "price": 125400,
+      "affiliate_link": "https://s.shopee.co.id/5q5OCvMbmU"
+    },
+    {
+      "id": 12,
+      "category": "body_care",
+      "sub": "body_wash",
+      "name": "Giv White Sabun Mandi Cair Mulberry Pouch 800 ml",
+      "short_name": "Giv White Mulberry 800ml",
+      "price": 27000,
+      "affiliate_link": "https://s.shopee.co.id/9KfGNMw1aT"
+    },
+    {
+      "id": 13,
+      "category": "body_care",
+      "sub": "body_wash",
+      "name": "Lifebuoy Sabun Cair Antiseptik Total 10 800ml x 4",
+      "short_name": "Lifebuoy Antiseptik Total 10",
+      "price": 125400,
+      "affiliate_link": "https://s.shopee.co.id/3qKJpH1dnk"
+    },
+    {
+      "id": 14,
+      "category": "body_care",
+      "sub": "body_wash",
+      "name": "Lifebuoy Sabun Mandi Cair Lemon Fresh 800 mL x4",
+      "short_name": "Lifebuoy Lemon Fresh 800ml x4",
+      "price": 125300,
+      "affiliate_link": "https://s.shopee.co.id/7AalnPz8NA"
+    },
+    {
+      "id": 15,
+      "category": "parfum",
+      "sub": "women",
+      "name": "Inspired Scarlet Extrait De Parfum 30 ml",
+      "short_name": "Inspired Scarlet EDP 30ml",
+      "price": 11000,
+      "affiliate_link": "https://s.shopee.co.id/9zuxAZWaNp"
+    },
+    {
+      "id": 16,
+      "category": "parfum",
+      "sub": "unisex",
+      "name": "KYZA X Finesy Parfume Premium 30ml",
+      "short_name": "KYZA X Finesy Premium 30ml",
+      "price": 50000,
+      "affiliate_link": "https://s.shopee.co.id/8V69Nt549a"
+    },
+    {
+      "id": 17,
+      "category": "parfum",
+      "sub": "unisex",
+      "name": "Eskulin Eau De Parfum 30ml EDP",
+      "short_name": "Eskulin EDP 30ml",
+      "price": 33500,
+      "affiliate_link": "https://s.shopee.co.id/902PyouN6M"
+    },
+    {
+      "id": 18,
+      "category": "parfum",
+      "sub": "women",
+      "name": "Parfume Baccarat Parfume Wanita 35ml",
+      "short_name": "Parfume Baccarat Wanita 35ml",
+      "price": 9339,
+      "affiliate_link": "https://s.shopee.co.id/7pqSajbXgg"
+    }
+  ]
+}
