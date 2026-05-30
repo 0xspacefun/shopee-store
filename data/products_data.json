@@ -1,8 +1,8 @@
 {
-  "fetched_at": "2026-05-30T06:08:33Z",
-  "total": 21,
-  "with_meta": 21,
-  "with_image": 21,
+  "fetched_at": "2026-05-30T08:09:55Z",
+  "total": 35,
+  "with_meta": 35,
+  "with_image": 34,
   "products": [
     {
       "id": 1,
@@ -15,9 +15,9 @@
       "scraped": {
         "image_url": "https://down-id.img.susercontent.com/file/sg-11134201-821f9-mgorrkk31vda91",
         "rating": 4.9,
-        "reviews": 44226,
-        "comments": 22112,
-        "liked": 9152
+        "reviews": 44328,
+        "comments": 22164,
+        "liked": 9176
       },
       "image_local": "img/products/01_cleanser.jpg",
       "shop_id": 1346168602,
@@ -34,9 +34,9 @@
       "scraped": {
         "image_url": "https://down-id.img.susercontent.com/file/sg-11134201-7rdwl-m0so3ewaubmtd5",
         "rating": 4.9,
-        "reviews": 56932,
-        "comments": 28466,
-        "liked": 9025
+        "reviews": 57092,
+        "comments": 28546,
+        "liked": 9096
       },
       "image_local": "img/products/02_sunscreen.jpg",
       "shop_id": 1346168602,
@@ -53,9 +53,9 @@
       "scraped": {
         "image_url": "https://down-id.img.susercontent.com/file/id-11134207-822ws-modp2ffrti4s63",
         "rating": 4.9,
-        "reviews": 33356,
-        "comments": 16678,
-        "liked": 8015
+        "reviews": 33522,
+        "comments": 16761,
+        "liked": 8052
       },
       "image_local": "img/products/03_cleanser.jpg",
       "shop_id": 1346168602,
@@ -72,9 +72,9 @@
       "scraped": {
         "image_url": "https://down-id.img.susercontent.com/file/id-11134207-8224v-mjin7pzt2w3mb8",
         "rating": 4.8,
-        "reviews": 18276,
-        "comments": 9138,
-        "liked": 8804
+        "reviews": 18330,
+        "comments": 9165,
+        "liked": 8831
       },
       "image_local": "img/products/04_mask.jpg",
       "shop_id": 897794453,
@@ -91,9 +91,9 @@
       "scraped": {
         "image_url": "https://down-id.img.susercontent.com/file/id-11134207-7rasa-m0saztefgxa637",
         "rating": 4.9,
-        "reviews": 211336,
-        "comments": 105668,
-        "liked": 48834
+        "reviews": 212218,
+        "comments": 106110,
+        "liked": 48952
       },
       "image_local": "img/products/05_liptint.jpg",
       "shop_id": 1346168602,
@@ -110,9 +110,9 @@
       "scraped": {
         "image_url": "https://down-id.img.susercontent.com/file/id-11134207-822wt-monf6qeneo0262",
         "rating": 4.9,
-        "reviews": 5574582,
-        "comments": 2732551,
-        "liked": 607918
+        "reviews": 5575052,
+        "comments": 2732785,
+        "liked": 607988
       },
       "image_local": "img/products/06_liptint.jpg",
       "shop_id": 62582411,
@@ -129,9 +129,9 @@
       "scraped": {
         "image_url": "https://down-id.img.susercontent.com/file/id-11134207-822wr-moqbl73phu6l81",
         "rating": 5.0,
-        "reviews": 3772,
-        "comments": 1886,
-        "liked": 3317
+        "reviews": 3874,
+        "comments": 1937,
+        "liked": 3345
       },
       "image_local": "img/products/07_cushion.jpg",
       "shop_id": 380266264,
@@ -148,9 +148,9 @@
       "scraped": {
         "image_url": "https://down-id.img.susercontent.com/file/id-11134207-822wn-momswj899wxte9",
         "rating": 4.9,
-        "reviews": 19368,
-        "comments": 9684,
-        "liked": 5654
+        "reviews": 19532,
+        "comments": 9766,
+        "liked": 5675
       },
       "image_local": "img/products/08_liptint.jpg",
       "shop_id": 94309880,
@@ -167,9 +167,9 @@
       "scraped": {
         "image_url": "https://down-id.img.susercontent.com/file/id-11134207-82252-ml3945lba9z570",
         "rating": 4.9,
-        "reviews": 507556,
-        "comments": 253778,
-        "liked": 113295
+        "reviews": 507944,
+        "comments": 253972,
+        "liked": 113369
       },
       "image_local": "img/products/09_body_lotion.jpg",
       "shop_id": 790166426,
@@ -186,9 +186,9 @@
       "scraped": {
         "image_url": "https://down-id.img.susercontent.com/file/id-11134207-7qul7-ljnn2uw0juhu9f",
         "rating": 4.8,
-        "reviews": 216164,
-        "comments": 105973,
-        "liked": 34852
+        "reviews": 216228,
+        "comments": 106005,
+        "liked": 34854
       },
       "image_local": "img/products/10_body_lotion.jpg",
       "shop_id": 932470899,
@@ -205,9 +205,9 @@
       "scraped": {
         "image_url": "https://down-id.img.susercontent.com/file/id-11134201-822wj-mnjnzqdztxxec8",
         "rating": 4.9,
-        "reviews": 26874,
-        "comments": 13437,
-        "liked": 2918
+        "reviews": 26910,
+        "comments": 13455,
+        "liked": 2919
       },
       "image_local": "img/products/11_body_wash.jpg",
       "shop_id": 1517647103,
@@ -224,9 +224,9 @@
       "scraped": {
         "image_url": "https://down-id.img.susercontent.com/file/sg-11134301-7ra17-mbeyvrws4v7n8f",
         "rating": 4.9,
-        "reviews": 447462,
-        "comments": 217849,
-        "liked": 48841
+        "reviews": 447520,
+        "comments": 217879,
+        "liked": 48852
       },
       "image_local": "img/products/12_body_wash.jpg",
       "shop_id": 64474495,
@@ -243,8 +243,8 @@
       "scraped": {
         "image_url": "https://down-id.img.susercontent.com/file/id-11134201-822wg-mnjnzr61h0xw21",
         "rating": 4.9,
-        "reviews": 29066,
-        "comments": 14533,
+        "reviews": 29094,
+        "comments": 14547,
         "liked": 3036
       },
       "image_local": "img/products/13_body_wash.jpg",
@@ -262,8 +262,8 @@
       "scraped": {
         "image_url": "https://down-id.img.susercontent.com/file/id-11134201-822wg-mnjnzpn0mgao48",
         "rating": 4.9,
-        "reviews": 35646,
-        "comments": 17823,
+        "reviews": 35678,
+        "comments": 17839,
         "liked": 3798
       },
       "image_local": "img/products/14_body_wash.jpg",
@@ -281,9 +281,9 @@
       "scraped": {
         "image_url": "https://down-id.img.susercontent.com/file/id-11134207-822wr-mmqv4j8fzim8b6",
         "rating": 4.3,
-        "reviews": 4246,
-        "comments": 2124,
-        "liked": 1476
+        "reviews": 4304,
+        "comments": 2152,
+        "liked": 1489
       },
       "image_local": "img/products/15_women.jpg",
       "shop_id": 1560241666,
@@ -302,7 +302,7 @@
         "rating": 4.9,
         "reviews": 7602,
         "comments": 3611,
-        "liked": 949
+        "liked": 953
       },
       "image_local": "img/products/16_unisex.jpg",
       "shop_id": 380573150,
@@ -319,9 +319,9 @@
       "scraped": {
         "image_url": "https://down-id.img.susercontent.com/file/id-11134207-82252-mgol5daabkso46",
         "rating": 4.9,
-        "reviews": 8552,
-        "comments": 4276,
-        "liked": 6398
+        "reviews": 8590,
+        "comments": 4295,
+        "liked": 6408
       },
       "image_local": "img/products/17_unisex.jpg",
       "shop_id": 1346168602,
@@ -338,9 +338,9 @@
       "scraped": {
         "image_url": "https://down-id.img.susercontent.com/file/id-11134207-822wm-moii57kc1dsd8c",
         "rating": 4.6,
-        "reviews": 7510,
-        "comments": 3755,
-        "liked": 686
+        "reviews": 7532,
+        "comments": 3766,
+        "liked": 688
       },
       "image_local": "img/products/18_women.jpg",
       "shop_id": 1428678800,
@@ -357,8 +357,8 @@
       "scraped": {
         "image_url": "https://down-id.img.susercontent.com/file/id-11134207-7r98u-lwdrhiynbsfg70",
         "rating": 4.9,
-        "reviews": 3150,
-        "comments": 1573,
+        "reviews": 3152,
+        "comments": 1574,
         "liked": 4099
       },
       "image_local": "img/products/19_moisturizer.jpg",
@@ -376,9 +376,9 @@
       "scraped": {
         "image_url": "https://down-id.img.susercontent.com/file/id-11134207-822wp-mnk711kd2dxgc8",
         "rating": 4.9,
-        "reviews": 271228,
-        "comments": 127741,
-        "liked": 97103
+        "reviews": 271236,
+        "comments": 127745,
+        "liked": 97106
       },
       "image_local": "img/products/20_moisturizer.jpg",
       "shop_id": 600719961,
@@ -395,13 +395,279 @@
       "scraped": {
         "image_url": "https://down-id.img.susercontent.com/file/id-11134207-822wj-mlrl7wahwkcj94",
         "rating": 4.9,
-        "reviews": 78068,
-        "comments": 39034,
-        "liked": 21111
+        "reviews": 78102,
+        "comments": 39051,
+        "liked": 21116
       },
       "image_local": "img/products/21_moisturizer.jpg",
       "shop_id": 684531921,
       "item_id": 40120679283
+    },
+    {
+      "id": 22,
+      "category": "skintific",
+      "sub": "cushion",
+      "name": "SKINTIFIC Perfect Stay Serum Matte Cushion Foundation SPF 50 PA++++",
+      "short_name": "SKINTIFIC Perfect Stay Serum Matte Cushion SPF50",
+      "price": 162000,
+      "affiliate_link": "https://s.shopee.co.id/qgiJk1h3k",
+      "scraped": {
+        "image_url": "https://down-id.img.susercontent.com/file/id-11134207-822wr-moqbl73phu6l81",
+        "rating": 5.0,
+        "reviews": 3874,
+        "comments": 1937,
+        "liked": 3345
+      },
+      "image_local": "img/products/22_cushion.jpg",
+      "shop_id": 380266264,
+      "item_id": 44230683977
+    },
+    {
+      "id": 23,
+      "category": "skintific",
+      "sub": "sunscreen",
+      "name": "SKINTIFIC Outdoor Sunscreen Spray SPF 50+ PA++++ 250ml",
+      "short_name": "SKINTIFIC Outdoor Sunscreen Spray SPF50+",
+      "price": 144000,
+      "affiliate_link": "https://s.shopee.co.id/7pqSefJCmx",
+      "scraped": {
+        "image_url": "https://down-id.img.susercontent.com/file/id-11134207-8224s-mfukpyyk7fuy02",
+        "rating": 4.9,
+        "reviews": 44060,
+        "comments": 20884,
+        "liked": 32041
+      },
+      "image_local": "img/products/23_sunscreen.jpg",
+      "shop_id": 380266264,
+      "item_id": 23760330853
+    },
+    {
+      "id": 24,
+      "category": "skintific",
+      "sub": "eye_cream",
+      "name": "SKINTIFIC 360 Crystal Massager Lifting Eye Cream 20ml",
+      "short_name": "SKINTIFIC Lifting Eye Cream 20ml",
+      "price": 169000,
+      "affiliate_link": "https://s.shopee.co.id/3VhTUiUtkr",
+      "scraped": {
+        "image_url": "https://down-id.img.susercontent.com/file/id-11134207-8224o-mi9mijcqtvrcc9",
+        "rating": 4.9,
+        "reviews": 44536,
+        "comments": 21256,
+        "liked": 19685
+      },
+      "image_local": "img/products/24_eye_cream.jpg",
+      "shop_id": 380266264,
+      "item_id": 13131518039
+    },
+    {
+      "id": 25,
+      "category": "skintific",
+      "sub": "set",
+      "name": "SKINTIFIC 2PCS UV Protect & Tone Up Set",
+      "short_name": "SKINTIFIC UV Protect & Tone Up Set",
+      "price": 222000,
+      "affiliate_link": "https://s.shopee.co.id/20sfhyZnBP",
+      "scraped": {
+        "image_url": "https://down-id.img.susercontent.com/file/id-11134207-8224w-mjtqgvr36waq06",
+        "rating": 4.9,
+        "reviews": 334,
+        "comments": 167,
+        "liked": 83
+      },
+      "image_local": "img/products/25_set.jpg",
+      "shop_id": 380266264,
+      "item_id": 57905148254
+    },
+    {
+      "id": 26,
+      "category": "skintific",
+      "sub": "set",
+      "name": "SKINTIFIC 6PCS Paket Skincare Set",
+      "short_name": "SKINTIFIC 6PCS Skincare Set",
+      "price": 462000,
+      "affiliate_link": "https://s.shopee.co.id/AKXndJ2Dij",
+      "scraped": {
+        "image_url": "https://down-id.img.susercontent.com/file/id-11134207-822wp-morzyscjwidq7a",
+        "rating": 4.9,
+        "reviews": 29604,
+        "comments": 14177,
+        "liked": 15041
+      },
+      "image_local": "img/products/26_set.jpg",
+      "shop_id": 380266264,
+      "item_id": 23082807163
+    },
+    {
+      "id": 27,
+      "category": "skintific",
+      "sub": "set",
+      "name": "SKINTIFIC 2PCS Glow Makeup Set",
+      "short_name": "SKINTIFIC 2PCS Glow Makeup Set",
+      "price": 73000,
+      "affiliate_link": "https://s.shopee.co.id/5L97g9ZVCt",
+      "scraped": {
+        "image_url": "https://down-id.img.susercontent.com/file/id-11134207-822ws-mogpebaq2xhn45",
+        "rating": 5.0,
+        "reviews": 62,
+        "comments": 31,
+        "liked": 51
+      },
+      "image_local": "img/products/27_set.jpg",
+      "shop_id": 380266264,
+      "item_id": 54260847818
+    },
+    {
+      "id": 28,
+      "category": "skintific",
+      "sub": "set",
+      "name": "SKINTIFIC OUTDOOR READY SET Instant Glow Serum Spray + Sunscreen Mist SPF 50+",
+      "short_name": "SKINTIFIC Outdoor Ready Set",
+      "price": 146000,
+      "affiliate_link": "https://s.shopee.co.id/6VL54JSryQ",
+      "scraped": {
+        "image_url": "https://down-id.img.susercontent.com/file/id-11134207-822wu-mom6lrf5fvv22f",
+        "rating": 4.9,
+        "reviews": 56,
+        "comments": 28,
+        "liked": 51
+      },
+      "image_local": "img/products/28_set.jpg",
+      "shop_id": 380266264,
+      "item_id": 42230775099
+    },
+    {
+      "id": 29,
+      "category": "skintific",
+      "sub": "set",
+      "name": "SKINTIFIC 3pcs Fresh Anti-acne Green Set",
+      "short_name": "SKINTIFIC Anti-Acne Green Set",
+      "price": 254000,
+      "affiliate_link": "https://s.shopee.co.id/809sr59YXM",
+      "scraped": {
+        "image_url": "https://down-id.img.susercontent.com/file/id-11134207-822wi-mn9mzmx1l9fm6b",
+        "rating": 5.0,
+        "reviews": 104,
+        "comments": 52,
+        "liked": 64
+      },
+      "image_local": "img/products/29_set.jpg",
+      "shop_id": 380266264,
+      "item_id": 55759138347
+    },
+    {
+      "id": 30,
+      "category": "skintific",
+      "sub": "serum",
+      "name": "SKINTIFIC PDRN Radiance Bright Serum Spray 100ml",
+      "short_name": "SKINTIFIC PDRN Radiance Serum Spray",
+      "price": 299000,
+      "affiliate_link": "https://s.shopee.co.id/BR1WhUAp3",
+      "scraped": {
+        "image_url": "https://down-id.img.susercontent.com/file/id-11134207-822wu-mot210ol1n2m84",
+        "rating": 5.0,
+        "reviews": 190,
+        "comments": 95,
+        "liked": 189
+      },
+      "image_local": "img/products/30_serum.jpg",
+      "shop_id": 380266264,
+      "item_id": 50960767295
+    },
+    {
+      "id": 31,
+      "category": "skintific",
+      "sub": "set",
+      "name": "SKINTIFIC Brightening 5-in-1 Skincare Set",
+      "short_name": "SKINTIFIC Brightening 5-in-1 Set",
+      "price": 501000,
+      "affiliate_link": "https://s.shopee.co.id/30lCtvRe4P",
+      "scraped": {
+        "image_url": "https://down-id.img.susercontent.com/file/id-11134207-8224y-mjs65cxqls7439",
+        "rating": 4.9,
+        "reviews": 92,
+        "comments": 46,
+        "liked": 126
+      },
+      "image_local": "img/products/31_set.jpg",
+      "shop_id": 380266264,
+      "item_id": 52805078070
+    },
+    {
+      "id": 32,
+      "category": "skintific",
+      "sub": "cushion",
+      "name": "SKINTIFIC Perfect Cushion & Removal Kit 2PCS",
+      "short_name": "SKINTIFIC Cushion & Removal Kit",
+      "price": 113000,
+      "affiliate_link": "https://s.shopee.co.id/7AalrbPKnp",
+      "scraped": {
+        "image_url": "https://down-id.img.susercontent.com/file/sg-11134201-825a9-mey42pj7k6bn8d",
+        "rating": 5.0,
+        "reviews": 60,
+        "comments": 30,
+        "liked": 46
+      },
+      "image_local": "",
+      "shop_id": 380266264,
+      "item_id": 28191952988
+    },
+    {
+      "id": 33,
+      "category": "skintific",
+      "sub": "moisturizer",
+      "name": "SKINTIFIC 5X Ceramide Barrier Moisturizer Gel 30g",
+      "short_name": "SKINTIFIC 5X Ceramide Moisturizer Gel",
+      "price": 129000,
+      "affiliate_link": "https://s.shopee.co.id/7KuC3w69jQ",
+      "scraped": {
+        "image_url": "https://down-id.img.susercontent.com/file/id-11134207-822wp-mloogsuh0h6t69",
+        "rating": 4.9,
+        "reviews": 124,
+        "comments": 62,
+        "liked": 45
+      },
+      "image_local": "img/products/33_moisturizer.jpg",
+      "shop_id": 380266264,
+      "item_id": 47508567322
+    },
+    {
+      "id": 34,
+      "category": "skintific",
+      "sub": "cushion",
+      "name": "SKINTIFIC Cover All Perfect Cushion",
+      "short_name": "SKINTIFIC Cover All Perfect Cushion",
+      "price": 66934,
+      "affiliate_link": "https://s.shopee.co.id/BR1WnwPVb",
+      "scraped": {
+        "image_url": "https://down-id.img.susercontent.com/file/id-11134207-822wg-moq9inwwzqbw7a",
+        "rating": 4.9,
+        "reviews": 713822,
+        "comments": 344616,
+        "liked": 206974
+      },
+      "image_local": "img/products/34_cushion.jpg",
+      "shop_id": 380266264,
+      "item_id": 18080878678
+    },
+    {
+      "id": 35,
+      "category": "skintific",
+      "sub": "sunscreen",
+      "name": "SKINTIFIC UV Shield SPF50+ PA++++ Sunscreen",
+      "short_name": "SKINTIFIC UV Shield SPF50+ Sunscreen",
+      "price": 96000,
+      "affiliate_link": "https://s.shopee.co.id/6AiEfrADd3",
+      "scraped": {
+        "image_url": "https://down-id.img.susercontent.com/file/id-11134207-822wq-moq9wzrbnbb4ee",
+        "rating": 4.9,
+        "reviews": 162552,
+        "comments": 81276,
+        "liked": 14548
+      },
+      "image_local": "img/products/35_sunscreen.jpg",
+      "shop_id": 380266264,
+      "item_id": 26082419257
     }
   ]
 }

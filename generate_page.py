@@ -95,6 +95,7 @@ def main():
     sections += category_section("makeup", "MAKEUP", "💄", products)
     sections += category_section("body_care", "BODY CARE", "🧴", products)
     sections += category_section("parfum", "PARFUM", "🌸", products)
+    sections += category_section("skintific", "SKINTIFIC", "💎", products)
 
     # Category nav
     cats = [
@@ -102,6 +103,7 @@ def main():
         ("makeup", "💄", "Makeup"),
         ("body_care", "🧴", "Body Care"),
         ("parfum", "🌸", "Parfum"),
+        ("skintific", "💎", "Skintific"),
     ]
     cat_nav = "".join(f'<a href="#{c[0]}" class="cat-pill"><span class="cat-emoji">{c[1]}</span><span>{c[2]}</span></a>' for c in cats)
 
