@@ -5,357 +5,408 @@
       "category": "skincare",
       "sub": "cleanser",
       "short_name": "WARDAH Crystal Secret Foaming Cleanser",
-      "affiliate_link": "https://s.shopee.co.id/5VSXo1KuBB"
+      "affiliate_link": "https://s.shopee.co.id/5VSXo1KuBB",
+      "price": 28710
     },
     {
       "id": 2,
       "category": "skincare",
       "sub": "sunscreen",
       "short_name": "Emina Sun Battle SPF 35 PA+++",
-      "affiliate_link": "https://s.shopee.co.id/5AphPZvjRw"
+      "affiliate_link": "https://s.shopee.co.id/5AphPZvjRw",
+      "price": 19740
     },
     {
       "id": 3,
       "category": "skincare",
       "sub": "cleanser",
       "short_name": "Kahf Oil and Acne Care Face Wash",
-      "affiliate_link": "https://s.shopee.co.id/4Va0cNkkCc"
+      "affiliate_link": "https://s.shopee.co.id/4Va0cNkkCc",
+      "price": 40700
     },
     {
       "id": 4,
       "category": "skincare",
       "sub": "mask",
       "short_name": "Fav Beauty Yogurt Peel Off Mask 50gr",
-      "affiliate_link": "https://s.shopee.co.id/6L1enn78Vh"
+      "affiliate_link": "https://s.shopee.co.id/6L1enn78Vh",
+      "price": 35000
     },
     {
       "id": 5,
       "category": "skincare",
       "sub": "moisturizer",
       "short_name": "Minimalist 5% Marula Moisturizer",
-      "affiliate_link": "https://s.shopee.co.id/AUrExpTYZT"
+      "affiliate_link": "https://s.shopee.co.id/AUrExpTYZT",
+      "price": 90000
     },
     {
       "id": 6,
       "category": "skincare",
       "sub": "moisturizer",
       "short_name": "ELFORMULA CeraHydro Barrier Repair Gel",
-      "affiliate_link": "https://s.shopee.co.id/2BC72aCeSy"
+      "affiliate_link": "https://s.shopee.co.id/2BC72aCeSy",
+      "price": 128000
     },
     {
       "id": 7,
       "category": "skincare",
       "sub": "moisturizer",
       "short_name": "Facetology Panthenol Barrier Boost",
-      "affiliate_link": "https://s.shopee.co.id/1gFqRjkHU1"
+      "affiliate_link": "https://s.shopee.co.id/1gFqRjkHU1",
+      "price": 36900
     },
     {
       "id": 8,
       "category": "skincare",
       "sub": "cushion",
       "short_name": "SKINTIFIC Serum Matte Cushion SPF50",
-      "affiliate_link": "https://s.shopee.co.id/50WHDM3hEC"
+      "affiliate_link": "https://s.shopee.co.id/50WHDM3hEC",
+      "price": 162000
     },
     {
       "id": 9,
       "category": "skincare",
       "sub": "sunscreen",
       "short_name": "SKINTIFIC Outdoor Sunscreen Spray SPF50+",
-      "affiliate_link": "https://s.shopee.co.id/7pqSefJCmx"
+      "affiliate_link": "https://s.shopee.co.id/7pqSefJCmx",
+      "price": 144000
     },
     {
       "id": 10,
       "category": "skincare",
       "sub": "eye_cream",
       "short_name": "SKINTIFIC Lifting Eye Cream 20ml",
-      "affiliate_link": "https://s.shopee.co.id/3VhTUiUtkr"
+      "affiliate_link": "https://s.shopee.co.id/3VhTUiUtkr",
+      "price": 169000
     },
     {
       "id": 11,
       "category": "skincare",
       "sub": "set",
       "short_name": "SKINTIFIC UV Protect & Tone Up Set",
-      "affiliate_link": "https://s.shopee.co.id/20sfhyZnBP"
+      "affiliate_link": "https://s.shopee.co.id/20sfhyZnBP",
+      "price": 222000
     },
     {
       "id": 12,
       "category": "skincare",
       "sub": "set",
       "short_name": "SKINTIFIC Outdoor Ready Set",
-      "affiliate_link": "https://s.shopee.co.id/6VL54JSryQ"
+      "affiliate_link": "https://s.shopee.co.id/6VL54JSryQ",
+      "price": 146000
     },
     {
       "id": 13,
       "category": "skincare",
       "sub": "serum",
       "short_name": "SKINTIFIC PDRN Radiance Serum Spray",
-      "affiliate_link": "https://s.shopee.co.id/BR1WhUAp3"
+      "affiliate_link": "https://s.shopee.co.id/BR1WhUAp3",
+      "price": 299000
     },
     {
       "id": 14,
       "category": "skincare",
       "sub": "moisturizer",
       "short_name": "SKINTIFIC 5X Ceramide Moisturizer Gel",
-      "affiliate_link": "https://s.shopee.co.id/7KuC3w69jQ"
+      "affiliate_link": "https://s.shopee.co.id/7KuC3w69jQ",
+      "price": 129000
     },
     {
       "id": 15,
       "category": "skincare",
       "sub": "sunscreen",
       "short_name": "SKINTIFIC UV Shield SPF50+ Sunscreen",
-      "affiliate_link": "https://s.shopee.co.id/6AiEfrADd3"
+      "affiliate_link": "https://s.shopee.co.id/6AiEfrADd3",
+      "price": 96000
     },
     {
       "id": 16,
       "category": "skincare",
       "sub": "cleansing_oil",
       "short_name": "Sea Makeup Cleansing Oil 120ml",
-      "affiliate_link": "https://s.shopee.co.id/2g8MX75oAf"
+      "affiliate_link": "https://s.shopee.co.id/2g8MX75oAf",
+      "price": 38000
     },
     {
       "id": 17,
       "category": "skincare",
       "sub": "cleansing_balm",
       "short_name": "Sea Makeup Cleansing Balm",
-      "affiliate_link": "https://s.shopee.co.id/1gFpLI94d6"
+      "affiliate_link": "https://s.shopee.co.id/1gFpLI94d6",
+      "price": 126000
     },
     {
       "id": 18,
       "category": "skincare",
       "sub": "micellar",
       "short_name": "Glad2Glow Micellar Water 300ml",
-      "affiliate_link": "https://s.shopee.co.id/AUrDrYjMw5"
+      "affiliate_link": "https://s.shopee.co.id/AUrDrYjMw5",
+      "price": 48900
     },
     {
       "id": 19,
       "category": "skincare",
       "sub": "cleanser",
       "short_name": "FACERINNA Salicylic Acid Cleanser",
-      "affiliate_link": "https://s.shopee.co.id/50WHJTZ2pP"
+      "affiliate_link": "https://s.shopee.co.id/50WHJTZ2pP",
+      "price": 48900
     },
     {
       "id": 20,
       "category": "skincare",
       "sub": "micellar",
       "short_name": "SKINTIFIC Brightening Cleansing Water",
-      "affiliate_link": "https://s.shopee.co.id/7VDcI5GfS7"
+      "affiliate_link": "https://s.shopee.co.id/7VDcI5GfS7",
+      "price": 73000
     },
     {
       "id": 21,
       "category": "skincare",
       "sub": "micellar",
       "short_name": "Glad2Glow Micellar Water LIVE",
-      "affiliate_link": "https://s.shopee.co.id/1108Y9IwQK"
+      "affiliate_link": "https://s.shopee.co.id/1108Y9IwQK",
+      "price": 48900
     },
     {
       "id": 22,
       "category": "skincare",
       "sub": "cleansing_balm",
       "short_name": "Skintific Zero Oil Cleansing Balm",
-      "affiliate_link": "https://s.shopee.co.id/3qKJvNCUiu"
+      "affiliate_link": "https://s.shopee.co.id/3qKJvNCUiu",
+      "price": 121000
     },
     {
       "id": 23,
       "category": "skincare",
       "sub": "skin_tint",
       "short_name": "SKINTIFIC Blurring Skin Tint",
-      "affiliate_link": "https://s.shopee.co.id/50WHJeQgNw"
+      "affiliate_link": "https://s.shopee.co.id/50WHJeQgNw",
+      "price": 93000
     },
     {
       "id": 24,
       "category": "set_bundle",
       "sub": "set",
       "short_name": "SKINTIFIC 6PCS Skincare Set",
-      "affiliate_link": "https://s.shopee.co.id/AKXndJ2Dij"
+      "affiliate_link": "https://s.shopee.co.id/AKXndJ2Dij",
+      "price": 462000
     },
     {
       "id": 25,
       "category": "set_bundle",
       "sub": "set",
       "short_name": "SKINTIFIC Anti-Acne Green Set",
-      "affiliate_link": "https://s.shopee.co.id/809sr59YXM"
+      "affiliate_link": "https://s.shopee.co.id/809sr59YXM",
+      "price": 254000
     },
     {
       "id": 26,
       "category": "set_bundle",
       "sub": "set",
       "short_name": "SKINTIFIC Brightening 5-in-1 Set",
-      "affiliate_link": "https://s.shopee.co.id/30lCtvRe4P"
+      "affiliate_link": "https://s.shopee.co.id/30lCtvRe4P",
+      "price": 501000
     },
     {
       "id": 27,
       "category": "set_bundle",
       "sub": "set",
       "short_name": "SKINTIFIC Cushion & Removal Kit",
-      "affiliate_link": "https://s.shopee.co.id/7AalrbPKnp"
+      "affiliate_link": "https://s.shopee.co.id/7AalrbPKnp",
+      "price": 113000
     },
     {
       "id": 28,
       "category": "set_bundle",
       "sub": "set",
       "short_name": "SKINTIFIC 2-IN-1 Cleanser Set",
-      "affiliate_link": "https://s.shopee.co.id/50WHJWth4s"
+      "affiliate_link": "https://s.shopee.co.id/50WHJWth4s",
+      "price": 96000
     },
     {
       "id": 29,
       "category": "set_bundle",
       "sub": "set",
       "short_name": "SKINTIFIC 2pcs Barrier Basic Set",
-      "affiliate_link": "https://s.shopee.co.id/60Opxk9ogQ"
+      "affiliate_link": "https://s.shopee.co.id/60Opxk9ogQ",
+      "price": 96000
     },
     {
       "id": 30,
       "category": "set_bundle",
       "sub": "set",
       "short_name": "ELFORMULA 5in1 Complete Bundle",
-      "affiliate_link": "https://s.shopee.co.id/3LO4n4P2NO"
+      "affiliate_link": "https://s.shopee.co.id/3LO4n4P2NO",
+      "price": 442000
     },
     {
       "id": 31,
       "category": "makeup",
       "sub": "liptint",
       "short_name": "OMG Mattelast Lip Cream",
-      "affiliate_link": "https://s.shopee.co.id/1BJYeClW11"
+      "affiliate_link": "https://s.shopee.co.id/1BJYeClW11",
+      "price": 24700
     },
     {
       "id": 32,
       "category": "makeup",
       "sub": "liptint",
       "short_name": "Maybelline Superstay Matte Ink",
-      "affiliate_link": "https://s.shopee.co.id/40dk1TYlm5"
+      "affiliate_link": "https://s.shopee.co.id/40dk1TYlm5",
+      "price": 87000
     },
     {
       "id": 33,
       "category": "makeup",
       "sub": "liptint",
       "short_name": "Madame Gie Lip Comfort Matte",
-      "affiliate_link": "https://s.shopee.co.id/70HLb2nlyH"
+      "affiliate_link": "https://s.shopee.co.id/70HLb2nlyH",
+      "price": 23500
     },
     {
       "id": 34,
       "category": "makeup",
       "sub": "cushion",
       "short_name": "SKINTIFIC Perfect Stay Cushion SPF50",
-      "affiliate_link": "https://s.shopee.co.id/qgiJk1h3k"
+      "affiliate_link": "https://s.shopee.co.id/qgiJk1h3k",
+      "price": 162000
     },
     {
       "id": 35,
       "category": "makeup",
       "sub": "set",
       "short_name": "SKINTIFIC 2PCS Glow Makeup Set",
-      "affiliate_link": "https://s.shopee.co.id/5L97g9ZVCt"
+      "affiliate_link": "https://s.shopee.co.id/5L97g9ZVCt",
+      "price": 73000
     },
     {
       "id": 36,
       "category": "makeup",
       "sub": "cushion",
       "short_name": "SKINTIFIC Cover All Perfect Cushion",
-      "affiliate_link": "https://s.shopee.co.id/BR1WnwPVb"
+      "affiliate_link": "https://s.shopee.co.id/BR1WnwPVb",
+      "price": 66934
     },
     {
       "id": 37,
       "category": "makeup",
       "sub": "powder",
       "short_name": "AZZURA Loose Powder",
-      "affiliate_link": "https://s.shopee.co.id/9zuxGmalK6"
+      "affiliate_link": "https://s.shopee.co.id/9zuxGmalK6",
+      "price": 33000
     },
     {
       "id": 38,
       "category": "makeup",
       "sub": "powder",
       "short_name": "SKINTIFIC Ultra Cover Powder",
-      "affiliate_link": "https://s.shopee.co.id/2BC5wPXG52"
+      "affiliate_link": "https://s.shopee.co.id/2BC5wPXG52",
+      "price": 100100
     },
     {
       "id": 39,
       "category": "makeup",
       "sub": "powder",
       "short_name": "WARDAH Loose Powder Matte SPF20",
-      "affiliate_link": "https://s.shopee.co.id/AKXnfRBwH7"
+      "affiliate_link": "https://s.shopee.co.id/AKXnfRBwH7",
+      "price": 40740
     },
     {
       "id": 40,
       "category": "makeup",
       "sub": "eyebrow",
       "short_name": "SVMY Eyebrow Cream Waterproof",
-      "affiliate_link": "https://s.shopee.co.id/7VDcIHu5my"
+      "affiliate_link": "https://s.shopee.co.id/7VDcIHu5my",
+      "price": 11499
     },
     {
       "id": 41,
       "category": "makeup",
       "sub": "eyebrow",
       "short_name": "FOCALLURE Eyebrow Cream Gel",
-      "affiliate_link": "https://s.shopee.co.id/5VSXucrg5s"
+      "affiliate_link": "https://s.shopee.co.id/5VSXucrg5s",
+      "price": 39900
     },
     {
       "id": 42,
       "category": "body_care",
       "sub": "body_lotion",
       "short_name": "WHITE INC Alpha Glow Body Lotion 400ml",
-      "affiliate_link": "https://s.shopee.co.id/40dk1RxE4V"
+      "affiliate_link": "https://s.shopee.co.id/40dk1RxE4V",
+      "price": 49000
     },
     {
       "id": 43,
       "category": "body_care",
       "sub": "body_lotion",
       "short_name": "Vaseline Healthy Bright UV Lotion",
-      "affiliate_link": "https://s.shopee.co.id/6pxvOhJnYf"
+      "affiliate_link": "https://s.shopee.co.id/6pxvOhJnYf",
+      "price": 148900
     },
     {
       "id": 44,
       "category": "body_care",
       "sub": "body_wash",
       "short_name": "Lifebuoy Mild Care 800ml x4",
-      "affiliate_link": "https://s.shopee.co.id/5q5OCvMbmU"
+      "affiliate_link": "https://s.shopee.co.id/5q5OCvMbmU",
+      "price": 125400
     },
     {
       "id": 45,
       "category": "body_care",
       "sub": "body_wash",
       "short_name": "Giv White Mulberry 800ml",
-      "affiliate_link": "https://s.shopee.co.id/9KfGNMw1aT"
+      "affiliate_link": "https://s.shopee.co.id/9KfGNMw1aT",
+      "price": 27000
     },
     {
       "id": 46,
       "category": "body_care",
       "sub": "body_wash",
       "short_name": "Lifebuoy Antiseptik Total 10",
-      "affiliate_link": "https://s.shopee.co.id/3qKJpH1dnk"
+      "affiliate_link": "https://s.shopee.co.id/3qKJpH1dnk",
+      "price": 125400
     },
     {
       "id": 47,
       "category": "body_care",
       "sub": "body_wash",
       "short_name": "Lifebuoy Lemon Fresh 800ml x4",
-      "affiliate_link": "https://s.shopee.co.id/7AalnPz8NA"
+      "affiliate_link": "https://s.shopee.co.id/7AalnPz8NA",
+      "price": 125300
     },
     {
       "id": 48,
       "category": "parfum",
       "sub": "women",
       "short_name": "Inspired Scarlet EDP 30ml",
-      "affiliate_link": "https://s.shopee.co.id/9zuxAZWaNp"
+      "affiliate_link": "https://s.shopee.co.id/9zuxAZWaNp",
+      "price": 11000
     },
     {
       "id": 49,
       "category": "parfum",
       "sub": "unisex",
       "short_name": "KYZA X Finesy Premium 30ml",
-      "affiliate_link": "https://s.shopee.co.id/8V69Nt549a"
+      "affiliate_link": "https://s.shopee.co.id/8V69Nt549a",
+      "price": 50000
     },
     {
       "id": 50,
       "category": "parfum",
       "sub": "unisex",
       "short_name": "Eskulin EDP 30ml",
-      "affiliate_link": "https://s.shopee.co.id/902PyouN6M"
+      "affiliate_link": "https://s.shopee.co.id/902PyouN6M",
+      "price": 33500
     },
     {
       "id": 51,
       "category": "parfum",
       "sub": "women",
       "short_name": "Parfume Baccarat Wanita 35ml",
-      "affiliate_link": "https://s.shopee.co.id/7pqSajbXgg"
+      "affiliate_link": "https://s.shopee.co.id/7pqSajbXgg",
+      "price": 9339
     },
     {
       "id": 52,
