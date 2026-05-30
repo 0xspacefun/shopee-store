@@ -37,7 +37,7 @@ def product_card(p):
       </div>
       <div class="product-info">
         <h3 class="product-name">{p['short_name']}</h3>
-        <div class="product-price">{fmt_price(p['price'])}</div>
+        <div class="product-price">{fmt_price(p.get('price', 0))}</div>
         <div class="product-meta">
           <div class="rating">
             <span class="stars">{'★' * int(round(rating))}</span>

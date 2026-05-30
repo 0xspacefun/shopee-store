@@ -1,55 +1,409 @@
 {
   "products": [
-    {"id":1,"category":"skincare","sub":"cleanser","short_name":"WARDAH Crystal Secret Foaming Cleanser","affiliate_link":"https://s.shopee.co.id/5VSXo1KuBB"},
-    {"id":2,"category":"skincare","sub":"sunscreen","short_name":"Emina Sun Battle SPF 35 PA+++","affiliate_link":"https://s.shopee.co.id/5AphPZvjRw"},
-    {"id":3,"category":"skincare","sub":"cleanser","short_name":"Kahf Oil and Acne Care Face Wash","affiliate_link":"https://s.shopee.co.id/4Va0cNkkCc"},
-    {"id":4,"category":"skincare","sub":"mask","short_name":"Fav Beauty Yogurt Peel Off Mask 50gr","affiliate_link":"https://s.shopee.co.id/6L1enn78Vh"},
-    {"id":5,"category":"skincare","sub":"moisturizer","short_name":"Minimalist 5% Marula Moisturizer","affiliate_link":"https://s.shopee.co.id/AUrExpTYZT"},
-    {"id":6,"category":"skincare","sub":"moisturizer","short_name":"ELFORMULA CeraHydro Barrier Repair Gel","affiliate_link":"https://s.shopee.co.id/2BC72aCeSy"},
-    {"id":7,"category":"skincare","sub":"moisturizer","short_name":"Facetology Panthenol Barrier Boost","affiliate_link":"https://s.shopee.co.id/1gFqRjkHU1"},
-    {"id":8,"category":"skincare","sub":"cushion","short_name":"SKINTIFIC Serum Matte Cushion SPF50","affiliate_link":"https://s.shopee.co.id/50WHDM3hEC"},
-    {"id":9,"category":"skincare","sub":"sunscreen","short_name":"SKINTIFIC Outdoor Sunscreen Spray SPF50+","affiliate_link":"https://s.shopee.co.id/7pqSefJCmx"},
-    {"id":10,"category":"skincare","sub":"eye_cream","short_name":"SKINTIFIC Lifting Eye Cream 20ml","affiliate_link":"https://s.shopee.co.id/3VhTUiUtkr"},
-    {"id":11,"category":"skincare","sub":"set","short_name":"SKINTIFIC UV Protect & Tone Up Set","affiliate_link":"https://s.shopee.co.id/20sfhyZnBP"},
-    {"id":12,"category":"skincare","sub":"set","short_name":"SKINTIFIC Outdoor Ready Set","affiliate_link":"https://s.shopee.co.id/6VL54JSryQ"},
-    {"id":13,"category":"skincare","sub":"serum","short_name":"SKINTIFIC PDRN Radiance Serum Spray","affiliate_link":"https://s.shopee.co.id/BR1WhUAp3"},
-    {"id":14,"category":"skincare","sub":"moisturizer","short_name":"SKINTIFIC 5X Ceramide Moisturizer Gel","affiliate_link":"https://s.shopee.co.id/7KuC3w69jQ"},
-    {"id":15,"category":"skincare","sub":"sunscreen","short_name":"SKINTIFIC UV Shield SPF50+ Sunscreen","affiliate_link":"https://s.shopee.co.id/6AiEfrADd3"},
-    {"id":16,"category":"skincare","sub":"cleansing_oil","short_name":"Sea Makeup Cleansing Oil 120ml","affiliate_link":"https://s.shopee.co.id/2g8MX75oAf"},
-    {"id":17,"category":"skincare","sub":"cleansing_balm","short_name":"Sea Makeup Cleansing Balm","affiliate_link":"https://s.shopee.co.id/1gFpLI94d6"},
-    {"id":18,"category":"skincare","sub":"micellar","short_name":"Glad2Glow Micellar Water 300ml","affiliate_link":"https://s.shopee.co.id/AUrDrYjMw5"},
-    {"id":19,"category":"skincare","sub":"cleanser","short_name":"FACERINNA Salicylic Acid Cleanser","affiliate_link":"https://s.shopee.co.id/50WHJTZ2pP"},
-    {"id":20,"category":"skincare","sub":"micellar","short_name":"SKINTIFIC Brightening Cleansing Water","affiliate_link":"https://s.shopee.co.id/7VDcI5GfS7"},
-    {"id":21,"category":"skincare","sub":"micellar","short_name":"Glad2Glow Micellar Water LIVE","affiliate_link":"https://s.shopee.co.id/1108Y9IwQK"},
-    {"id":22,"category":"skincare","sub":"cleansing_balm","short_name":"Skintific Zero Oil Cleansing Balm","affiliate_link":"https://s.shopee.co.id/3qKJvNCUiu"},
-    {"id":23,"category":"skincare","sub":"skin_tint","short_name":"SKINTIFIC Blurring Skin Tint","affiliate_link":"https://s.shopee.co.id/50WHJeQgNw"},
-    {"id":24,"category":"set_bundle","sub":"set","short_name":"SKINTIFIC 6PCS Skincare Set","affiliate_link":"https://s.shopee.co.id/AKXndJ2Dij"},
-    {"id":25,"category":"set_bundle","sub":"set","short_name":"SKINTIFIC Anti-Acne Green Set","affiliate_link":"https://s.shopee.co.id/809sr59YXM"},
-    {"id":26,"category":"set_bundle","sub":"set","short_name":"SKINTIFIC Brightening 5-in-1 Set","affiliate_link":"https://s.shopee.co.id/30lCtvRe4P"},
-    {"id":27,"category":"set_bundle","sub":"set","short_name":"SKINTIFIC Cushion & Removal Kit","affiliate_link":"https://s.shopee.co.id/7AalrbPKnp"},
-    {"id":28,"category":"set_bundle","sub":"set","short_name":"SKINTIFIC 2-IN-1 Cleanser Set","affiliate_link":"https://s.shopee.co.id/50WHJWth4s"},
-    {"id":29,"category":"set_bundle","sub":"set","short_name":"SKINTIFIC 2pcs Barrier Basic Set","affiliate_link":"https://s.shopee.co.id/60Opxk9ogQ"},
-    {"id":30,"category":"set_bundle","sub":"set","short_name":"ELFORMULA 5in1 Complete Bundle","affiliate_link":"https://s.shopee.co.id/3LO4n4P2NO"},
-    {"id":31,"category":"makeup","sub":"liptint","short_name":"OMG Mattelast Lip Cream","affiliate_link":"https://s.shopee.co.id/1BJYeClW11"},
-    {"id":32,"category":"makeup","sub":"liptint","short_name":"Maybelline Superstay Matte Ink","affiliate_link":"https://s.shopee.co.id/40dk1TYlm5"},
-    {"id":33,"category":"makeup","sub":"liptint","short_name":"Madame Gie Lip Comfort Matte","affiliate_link":"https://s.shopee.co.id/70HLb2nlyH"},
-    {"id":34,"category":"makeup","sub":"cushion","short_name":"SKINTIFIC Perfect Stay Cushion SPF50","affiliate_link":"https://s.shopee.co.id/qgiJk1h3k"},
-    {"id":35,"category":"makeup","sub":"set","short_name":"SKINTIFIC 2PCS Glow Makeup Set","affiliate_link":"https://s.shopee.co.id/5L97g9ZVCt"},
-    {"id":36,"category":"makeup","sub":"cushion","short_name":"SKINTIFIC Cover All Perfect Cushion","affiliate_link":"https://s.shopee.co.id/BR1WnwPVb"},
-    {"id":37,"category":"makeup","sub":"powder","short_name":"AZZURA Loose Powder","affiliate_link":"https://s.shopee.co.id/9zuxGmalK6"},
-    {"id":38,"category":"makeup","sub":"powder","short_name":"SKINTIFIC Ultra Cover Powder","affiliate_link":"https://s.shopee.co.id/2BC5wPXG52"},
-    {"id":39,"category":"makeup","sub":"powder","short_name":"WARDAH Loose Powder Matte SPF20","affiliate_link":"https://s.shopee.co.id/AKXnfRBwH7"},
-    {"id":40,"category":"makeup","sub":"eyebrow","short_name":"SVMY Eyebrow Cream Waterproof","affiliate_link":"https://s.shopee.co.id/7VDcIHu5my"},
-    {"id":41,"category":"makeup","sub":"eyebrow","short_name":"FOCALLURE Eyebrow Cream Gel","affiliate_link":"https://s.shopee.co.id/5VSXucrg5s"},
-    {"id":42,"category":"body_care","sub":"body_lotion","short_name":"WHITE INC Alpha Glow Body Lotion 400ml","affiliate_link":"https://s.shopee.co.id/40dk1RxE4V"},
-    {"id":43,"category":"body_care","sub":"body_lotion","short_name":"Vaseline Healthy Bright UV Lotion","affiliate_link":"https://s.shopee.co.id/6pxvOhJnYf"},
-    {"id":44,"category":"body_care","sub":"body_wash","short_name":"Lifebuoy Mild Care 800ml x4","affiliate_link":"https://s.shopee.co.id/5q5OCvMbmU"},
-    {"id":45,"category":"body_care","sub":"body_wash","short_name":"Giv White Mulberry 800ml","affiliate_link":"https://s.shopee.co.id/9KfGNMw1aT"},
-    {"id":46,"category":"body_care","sub":"body_wash","short_name":"Lifebuoy Antiseptik Total 10","affiliate_link":"https://s.shopee.co.id/3qKJpH1dnk"},
-    {"id":47,"category":"body_care","sub":"body_wash","short_name":"Lifebuoy Lemon Fresh 800ml x4","affiliate_link":"https://s.shopee.co.id/7AalnPz8NA"},
-    {"id":48,"category":"parfum","sub":"women","short_name":"Inspired Scarlet EDP 30ml","affiliate_link":"https://s.shopee.co.id/9zuxAZWaNp"},
-    {"id":49,"category":"parfum","sub":"unisex","short_name":"KYZA X Finesy Premium 30ml","affiliate_link":"https://s.shopee.co.id/8V69Nt549a"},
-    {"id":50,"category":"parfum","sub":"unisex","short_name":"Eskulin EDP 30ml","affiliate_link":"https://s.shopee.co.id/902PyouN6M"},
-    {"id":51,"category":"parfum","sub":"women","short_name":"Parfume Baccarat Wanita 35ml","affiliate_link":"https://s.shopee.co.id/7pqSajbXgg"}
+    {
+      "id": 1,
+      "category": "skincare",
+      "sub": "cleanser",
+      "short_name": "WARDAH Crystal Secret Foaming Cleanser",
+      "affiliate_link": "https://s.shopee.co.id/5VSXo1KuBB"
+    },
+    {
+      "id": 2,
+      "category": "skincare",
+      "sub": "sunscreen",
+      "short_name": "Emina Sun Battle SPF 35 PA+++",
+      "affiliate_link": "https://s.shopee.co.id/5AphPZvjRw"
+    },
+    {
+      "id": 3,
+      "category": "skincare",
+      "sub": "cleanser",
+      "short_name": "Kahf Oil and Acne Care Face Wash",
+      "affiliate_link": "https://s.shopee.co.id/4Va0cNkkCc"
+    },
+    {
+      "id": 4,
+      "category": "skincare",
+      "sub": "mask",
+      "short_name": "Fav Beauty Yogurt Peel Off Mask 50gr",
+      "affiliate_link": "https://s.shopee.co.id/6L1enn78Vh"
+    },
+    {
+      "id": 5,
+      "category": "skincare",
+      "sub": "moisturizer",
+      "short_name": "Minimalist 5% Marula Moisturizer",
+      "affiliate_link": "https://s.shopee.co.id/AUrExpTYZT"
+    },
+    {
+      "id": 6,
+      "category": "skincare",
+      "sub": "moisturizer",
+      "short_name": "ELFORMULA CeraHydro Barrier Repair Gel",
+      "affiliate_link": "https://s.shopee.co.id/2BC72aCeSy"
+    },
+    {
+      "id": 7,
+      "category": "skincare",
+      "sub": "moisturizer",
+      "short_name": "Facetology Panthenol Barrier Boost",
+      "affiliate_link": "https://s.shopee.co.id/1gFqRjkHU1"
+    },
+    {
+      "id": 8,
+      "category": "skincare",
+      "sub": "cushion",
+      "short_name": "SKINTIFIC Serum Matte Cushion SPF50",
+      "affiliate_link": "https://s.shopee.co.id/50WHDM3hEC"
+    },
+    {
+      "id": 9,
+      "category": "skincare",
+      "sub": "sunscreen",
+      "short_name": "SKINTIFIC Outdoor Sunscreen Spray SPF50+",
+      "affiliate_link": "https://s.shopee.co.id/7pqSefJCmx"
+    },
+    {
+      "id": 10,
+      "category": "skincare",
+      "sub": "eye_cream",
+      "short_name": "SKINTIFIC Lifting Eye Cream 20ml",
+      "affiliate_link": "https://s.shopee.co.id/3VhTUiUtkr"
+    },
+    {
+      "id": 11,
+      "category": "skincare",
+      "sub": "set",
+      "short_name": "SKINTIFIC UV Protect & Tone Up Set",
+      "affiliate_link": "https://s.shopee.co.id/20sfhyZnBP"
+    },
+    {
+      "id": 12,
+      "category": "skincare",
+      "sub": "set",
+      "short_name": "SKINTIFIC Outdoor Ready Set",
+      "affiliate_link": "https://s.shopee.co.id/6VL54JSryQ"
+    },
+    {
+      "id": 13,
+      "category": "skincare",
+      "sub": "serum",
+      "short_name": "SKINTIFIC PDRN Radiance Serum Spray",
+      "affiliate_link": "https://s.shopee.co.id/BR1WhUAp3"
+    },
+    {
+      "id": 14,
+      "category": "skincare",
+      "sub": "moisturizer",
+      "short_name": "SKINTIFIC 5X Ceramide Moisturizer Gel",
+      "affiliate_link": "https://s.shopee.co.id/7KuC3w69jQ"
+    },
+    {
+      "id": 15,
+      "category": "skincare",
+      "sub": "sunscreen",
+      "short_name": "SKINTIFIC UV Shield SPF50+ Sunscreen",
+      "affiliate_link": "https://s.shopee.co.id/6AiEfrADd3"
+    },
+    {
+      "id": 16,
+      "category": "skincare",
+      "sub": "cleansing_oil",
+      "short_name": "Sea Makeup Cleansing Oil 120ml",
+      "affiliate_link": "https://s.shopee.co.id/2g8MX75oAf"
+    },
+    {
+      "id": 17,
+      "category": "skincare",
+      "sub": "cleansing_balm",
+      "short_name": "Sea Makeup Cleansing Balm",
+      "affiliate_link": "https://s.shopee.co.id/1gFpLI94d6"
+    },
+    {
+      "id": 18,
+      "category": "skincare",
+      "sub": "micellar",
+      "short_name": "Glad2Glow Micellar Water 300ml",
+      "affiliate_link": "https://s.shopee.co.id/AUrDrYjMw5"
+    },
+    {
+      "id": 19,
+      "category": "skincare",
+      "sub": "cleanser",
+      "short_name": "FACERINNA Salicylic Acid Cleanser",
+      "affiliate_link": "https://s.shopee.co.id/50WHJTZ2pP"
+    },
+    {
+      "id": 20,
+      "category": "skincare",
+      "sub": "micellar",
+      "short_name": "SKINTIFIC Brightening Cleansing Water",
+      "affiliate_link": "https://s.shopee.co.id/7VDcI5GfS7"
+    },
+    {
+      "id": 21,
+      "category": "skincare",
+      "sub": "micellar",
+      "short_name": "Glad2Glow Micellar Water LIVE",
+      "affiliate_link": "https://s.shopee.co.id/1108Y9IwQK"
+    },
+    {
+      "id": 22,
+      "category": "skincare",
+      "sub": "cleansing_balm",
+      "short_name": "Skintific Zero Oil Cleansing Balm",
+      "affiliate_link": "https://s.shopee.co.id/3qKJvNCUiu"
+    },
+    {
+      "id": 23,
+      "category": "skincare",
+      "sub": "skin_tint",
+      "short_name": "SKINTIFIC Blurring Skin Tint",
+      "affiliate_link": "https://s.shopee.co.id/50WHJeQgNw"
+    },
+    {
+      "id": 24,
+      "category": "set_bundle",
+      "sub": "set",
+      "short_name": "SKINTIFIC 6PCS Skincare Set",
+      "affiliate_link": "https://s.shopee.co.id/AKXndJ2Dij"
+    },
+    {
+      "id": 25,
+      "category": "set_bundle",
+      "sub": "set",
+      "short_name": "SKINTIFIC Anti-Acne Green Set",
+      "affiliate_link": "https://s.shopee.co.id/809sr59YXM"
+    },
+    {
+      "id": 26,
+      "category": "set_bundle",
+      "sub": "set",
+      "short_name": "SKINTIFIC Brightening 5-in-1 Set",
+      "affiliate_link": "https://s.shopee.co.id/30lCtvRe4P"
+    },
+    {
+      "id": 27,
+      "category": "set_bundle",
+      "sub": "set",
+      "short_name": "SKINTIFIC Cushion & Removal Kit",
+      "affiliate_link": "https://s.shopee.co.id/7AalrbPKnp"
+    },
+    {
+      "id": 28,
+      "category": "set_bundle",
+      "sub": "set",
+      "short_name": "SKINTIFIC 2-IN-1 Cleanser Set",
+      "affiliate_link": "https://s.shopee.co.id/50WHJWth4s"
+    },
+    {
+      "id": 29,
+      "category": "set_bundle",
+      "sub": "set",
+      "short_name": "SKINTIFIC 2pcs Barrier Basic Set",
+      "affiliate_link": "https://s.shopee.co.id/60Opxk9ogQ"
+    },
+    {
+      "id": 30,
+      "category": "set_bundle",
+      "sub": "set",
+      "short_name": "ELFORMULA 5in1 Complete Bundle",
+      "affiliate_link": "https://s.shopee.co.id/3LO4n4P2NO"
+    },
+    {
+      "id": 31,
+      "category": "makeup",
+      "sub": "liptint",
+      "short_name": "OMG Mattelast Lip Cream",
+      "affiliate_link": "https://s.shopee.co.id/1BJYeClW11"
+    },
+    {
+      "id": 32,
+      "category": "makeup",
+      "sub": "liptint",
+      "short_name": "Maybelline Superstay Matte Ink",
+      "affiliate_link": "https://s.shopee.co.id/40dk1TYlm5"
+    },
+    {
+      "id": 33,
+      "category": "makeup",
+      "sub": "liptint",
+      "short_name": "Madame Gie Lip Comfort Matte",
+      "affiliate_link": "https://s.shopee.co.id/70HLb2nlyH"
+    },
+    {
+      "id": 34,
+      "category": "makeup",
+      "sub": "cushion",
+      "short_name": "SKINTIFIC Perfect Stay Cushion SPF50",
+      "affiliate_link": "https://s.shopee.co.id/qgiJk1h3k"
+    },
+    {
+      "id": 35,
+      "category": "makeup",
+      "sub": "set",
+      "short_name": "SKINTIFIC 2PCS Glow Makeup Set",
+      "affiliate_link": "https://s.shopee.co.id/5L97g9ZVCt"
+    },
+    {
+      "id": 36,
+      "category": "makeup",
+      "sub": "cushion",
+      "short_name": "SKINTIFIC Cover All Perfect Cushion",
+      "affiliate_link": "https://s.shopee.co.id/BR1WnwPVb"
+    },
+    {
+      "id": 37,
+      "category": "makeup",
+      "sub": "powder",
+      "short_name": "AZZURA Loose Powder",
+      "affiliate_link": "https://s.shopee.co.id/9zuxGmalK6"
+    },
+    {
+      "id": 38,
+      "category": "makeup",
+      "sub": "powder",
+      "short_name": "SKINTIFIC Ultra Cover Powder",
+      "affiliate_link": "https://s.shopee.co.id/2BC5wPXG52"
+    },
+    {
+      "id": 39,
+      "category": "makeup",
+      "sub": "powder",
+      "short_name": "WARDAH Loose Powder Matte SPF20",
+      "affiliate_link": "https://s.shopee.co.id/AKXnfRBwH7"
+    },
+    {
+      "id": 40,
+      "category": "makeup",
+      "sub": "eyebrow",
+      "short_name": "SVMY Eyebrow Cream Waterproof",
+      "affiliate_link": "https://s.shopee.co.id/7VDcIHu5my"
+    },
+    {
+      "id": 41,
+      "category": "makeup",
+      "sub": "eyebrow",
+      "short_name": "FOCALLURE Eyebrow Cream Gel",
+      "affiliate_link": "https://s.shopee.co.id/5VSXucrg5s"
+    },
+    {
+      "id": 42,
+      "category": "body_care",
+      "sub": "body_lotion",
+      "short_name": "WHITE INC Alpha Glow Body Lotion 400ml",
+      "affiliate_link": "https://s.shopee.co.id/40dk1RxE4V"
+    },
+    {
+      "id": 43,
+      "category": "body_care",
+      "sub": "body_lotion",
+      "short_name": "Vaseline Healthy Bright UV Lotion",
+      "affiliate_link": "https://s.shopee.co.id/6pxvOhJnYf"
+    },
+    {
+      "id": 44,
+      "category": "body_care",
+      "sub": "body_wash",
+      "short_name": "Lifebuoy Mild Care 800ml x4",
+      "affiliate_link": "https://s.shopee.co.id/5q5OCvMbmU"
+    },
+    {
+      "id": 45,
+      "category": "body_care",
+      "sub": "body_wash",
+      "short_name": "Giv White Mulberry 800ml",
+      "affiliate_link": "https://s.shopee.co.id/9KfGNMw1aT"
+    },
+    {
+      "id": 46,
+      "category": "body_care",
+      "sub": "body_wash",
+      "short_name": "Lifebuoy Antiseptik Total 10",
+      "affiliate_link": "https://s.shopee.co.id/3qKJpH1dnk"
+    },
+    {
+      "id": 47,
+      "category": "body_care",
+      "sub": "body_wash",
+      "short_name": "Lifebuoy Lemon Fresh 800ml x4",
+      "affiliate_link": "https://s.shopee.co.id/7AalnPz8NA"
+    },
+    {
+      "id": 48,
+      "category": "parfum",
+      "sub": "women",
+      "short_name": "Inspired Scarlet EDP 30ml",
+      "affiliate_link": "https://s.shopee.co.id/9zuxAZWaNp"
+    },
+    {
+      "id": 49,
+      "category": "parfum",
+      "sub": "unisex",
+      "short_name": "KYZA X Finesy Premium 30ml",
+      "affiliate_link": "https://s.shopee.co.id/8V69Nt549a"
+    },
+    {
+      "id": 50,
+      "category": "parfum",
+      "sub": "unisex",
+      "short_name": "Eskulin EDP 30ml",
+      "affiliate_link": "https://s.shopee.co.id/902PyouN6M"
+    },
+    {
+      "id": 51,
+      "category": "parfum",
+      "sub": "women",
+      "short_name": "Parfume Baccarat Wanita 35ml",
+      "affiliate_link": "https://s.shopee.co.id/7pqSajbXgg"
+    },
+    {
+      "id": 52,
+      "category": "skincare",
+      "sub": "mask",
+      "short_name": "BIOAQUA Natural Skin Care Mask Sheet",
+      "affiliate_link": "https://s.shopee.co.id/4LGaWcALhv",
+      "price": 2699
+    },
+    {
+      "id": 53,
+      "category": "skincare",
+      "sub": "mask",
+      "short_name": "Madame Gie Bundle 30pcs Sheet Mask",
+      "affiliate_link": "https://s.shopee.co.id/8pizswa8n4",
+      "price": 44999
+    },
+    {
+      "id": 54,
+      "category": "skincare",
+      "sub": "mask",
+      "short_name": "SKINTIFIC Niacinamide Daily Mask 30sheets",
+      "affiliate_link": "https://s.shopee.co.id/2VowLJbuwi",
+      "price": 135000
+    },
+    {
+      "id": 55,
+      "category": "skincare",
+      "sub": "mask",
+      "short_name": "SOME BY MI Yuja Niacin Daily Mask 30sheets",
+      "affiliate_link": "https://s.shopee.co.id/20sfkRRCIb",
+      "price": 168900
+    },
+    {
+      "id": 56,
+      "category": "skincare",
+      "sub": "mask",
+      "short_name": "Some By Mi Real Care Mask 1pcs",
+      "affiliate_link": "https://s.shopee.co.id/9pbX4qv7HE",
+      "price": 9700
+    },
+    {
+      "id": 57,
+      "category": "skincare",
+      "sub": "mask",
+      "short_name": "SOME BY MI Real Care Sheet Mask 20gr",
+      "affiliate_link": "https://s.shopee.co.id/20sfkThv4p",
+      "price": 8700
+    }
   ]
 }
