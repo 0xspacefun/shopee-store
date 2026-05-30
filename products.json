@@ -440,6 +440,42 @@
       "short_name": "FOCALLURE Eyebrow Cream Gel",
       "price": 39900,
       "affiliate_link": "https://s.shopee.co.id/5VSXucrg5s"
+    },
+    {
+      "id": 50,
+      "category": "skincare",
+      "sub": "serum",
+      "name": "WARDAH Serum Spray Instant Glowing First Spray Serum 105ml",
+      "short_name": "WARDAH Serum Spray Glowing 105ml",
+      "price": 108000,
+      "affiliate_link": "https://s.shopee.co.id/8KmjHqOtAW"
+    },
+    {
+      "id": 51,
+      "category": "skincare",
+      "sub": "eye_cream",
+      "name": "ST.TREE Multi Peptides Anti-Wrinkle Eye Cream 15gr",
+      "short_name": "ST.TREE Peptide Eye Cream 15gr",
+      "price": 31534,
+      "affiliate_link": "https://s.shopee.co.id/AAENTEExhX"
+    },
+    {
+      "id": 52,
+      "category": "skincare",
+      "sub": "eye_cream",
+      "name": "FFY OATstanding Retinal 2in1 Eye & Face Cream 20ml",
+      "short_name": "FFY OATstanding Retinal Eye Cream",
+      "price": 159000,
+      "affiliate_link": "https://s.shopee.co.id/7pqSgx3qee"
+    },
+    {
+      "id": 53,
+      "category": "skincare",
+      "sub": "eye_cream",
+      "name": "Beauty of Joseon Revive Eye Serum Ginseng + Retinal 30ml",
+      "short_name": "Beauty of Joseon Eye Serum 30ml",
+      "price": 174200,
+      "affiliate_link": "https://s.shopee.co.id/3B4d8Nztn9"
     }
   ]
 }

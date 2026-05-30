@@ -1,8 +1,8 @@
 {
-  "fetched_at": "2026-05-30T08:40:27Z",
-  "total": 49,
-  "with_meta": 49,
-  "with_image": 49,
+  "fetched_at": "2026-05-30T08:47:34Z",
+  "total": 53,
+  "with_meta": 53,
+  "with_image": 53,
   "products": [
     {
       "id": 1,
@@ -934,6 +934,82 @@
       "image_local": "img/products/49_eyebrow.jpg",
       "shop_id": 79745198,
       "item_id": 1343260970
+    },
+    {
+      "id": 50,
+      "category": "skincare",
+      "sub": "serum",
+      "name": "WARDAH Serum Spray Instant Glowing First Spray Serum 105ml",
+      "short_name": "WARDAH Serum Spray Glowing 105ml",
+      "price": 108000,
+      "affiliate_link": "https://s.shopee.co.id/8KmjHqOtAW",
+      "scraped": {
+        "image_url": "https://down-id.img.susercontent.com/file/id-11134207-822wt-momsl5k21yq41f",
+        "rating": 4.9,
+        "reviews": 37594,
+        "comments": 18797,
+        "liked": 26668
+      },
+      "image_local": "img/products/50_serum.jpg",
+      "shop_id": 59763733,
+      "item_id": 26342199389
+    },
+    {
+      "id": 51,
+      "category": "skincare",
+      "sub": "eye_cream",
+      "name": "ST.TREE Multi Peptides Anti-Wrinkle Eye Cream 15gr",
+      "short_name": "ST.TREE Peptide Eye Cream 15gr",
+      "price": 31534,
+      "affiliate_link": "https://s.shopee.co.id/AAENTEExhX",
+      "scraped": {
+        "image_url": "https://down-id.img.susercontent.com/file/id-11134207-8224r-mhvqyf9i0pog6d",
+        "rating": 4.8,
+        "reviews": 74904,
+        "comments": 36158,
+        "liked": 36284
+      },
+      "image_local": "img/products/51_eye_cream.jpg",
+      "shop_id": 1052905325,
+      "item_id": 20785280323
+    },
+    {
+      "id": 52,
+      "category": "skincare",
+      "sub": "eye_cream",
+      "name": "FFY OATstanding Retinal 2in1 Eye & Face Cream 20ml",
+      "short_name": "FFY OATstanding Retinal Eye Cream",
+      "price": 159000,
+      "affiliate_link": "https://s.shopee.co.id/7pqSgx3qee",
+      "scraped": {
+        "image_url": "https://down-id.img.susercontent.com/file/id-11134207-81ztc-mf3ie01r41l598",
+        "rating": 4.9,
+        "reviews": 60222,
+        "comments": 28992,
+        "liked": 56517
+      },
+      "image_local": "img/products/52_eye_cream.jpg",
+      "shop_id": 856580029,
+      "item_id": 23487862662
+    },
+    {
+      "id": 53,
+      "category": "skincare",
+      "sub": "eye_cream",
+      "name": "Beauty of Joseon Revive Eye Serum Ginseng + Retinal 30ml",
+      "short_name": "Beauty of Joseon Eye Serum 30ml",
+      "price": 174200,
+      "affiliate_link": "https://s.shopee.co.id/3B4d8Nztn9",
+      "scraped": {
+        "image_url": "https://down-id.img.susercontent.com/file/id-11134207-82250-mjtme8a86gat52",
+        "rating": 4.9,
+        "reviews": 23198,
+        "comments": 11293,
+        "liked": 37534
+      },
+      "image_local": "img/products/53_eye_cream.jpg",
+      "shop_id": 931785217,
+      "item_id": 22716762362
     }
   ]
 }
