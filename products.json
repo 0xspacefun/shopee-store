@@ -476,6 +476,24 @@
       "short_name": "Beauty of Joseon Eye Serum 30ml",
       "price": 174200,
       "affiliate_link": "https://s.shopee.co.id/3B4d8Nztn9"
+    },
+    {
+      "id": 54,
+      "category": "skincare",
+      "sub": "set",
+      "name": "SKINTIFIC 2pcs Barrier Set Cleanser + Moisturizer Gel",
+      "short_name": "SKINTIFIC 2pcs Barrier Basic Set",
+      "price": 96000,
+      "affiliate_link": "https://s.shopee.co.id/60Opxk9ogQ"
+    },
+    {
+      "id": 55,
+      "category": "skincare",
+      "sub": "set",
+      "name": "ELFORMULA Bundle 5in1 Complete Basic Skincare",
+      "short_name": "ELFORMULA 5in1 Complete Skincare Bundle",
+      "price": 442000,
+      "affiliate_link": "https://s.shopee.co.id/3LO4n4P2NO"
     }
   ]
 }

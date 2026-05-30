@@ -1,8 +1,8 @@
 {
   "fetched_at": "2026-05-30T08:47:34Z",
-  "total": 53,
-  "with_meta": 53,
-  "with_image": 53,
+  "total": 55,
+  "with_meta": 55,
+  "with_image": 55,
   "products": [
     {
       "id": 1,
@@ -1010,6 +1010,44 @@
       "image_local": "img/products/53_eye_cream.jpg",
       "shop_id": 931785217,
       "item_id": 22716762362
+    },
+    {
+      "id": 54,
+      "category": "skincare",
+      "sub": "set",
+      "name": "SKINTIFIC 2pcs Barrier Set Cleanser + Moisturizer Gel",
+      "short_name": "SKINTIFIC 2pcs Barrier Basic Set",
+      "price": 96000,
+      "affiliate_link": "https://s.shopee.co.id/60Opxk9ogQ",
+      "scraped": {
+        "image_url": "https://down-id.img.susercontent.com/file/id-11134207-81ztg-mdyfxe9p67eu5c",
+        "rating": 4.9,
+        "reviews": 75034,
+        "comments": 36468,
+        "liked": 15798
+      },
+      "image_local": "img/products/54_set.jpg",
+      "shop_id": 380266264,
+      "item_id": 13110328114
+    },
+    {
+      "id": 55,
+      "category": "skincare",
+      "sub": "set",
+      "name": "ELFORMULA Bundle 5in1 Complete Basic Skincare",
+      "short_name": "ELFORMULA 5in1 Complete Skincare Bundle",
+      "price": 442000,
+      "affiliate_link": "https://s.shopee.co.id/3LO4n4P2NO",
+      "scraped": {
+        "image_url": "https://down-id.img.susercontent.com/file/id-11134207-822wp-mnvkivd7qgaw03",
+        "rating": 4.9,
+        "reviews": 928,
+        "comments": 464,
+        "liked": 939
+      },
+      "image_local": "img/products/55_set.jpg",
+      "shop_id": 600719961,
+      "item_id": 43708609546
     }
   ]
 }
