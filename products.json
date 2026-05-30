@@ -161,6 +161,33 @@
       "short_name": "Parfume Baccarat Wanita 35ml",
       "price": 9339,
       "affiliate_link": "https://s.shopee.co.id/7pqSajbXgg"
+    },
+    {
+      "id": 19,
+      "category": "skincare",
+      "sub": "moisturizer",
+      "name": "Minimalist 5% Marula Moisturizer with Hyaluronic Acid & Vitamin E 50G",
+      "short_name": "Minimalist 5% Marula Moisturizer",
+      "price": 90000,
+      "affiliate_link": "https://s.shopee.co.id/AUrExpTYZT"
+    },
+    {
+      "id": 20,
+      "category": "skincare",
+      "sub": "moisturizer",
+      "name": "ELFORMULA Intensive CeraHydro Barrier Repair Moisture Gel",
+      "short_name": "ELFORMULA CeraHydro Barrier Repair Gel",
+      "price": 128000,
+      "affiliate_link": "https://s.shopee.co.id/2BC72aCeSy"
+    },
+    {
+      "id": 21,
+      "category": "skincare",
+      "sub": "moisturizer",
+      "name": "Facetology Panthenol Barrier Boost Moisturizer 5% & 10%",
+      "short_name": "Facetology Panthenol Barrier Boost Moisturizer",
+      "price": 36900,
+      "affiliate_link": "https://s.shopee.co.id/1gFqRjkHU1"
     }
   ]
 }
