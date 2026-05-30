@@ -1,8 +1,4 @@
 {
-  "fetched_at": "2026-05-30T08:47:34Z",
-  "total": 55,
-  "with_meta": 55,
-  "with_image": 55,
   "products": [
     {
       "id": 1,
@@ -82,272 +78,6 @@
     },
     {
       "id": 5,
-      "category": "makeup",
-      "sub": "liptint",
-      "name": "OMG OH MY GLAM Mattelast Lip Cream 2.9 g",
-      "short_name": "OMG Mattelast Lip Cream",
-      "price": 24700,
-      "affiliate_link": "https://s.shopee.co.id/1BJYeClW11",
-      "scraped": {
-        "image_url": "https://down-id.img.susercontent.com/file/id-11134207-7rasa-m0saztefgxa637",
-        "rating": 4.9,
-        "reviews": 212432,
-        "comments": 106217,
-        "liked": 48981
-      },
-      "image_local": "img/products/05_liptint.jpg",
-      "shop_id": 1346168602,
-      "item_id": 29911708676
-    },
-    {
-      "id": 6,
-      "category": "makeup",
-      "sub": "liptint",
-      "name": "MAYBELLINE Superstay Matte Ink Liquid Lipstick",
-      "short_name": "Maybelline Superstay Matte Ink",
-      "price": 87000,
-      "affiliate_link": "https://s.shopee.co.id/40dk1TYlm5",
-      "scraped": {
-        "image_url": "https://down-id.img.susercontent.com/file/id-11134207-822wt-monf6qeneo0262",
-        "rating": 4.9,
-        "reviews": 5575172,
-        "comments": 2732846,
-        "liked": 608006
-      },
-      "image_local": "img/products/06_liptint.jpg",
-      "shop_id": 62582411,
-      "item_id": 1835009883
-    },
-    {
-      "id": 7,
-      "category": "makeup",
-      "sub": "cushion",
-      "name": "SKINTIFIC Perfect Stay Serum Matte Cushion SPF 50 PA++++",
-      "short_name": "SKINTIFIC Serum Matte Cushion SPF50",
-      "price": 162000,
-      "affiliate_link": "https://s.shopee.co.id/50WHDM3hEC",
-      "scraped": {
-        "image_url": "https://down-id.img.susercontent.com/file/id-11134207-822wr-moqbl73phu6l81",
-        "rating": 5.0,
-        "reviews": 3890,
-        "comments": 1946,
-        "liked": 3350
-      },
-      "image_local": "img/products/07_cushion.jpg",
-      "shop_id": 380266264,
-      "item_id": 44230683977
-    },
-    {
-      "id": 8,
-      "category": "makeup",
-      "sub": "liptint",
-      "name": "Madame Gie Always On Lip Comfort Matte",
-      "short_name": "Madame Gie Lip Comfort Matte",
-      "price": 23500,
-      "affiliate_link": "https://s.shopee.co.id/70HLb2nlyH",
-      "scraped": {
-        "image_url": "https://down-id.img.susercontent.com/file/id-11134207-822wn-momswj899wxte9",
-        "rating": 4.9,
-        "reviews": 19562,
-        "comments": 9781,
-        "liked": 5682
-      },
-      "image_local": "img/products/08_liptint.jpg",
-      "shop_id": 94309880,
-      "item_id": 49508792101
-    },
-    {
-      "id": 9,
-      "category": "body_care",
-      "sub": "body_lotion",
-      "name": "WHITE INC Alpha Glow White Body Lotion 400ml",
-      "short_name": "WHITE INC Alpha Glow Body Lotion 400ml",
-      "price": 49000,
-      "affiliate_link": "https://s.shopee.co.id/40dk1RxE4V",
-      "scraped": {
-        "image_url": "https://down-id.img.susercontent.com/file/id-11134207-82252-ml3945lba9z570",
-        "rating": 4.9,
-        "reviews": 508000,
-        "comments": 253999,
-        "liked": 113383
-      },
-      "image_local": "img/products/09_body_lotion.jpg",
-      "shop_id": 790166426,
-      "item_id": 28579090050
-    },
-    {
-      "id": 10,
-      "category": "body_care",
-      "sub": "body_lotion",
-      "name": "Vaseline Healthy Bright UV Brightening Lotion 400ml Triplepack",
-      "short_name": "Vaseline Healthy Bright UV Lotion",
-      "price": 148900,
-      "affiliate_link": "https://s.shopee.co.id/6pxvOhJnYf",
-      "scraped": {
-        "image_url": "https://down-id.img.susercontent.com/file/id-11134207-7qul7-ljnn2uw0juhu9f",
-        "rating": 4.8,
-        "reviews": 216246,
-        "comments": 106014,
-        "liked": 34855
-      },
-      "image_local": "img/products/10_body_lotion.jpg",
-      "shop_id": 932470899,
-      "item_id": 22123154572
-    },
-    {
-      "id": 11,
-      "category": "body_care",
-      "sub": "body_wash",
-      "name": "Lifebuoy Sabun Mandi Cair Mild Care 800ml x 4",
-      "short_name": "Lifebuoy Mild Care 800ml x4",
-      "price": 125400,
-      "affiliate_link": "https://s.shopee.co.id/5q5OCvMbmU",
-      "scraped": {
-        "image_url": "https://down-id.img.susercontent.com/file/id-11134201-822wj-mnjnzqdztxxec8",
-        "rating": 4.9,
-        "reviews": 26918,
-        "comments": 13459,
-        "liked": 2919
-      },
-      "image_local": "img/products/11_body_wash.jpg",
-      "shop_id": 1517647103,
-      "item_id": 42173100378
-    },
-    {
-      "id": 12,
-      "category": "body_care",
-      "sub": "body_wash",
-      "name": "Giv White Sabun Mandi Cair Mulberry Pouch 800 ml",
-      "short_name": "Giv White Mulberry 800ml",
-      "price": 27000,
-      "affiliate_link": "https://s.shopee.co.id/9KfGNMw1aT",
-      "scraped": {
-        "image_url": "https://down-id.img.susercontent.com/file/sg-11134301-7ra17-mbeyvrws4v7n8f",
-        "rating": 4.9,
-        "reviews": 447532,
-        "comments": 217885,
-        "liked": 48853
-      },
-      "image_local": "img/products/12_body_wash.jpg",
-      "shop_id": 64474495,
-      "item_id": 6989149375
-    },
-    {
-      "id": 13,
-      "category": "body_care",
-      "sub": "body_wash",
-      "name": "Lifebuoy Sabun Cair Antiseptik Total 10 800ml x 4",
-      "short_name": "Lifebuoy Antiseptik Total 10",
-      "price": 125400,
-      "affiliate_link": "https://s.shopee.co.id/3qKJpH1dnk",
-      "scraped": {
-        "image_url": "https://down-id.img.susercontent.com/file/id-11134201-822wg-mnjnzr61h0xw21",
-        "rating": 4.9,
-        "reviews": 29100,
-        "comments": 14550,
-        "liked": 3037
-      },
-      "image_local": "img/products/13_body_wash.jpg",
-      "shop_id": 1517647103,
-      "item_id": 44423089445
-    },
-    {
-      "id": 14,
-      "category": "body_care",
-      "sub": "body_wash",
-      "name": "Lifebuoy Sabun Mandi Cair Lemon Fresh 800 mL x4",
-      "short_name": "Lifebuoy Lemon Fresh 800ml x4",
-      "price": 125300,
-      "affiliate_link": "https://s.shopee.co.id/7AalnPz8NA",
-      "scraped": {
-        "image_url": "https://down-id.img.susercontent.com/file/id-11134201-822wg-mnjnzpn0mgao48",
-        "rating": 4.9,
-        "reviews": 35686,
-        "comments": 17843,
-        "liked": 3798
-      },
-      "image_local": "img/products/14_body_wash.jpg",
-      "shop_id": 1517647103,
-      "item_id": 40023123807
-    },
-    {
-      "id": 15,
-      "category": "parfum",
-      "sub": "women",
-      "name": "Inspired Scarlet Extrait De Parfum 30 ml",
-      "short_name": "Inspired Scarlet EDP 30ml",
-      "price": 11000,
-      "affiliate_link": "https://s.shopee.co.id/9zuxAZWaNp",
-      "scraped": {
-        "image_url": "https://down-id.img.susercontent.com/file/id-11134207-822wr-mmqv4j8fzim8b6",
-        "rating": 4.3,
-        "reviews": 4320,
-        "comments": 2161,
-        "liked": 1495
-      },
-      "image_local": "img/products/15_women.jpg",
-      "shop_id": 1560241666,
-      "item_id": 51458316235
-    },
-    {
-      "id": 16,
-      "category": "parfum",
-      "sub": "unisex",
-      "name": "KYZA X Finesy Parfume Premium 30ml",
-      "short_name": "KYZA X Finesy Premium 30ml",
-      "price": 50000,
-      "affiliate_link": "https://s.shopee.co.id/8V69Nt549a",
-      "scraped": {
-        "image_url": "https://down-id.img.susercontent.com/file/id-11134207-822wk-mnmnvwexq0w195",
-        "rating": 4.9,
-        "reviews": 7602,
-        "comments": 3611,
-        "liked": 953
-      },
-      "image_local": "img/products/16_unisex.jpg",
-      "shop_id": 380573150,
-      "item_id": 24112011973
-    },
-    {
-      "id": 17,
-      "category": "parfum",
-      "sub": "unisex",
-      "name": "Eskulin Eau De Parfum 30ml EDP",
-      "short_name": "Eskulin EDP 30ml",
-      "price": 33500,
-      "affiliate_link": "https://s.shopee.co.id/902PyouN6M",
-      "scraped": {
-        "image_url": "https://down-id.img.susercontent.com/file/id-11134207-82252-mgol5daabkso46",
-        "rating": 4.9,
-        "reviews": 8596,
-        "comments": 4298,
-        "liked": 6408
-      },
-      "image_local": "img/products/17_unisex.jpg",
-      "shop_id": 1346168602,
-      "item_id": 51750038246
-    },
-    {
-      "id": 18,
-      "category": "parfum",
-      "sub": "women",
-      "name": "Parfume Baccarat Parfume Wanita 35ml",
-      "short_name": "Parfume Baccarat Wanita 35ml",
-      "price": 9339,
-      "affiliate_link": "https://s.shopee.co.id/7pqSajbXgg",
-      "scraped": {
-        "image_url": "https://down-id.img.susercontent.com/file/id-11134207-822wm-moii57kc1dsd8c",
-        "rating": 4.6,
-        "reviews": 7536,
-        "comments": 3768,
-        "liked": 691
-      },
-      "image_local": "img/products/18_women.jpg",
-      "shop_id": 1428678800,
-      "item_id": 41750026477
-    },
-    {
-      "id": 19,
       "category": "skincare",
       "sub": "moisturizer",
       "name": "Minimalist 5% Marula Moisturizer with Hyaluronic Acid & Vitamin E 50G",
@@ -366,7 +96,7 @@
       "item_id": 29102380559
     },
     {
-      "id": 20,
+      "id": 6,
       "category": "skincare",
       "sub": "moisturizer",
       "name": "ELFORMULA Intensive CeraHydro Barrier Repair Moisture Gel",
@@ -385,11 +115,11 @@
       "item_id": 18343862560
     },
     {
-      "id": 21,
+      "id": 7,
       "category": "skincare",
       "sub": "moisturizer",
       "name": "Facetology Panthenol Barrier Boost Moisturizer 5% & 10%",
-      "short_name": "Facetology Panthenol Barrier Boost Moisturizer",
+      "short_name": "Facetology Panthenol Barrier Boost",
       "price": 36900,
       "affiliate_link": "https://s.shopee.co.id/1gFqRjkHU1",
       "scraped": {
@@ -404,26 +134,26 @@
       "item_id": 40120679283
     },
     {
-      "id": 22,
-      "category": "makeup",
+      "id": 8,
+      "category": "skincare",
       "sub": "cushion",
-      "name": "SKINTIFIC Perfect Stay Serum Matte Cushion Foundation SPF 50 PA++++",
-      "short_name": "SKINTIFIC Perfect Stay Serum Matte Cushion SPF50",
+      "name": "SKINTIFIC Perfect Stay Serum Matte Cushion SPF 50 PA++++",
+      "short_name": "SKINTIFIC Serum Matte Cushion SPF50",
       "price": 162000,
-      "affiliate_link": "https://s.shopee.co.id/qgiJk1h3k",
+      "affiliate_link": "https://s.shopee.co.id/50WHDM3hEC",
       "scraped": {
         "image_url": "https://down-id.img.susercontent.com/file/id-11134207-822wr-moqbl73phu6l81",
         "rating": 5.0,
         "reviews": 3890,
-        "comments": 1948,
+        "comments": 1946,
         "liked": 3350
       },
-      "image_local": "img/products/22_cushion.jpg",
+      "image_local": "img/products/07_cushion.jpg",
       "shop_id": 380266264,
       "item_id": 44230683977
     },
     {
-      "id": 23,
+      "id": 9,
       "category": "skincare",
       "sub": "sunscreen",
       "name": "SKINTIFIC Outdoor Sunscreen Spray SPF 50+ PA++++ 250ml",
@@ -442,7 +172,7 @@
       "item_id": 23760330853
     },
     {
-      "id": 24,
+      "id": 10,
       "category": "skincare",
       "sub": "eye_cream",
       "name": "SKINTIFIC 360 Crystal Massager Lifting Eye Cream 20ml",
@@ -461,7 +191,7 @@
       "item_id": 13131518039
     },
     {
-      "id": 25,
+      "id": 11,
       "category": "skincare",
       "sub": "set",
       "name": "SKINTIFIC 2PCS UV Protect & Tone Up Set",
@@ -480,45 +210,7 @@
       "item_id": 57905148254
     },
     {
-      "id": 26,
-      "category": "skincare",
-      "sub": "set",
-      "name": "SKINTIFIC 6PCS Paket Skincare Set",
-      "short_name": "SKINTIFIC 6PCS Skincare Set",
-      "price": 462000,
-      "affiliate_link": "https://s.shopee.co.id/AKXndJ2Dij",
-      "scraped": {
-        "image_url": "https://down-id.img.susercontent.com/file/id-11134207-822wp-morzyscjwidq7a",
-        "rating": 4.9,
-        "reviews": 29604,
-        "comments": 14177,
-        "liked": 15041
-      },
-      "image_local": "img/products/26_set.jpg",
-      "shop_id": 380266264,
-      "item_id": 23082807163
-    },
-    {
-      "id": 27,
-      "category": "makeup",
-      "sub": "set",
-      "name": "SKINTIFIC 2PCS Glow Makeup Set",
-      "short_name": "SKINTIFIC 2PCS Glow Makeup Set",
-      "price": 73000,
-      "affiliate_link": "https://s.shopee.co.id/5L97g9ZVCt",
-      "scraped": {
-        "image_url": "https://down-id.img.susercontent.com/file/id-11134207-822ws-mogpebaq2xhn45",
-        "rating": 5.0,
-        "reviews": 64,
-        "comments": 32,
-        "liked": 51
-      },
-      "image_local": "img/products/27_set.jpg",
-      "shop_id": 380266264,
-      "item_id": 54260847818
-    },
-    {
-      "id": 28,
+      "id": 12,
       "category": "skincare",
       "sub": "set",
       "name": "SKINTIFIC OUTDOOR READY SET Instant Glow Serum Spray + Sunscreen Mist SPF 50+",
@@ -537,26 +229,7 @@
       "item_id": 42230775099
     },
     {
-      "id": 29,
-      "category": "skincare",
-      "sub": "set",
-      "name": "SKINTIFIC 3pcs Fresh Anti-acne Green Set",
-      "short_name": "SKINTIFIC Anti-Acne Green Set",
-      "price": 254000,
-      "affiliate_link": "https://s.shopee.co.id/809sr59YXM",
-      "scraped": {
-        "image_url": "https://down-id.img.susercontent.com/file/id-11134207-822wi-mn9mzmx1l9fm6b",
-        "rating": 5.0,
-        "reviews": 104,
-        "comments": 52,
-        "liked": 64
-      },
-      "image_local": "img/products/29_set.jpg",
-      "shop_id": 380266264,
-      "item_id": 55759138347
-    },
-    {
-      "id": 30,
+      "id": 13,
       "category": "skincare",
       "sub": "serum",
       "name": "SKINTIFIC PDRN Radiance Bright Serum Spray 100ml",
@@ -575,45 +248,7 @@
       "item_id": 50960767295
     },
     {
-      "id": 31,
-      "category": "skincare",
-      "sub": "set",
-      "name": "SKINTIFIC Brightening 5-in-1 Skincare Set",
-      "short_name": "SKINTIFIC Brightening 5-in-1 Set",
-      "price": 501000,
-      "affiliate_link": "https://s.shopee.co.id/30lCtvRe4P",
-      "scraped": {
-        "image_url": "https://down-id.img.susercontent.com/file/id-11134207-8224y-mjs65cxqls7439",
-        "rating": 4.9,
-        "reviews": 92,
-        "comments": 46,
-        "liked": 127
-      },
-      "image_local": "img/products/31_set.jpg",
-      "shop_id": 380266264,
-      "item_id": 52805078070
-    },
-    {
-      "id": 32,
-      "category": "makeup",
-      "sub": "cushion",
-      "name": "SKINTIFIC Perfect Cushion & Removal Kit 2PCS",
-      "short_name": "SKINTIFIC Cushion & Removal Kit",
-      "price": 113000,
-      "affiliate_link": "https://s.shopee.co.id/7AalrbPKnp",
-      "scraped": {
-        "image_url": "https://down-id.img.susercontent.com/file/sg-11134201-825a9-mey42pj7k6bn8d",
-        "rating": 5.0,
-        "reviews": 60,
-        "comments": 30,
-        "liked": 46
-      },
-      "image_local": "img/products/32_cushion.jpg",
-      "shop_id": 380266264,
-      "item_id": 28191952988
-    },
-    {
-      "id": 33,
+      "id": 14,
       "category": "skincare",
       "sub": "moisturizer",
       "name": "SKINTIFIC 5X Ceramide Barrier Moisturizer Gel 30g",
@@ -632,26 +267,7 @@
       "item_id": 47508567322
     },
     {
-      "id": 34,
-      "category": "makeup",
-      "sub": "cushion",
-      "name": "SKINTIFIC Cover All Perfect Cushion",
-      "short_name": "SKINTIFIC Cover All Perfect Cushion",
-      "price": 66934,
-      "affiliate_link": "https://s.shopee.co.id/BR1WnwPVb",
-      "scraped": {
-        "image_url": "https://down-id.img.susercontent.com/file/id-11134207-822wg-moq9inwwzqbw7a",
-        "rating": 4.9,
-        "reviews": 713832,
-        "comments": 344621,
-        "liked": 206975
-      },
-      "image_local": "img/products/34_cushion.jpg",
-      "shop_id": 380266264,
-      "item_id": 18080878678
-    },
-    {
-      "id": 35,
+      "id": 15,
       "category": "skincare",
       "sub": "sunscreen",
       "name": "SKINTIFIC UV Shield SPF50+ PA++++ Sunscreen",
@@ -670,8 +286,8 @@
       "item_id": 26082419257
     },
     {
-      "id": 36,
-      "category": "cleansing",
+      "id": 16,
+      "category": "skincare",
       "sub": "cleansing_oil",
       "name": "Sea Makeup Gentle & Deep Cleansing Oil 120ml",
       "short_name": "Sea Makeup Cleansing Oil 120ml",
@@ -689,8 +305,8 @@
       "item_id": 28284197414
     },
     {
-      "id": 37,
-      "category": "cleansing",
+      "id": 17,
+      "category": "skincare",
       "sub": "cleansing_balm",
       "name": "Sea Makeup Cleansing Balm Salicylic Acid BPOM",
       "short_name": "Sea Makeup Cleansing Balm",
@@ -708,8 +324,8 @@
       "item_id": 15329101596
     },
     {
-      "id": 38,
-      "category": "cleansing",
+      "id": 18,
+      "category": "skincare",
       "sub": "micellar",
       "name": "Glad2Glow Micellar Water 300ml Centella Salicylic Acid",
       "short_name": "Glad2Glow Micellar Water 300ml",
@@ -727,8 +343,8 @@
       "item_id": 25614268730
     },
     {
-      "id": 39,
-      "category": "cleansing",
+      "id": 19,
+      "category": "skincare",
       "sub": "cleanser",
       "name": "FACERINNA Salicylic Acid Acne Gel Cleanser 70ml/120ml",
       "short_name": "FACERINNA Salicylic Acid Cleanser",
@@ -746,11 +362,11 @@
       "item_id": 44352415182
     },
     {
-      "id": 40,
-      "category": "cleansing",
+      "id": 20,
+      "category": "skincare",
       "sub": "micellar",
       "name": "SKINTIFIC Brightening & 5X Barrier & Cleansing Oil Micellar Water",
-      "short_name": "SKINTIFIC Purifying Micellar Water",
+      "short_name": "SKINTIFIC Brightening Cleansing Water",
       "price": 73000,
       "affiliate_link": "https://s.shopee.co.id/7VDcI5GfS7",
       "scraped": {
@@ -765,8 +381,8 @@
       "item_id": 27419519466
     },
     {
-      "id": 41,
-      "category": "cleansing",
+      "id": 21,
+      "category": "skincare",
       "sub": "micellar",
       "name": "Glad2Glow Micellar Water 300ml (LIVE ONLY)",
       "short_name": "Glad2Glow Micellar Water LIVE",
@@ -784,8 +400,8 @@
       "item_id": 55358464620
     },
     {
-      "id": 42,
-      "category": "cleansing",
+      "id": 22,
+      "category": "skincare",
       "sub": "cleansing_balm",
       "name": "Skintific Zero Oil Cleansing Balm 100Gr",
       "short_name": "Skintific Zero Oil Cleansing Balm",
@@ -803,8 +419,103 @@
       "item_id": 26869419076
     },
     {
-      "id": 43,
-      "category": "cleansing",
+      "id": 23,
+      "category": "skincare",
+      "sub": "skin_tint",
+      "name": "SKINTIFIC Perfect Coverage Blurring Skin Tint",
+      "short_name": "SKINTIFIC Blurring Skin Tint",
+      "price": 93000,
+      "affiliate_link": "https://s.shopee.co.id/50WHJeQgNw",
+      "scraped": {
+        "image_url": "https://down-id.img.susercontent.com/file/id-11134207-822wm-moqb14tx1n2l39",
+        "rating": 4.9,
+        "reviews": 93136,
+        "comments": 46568,
+        "liked": 37283
+      },
+      "image_local": "img/products/47_skin_tint.jpg",
+      "shop_id": 380266264,
+      "item_id": 41854024819
+    },
+    {
+      "id": 24,
+      "category": "set_bundle",
+      "sub": "set",
+      "name": "SKINTIFIC 6PCS Paket Skincare Set",
+      "short_name": "SKINTIFIC 6PCS Skincare Set",
+      "price": 462000,
+      "affiliate_link": "https://s.shopee.co.id/AKXndJ2Dij",
+      "scraped": {
+        "image_url": "https://down-id.img.susercontent.com/file/id-11134207-822wp-morzyscjwidq7a",
+        "rating": 4.9,
+        "reviews": 29604,
+        "comments": 14177,
+        "liked": 15041
+      },
+      "image_local": "img/products/26_set.jpg",
+      "shop_id": 380266264,
+      "item_id": 23082807163
+    },
+    {
+      "id": 25,
+      "category": "set_bundle",
+      "sub": "set",
+      "name": "SKINTIFIC 3pcs Fresh Anti-acne Green Set",
+      "short_name": "SKINTIFIC Anti-Acne Green Set",
+      "price": 254000,
+      "affiliate_link": "https://s.shopee.co.id/809sr59YXM",
+      "scraped": {
+        "image_url": "https://down-id.img.susercontent.com/file/id-11134207-822wi-mn9mzmx1l9fm6b",
+        "rating": 5.0,
+        "reviews": 104,
+        "comments": 52,
+        "liked": 64
+      },
+      "image_local": "img/products/29_set.jpg",
+      "shop_id": 380266264,
+      "item_id": 55759138347
+    },
+    {
+      "id": 26,
+      "category": "set_bundle",
+      "sub": "set",
+      "name": "SKINTIFIC Brightening 5-in-1 Skincare Set",
+      "short_name": "SKINTIFIC Brightening 5-in-1 Set",
+      "price": 501000,
+      "affiliate_link": "https://s.shopee.co.id/30lCtvRe4P",
+      "scraped": {
+        "image_url": "https://down-id.img.susercontent.com/file/id-11134207-8224y-mjs65cxqls7439",
+        "rating": 4.9,
+        "reviews": 92,
+        "comments": 46,
+        "liked": 127
+      },
+      "image_local": "img/products/31_set.jpg",
+      "shop_id": 380266264,
+      "item_id": 52805078070
+    },
+    {
+      "id": 27,
+      "category": "set_bundle",
+      "sub": "set",
+      "name": "SKINTIFIC Perfect Cushion & Removal Kit 2PCS",
+      "short_name": "SKINTIFIC Cushion & Removal Kit",
+      "price": 113000,
+      "affiliate_link": "https://s.shopee.co.id/7AalrbPKnp",
+      "scraped": {
+        "image_url": "https://down-id.img.susercontent.com/file/sg-11134201-825a9-mey42pj7k6bn8d",
+        "rating": 5.0,
+        "reviews": 60,
+        "comments": 30,
+        "liked": 46
+      },
+      "image_local": "img/products/32_cushion.jpg",
+      "shop_id": 380266264,
+      "item_id": 28191952988
+    },
+    {
+      "id": 28,
+      "category": "set_bundle",
       "sub": "set",
       "name": "SKINTIFIC 2-IN-1 Cleanser Set Cleansing Oil & Cleansing Balm",
       "short_name": "SKINTIFIC 2-IN-1 Cleanser Set",
@@ -822,7 +533,159 @@
       "item_id": 26781905234
     },
     {
-      "id": 44,
+      "id": 29,
+      "category": "set_bundle",
+      "sub": "set",
+      "name": "SKINTIFIC 2pcs Barrier Set Cleanser + Moisturizer Gel",
+      "short_name": "SKINTIFIC 2pcs Barrier Basic Set",
+      "price": 96000,
+      "affiliate_link": "https://s.shopee.co.id/60Opxk9ogQ",
+      "scraped": {
+        "image_url": "https://down-id.img.susercontent.com/file/id-11134207-81ztg-mdyfxe9p67eu5c",
+        "rating": 4.9,
+        "reviews": 75034,
+        "comments": 36468,
+        "liked": 15798
+      },
+      "image_local": "img/products/54_set.jpg",
+      "shop_id": 380266264,
+      "item_id": 13110328114
+    },
+    {
+      "id": 30,
+      "category": "set_bundle",
+      "sub": "set",
+      "name": "ELFORMULA Bundle 5in1 Complete Basic Skincare",
+      "short_name": "ELFORMULA 5in1 Complete Bundle",
+      "price": 442000,
+      "affiliate_link": "https://s.shopee.co.id/3LO4n4P2NO",
+      "scraped": {
+        "image_url": "https://down-id.img.susercontent.com/file/id-11134207-822wp-mnvkivd7qgaw03",
+        "rating": 4.9,
+        "reviews": 928,
+        "comments": 464,
+        "liked": 939
+      },
+      "image_local": "img/products/55_set.jpg",
+      "shop_id": 600719961,
+      "item_id": 43708609546
+    },
+    {
+      "id": 31,
+      "category": "makeup",
+      "sub": "liptint",
+      "name": "OMG OH MY GLAM Mattelast Lip Cream 2.9 g",
+      "short_name": "OMG Mattelast Lip Cream",
+      "price": 24700,
+      "affiliate_link": "https://s.shopee.co.id/1BJYeClW11",
+      "scraped": {
+        "image_url": "https://down-id.img.susercontent.com/file/id-11134207-7rasa-m0saztefgxa637",
+        "rating": 4.9,
+        "reviews": 212432,
+        "comments": 106217,
+        "liked": 48981
+      },
+      "image_local": "img/products/05_liptint.jpg",
+      "shop_id": 1346168602,
+      "item_id": 29911708676
+    },
+    {
+      "id": 32,
+      "category": "makeup",
+      "sub": "liptint",
+      "name": "MAYBELLINE Superstay Matte Ink Liquid Lipstick",
+      "short_name": "Maybelline Superstay Matte Ink",
+      "price": 87000,
+      "affiliate_link": "https://s.shopee.co.id/40dk1TYlm5",
+      "scraped": {
+        "image_url": "https://down-id.img.susercontent.com/file/id-11134207-822wt-monf6qeneo0262",
+        "rating": 4.9,
+        "reviews": 5575172,
+        "comments": 2732846,
+        "liked": 608006
+      },
+      "image_local": "img/products/06_liptint.jpg",
+      "shop_id": 62582411,
+      "item_id": 1835009883
+    },
+    {
+      "id": 33,
+      "category": "makeup",
+      "sub": "liptint",
+      "name": "Madame Gie Always On Lip Comfort Matte",
+      "short_name": "Madame Gie Lip Comfort Matte",
+      "price": 23500,
+      "affiliate_link": "https://s.shopee.co.id/70HLb2nlyH",
+      "scraped": {
+        "image_url": "https://down-id.img.susercontent.com/file/id-11134207-822wn-momswj899wxte9",
+        "rating": 4.9,
+        "reviews": 19562,
+        "comments": 9781,
+        "liked": 5682
+      },
+      "image_local": "img/products/08_liptint.jpg",
+      "shop_id": 94309880,
+      "item_id": 49508792101
+    },
+    {
+      "id": 34,
+      "category": "makeup",
+      "sub": "cushion",
+      "name": "SKINTIFIC Perfect Stay Serum Matte Cushion Foundation SPF 50 PA++++",
+      "short_name": "SKINTIFIC Perfect Stay Cushion SPF50",
+      "price": 162000,
+      "affiliate_link": "https://s.shopee.co.id/qgiJk1h3k",
+      "scraped": {
+        "image_url": "https://down-id.img.susercontent.com/file/id-11134207-822wr-moqbl73phu6l81",
+        "rating": 5.0,
+        "reviews": 3890,
+        "comments": 1948,
+        "liked": 3350
+      },
+      "image_local": "img/products/22_cushion.jpg",
+      "shop_id": 380266264,
+      "item_id": 44230683977
+    },
+    {
+      "id": 35,
+      "category": "makeup",
+      "sub": "set",
+      "name": "SKINTIFIC 2PCS Glow Makeup Set",
+      "short_name": "SKINTIFIC 2PCS Glow Makeup Set",
+      "price": 73000,
+      "affiliate_link": "https://s.shopee.co.id/5L97g9ZVCt",
+      "scraped": {
+        "image_url": "https://down-id.img.susercontent.com/file/id-11134207-822ws-mogpebaq2xhn45",
+        "rating": 5.0,
+        "reviews": 64,
+        "comments": 32,
+        "liked": 51
+      },
+      "image_local": "img/products/27_set.jpg",
+      "shop_id": 380266264,
+      "item_id": 54260847818
+    },
+    {
+      "id": 36,
+      "category": "makeup",
+      "sub": "cushion",
+      "name": "SKINTIFIC Cover All Perfect Cushion",
+      "short_name": "SKINTIFIC Cover All Perfect Cushion",
+      "price": 66934,
+      "affiliate_link": "https://s.shopee.co.id/BR1WnwPVb",
+      "scraped": {
+        "image_url": "https://down-id.img.susercontent.com/file/id-11134207-822wg-moq9inwwzqbw7a",
+        "rating": 4.9,
+        "reviews": 713832,
+        "comments": 344621,
+        "liked": 206975
+      },
+      "image_local": "img/products/34_cushion.jpg",
+      "shop_id": 380266264,
+      "item_id": 18080878678
+    },
+    {
+      "id": 37,
       "category": "makeup",
       "sub": "powder",
       "name": "AZZURA Loose Powder Bedak Tabur",
@@ -841,7 +704,7 @@
       "item_id": 8472839071
     },
     {
-      "id": 45,
+      "id": 38,
       "category": "makeup",
       "sub": "powder",
       "name": "SKINTIFIC Ultra Cover Powder Foundation",
@@ -860,7 +723,7 @@
       "item_id": 28511871185
     },
     {
-      "id": 46,
+      "id": 39,
       "category": "makeup",
       "sub": "powder",
       "name": "WARDAH Loose Powder Lightening Matte Powder SPF 20",
@@ -879,26 +742,7 @@
       "item_id": 1321838269
     },
     {
-      "id": 47,
-      "category": "makeup",
-      "sub": "skin_tint",
-      "name": "SKINTIFIC Perfect Coverage Blurring Skin Tint",
-      "short_name": "SKINTIFIC Blurring Skin Tint",
-      "price": 93000,
-      "affiliate_link": "https://s.shopee.co.id/50WHJeQgNw",
-      "scraped": {
-        "image_url": "https://down-id.img.susercontent.com/file/id-11134207-822wm-moqb14tx1n2l39",
-        "rating": 4.9,
-        "reviews": 93136,
-        "comments": 46568,
-        "liked": 37283
-      },
-      "image_local": "img/products/47_skin_tint.jpg",
-      "shop_id": 380266264,
-      "item_id": 41854024819
-    },
-    {
-      "id": 48,
+      "id": 40,
       "category": "makeup",
       "sub": "eyebrow",
       "name": "SVMY Eyebrow Cream Waterproof Long Lasting Gel",
@@ -917,7 +761,7 @@
       "item_id": 56553280784
     },
     {
-      "id": 49,
+      "id": 41,
       "category": "makeup",
       "sub": "eyebrow",
       "name": "FOCALLURE Eyebrow Cream Gel Waterproof Pensil Alis",
@@ -936,118 +780,198 @@
       "item_id": 1343260970
     },
     {
-      "id": 50,
-      "category": "skincare",
-      "sub": "serum",
-      "name": "WARDAH Serum Spray Instant Glowing First Spray Serum 105ml",
-      "short_name": "WARDAH Serum Spray Glowing 105ml",
-      "price": 108000,
-      "affiliate_link": "https://s.shopee.co.id/8KmjHqOtAW",
+      "id": 42,
+      "category": "body_care",
+      "sub": "body_lotion",
+      "name": "WHITE INC Alpha Glow White Body Lotion 400ml",
+      "short_name": "WHITE INC Alpha Glow Body Lotion 400ml",
+      "price": 49000,
+      "affiliate_link": "https://s.shopee.co.id/40dk1RxE4V",
       "scraped": {
-        "image_url": "https://down-id.img.susercontent.com/file/id-11134207-822wt-momsl5k21yq41f",
+        "image_url": "https://down-id.img.susercontent.com/file/id-11134207-82252-ml3945lba9z570",
         "rating": 4.9,
-        "reviews": 37594,
-        "comments": 18797,
-        "liked": 26668
+        "reviews": 508000,
+        "comments": 253999,
+        "liked": 113383
       },
-      "image_local": "img/products/50_serum.jpg",
-      "shop_id": 59763733,
-      "item_id": 26342199389
+      "image_local": "img/products/09_body_lotion.jpg",
+      "shop_id": 790166426,
+      "item_id": 28579090050
+    },
+    {
+      "id": 43,
+      "category": "body_care",
+      "sub": "body_lotion",
+      "name": "Vaseline Healthy Bright UV Brightening Lotion 400ml Triplepack",
+      "short_name": "Vaseline Healthy Bright UV Lotion",
+      "price": 148900,
+      "affiliate_link": "https://s.shopee.co.id/6pxvOhJnYf",
+      "scraped": {
+        "image_url": "https://down-id.img.susercontent.com/file/id-11134207-7qul7-ljnn2uw0juhu9f",
+        "rating": 4.8,
+        "reviews": 216246,
+        "comments": 106014,
+        "liked": 34855
+      },
+      "image_local": "img/products/10_body_lotion.jpg",
+      "shop_id": 932470899,
+      "item_id": 22123154572
+    },
+    {
+      "id": 44,
+      "category": "body_care",
+      "sub": "body_wash",
+      "name": "Lifebuoy Sabun Mandi Cair Mild Care 800ml x 4",
+      "short_name": "Lifebuoy Mild Care 800ml x4",
+      "price": 125400,
+      "affiliate_link": "https://s.shopee.co.id/5q5OCvMbmU",
+      "scraped": {
+        "image_url": "https://down-id.img.susercontent.com/file/id-11134201-822wj-mnjnzqdztxxec8",
+        "rating": 4.9,
+        "reviews": 26918,
+        "comments": 13459,
+        "liked": 2919
+      },
+      "image_local": "img/products/11_body_wash.jpg",
+      "shop_id": 1517647103,
+      "item_id": 42173100378
+    },
+    {
+      "id": 45,
+      "category": "body_care",
+      "sub": "body_wash",
+      "name": "Giv White Sabun Mandi Cair Mulberry Pouch 800 ml",
+      "short_name": "Giv White Mulberry 800ml",
+      "price": 27000,
+      "affiliate_link": "https://s.shopee.co.id/9KfGNMw1aT",
+      "scraped": {
+        "image_url": "https://down-id.img.susercontent.com/file/sg-11134301-7ra17-mbeyvrws4v7n8f",
+        "rating": 4.9,
+        "reviews": 447532,
+        "comments": 217885,
+        "liked": 48853
+      },
+      "image_local": "img/products/12_body_wash.jpg",
+      "shop_id": 64474495,
+      "item_id": 6989149375
+    },
+    {
+      "id": 46,
+      "category": "body_care",
+      "sub": "body_wash",
+      "name": "Lifebuoy Sabun Cair Antiseptik Total 10 800ml x 4",
+      "short_name": "Lifebuoy Antiseptik Total 10",
+      "price": 125400,
+      "affiliate_link": "https://s.shopee.co.id/3qKJpH1dnk",
+      "scraped": {
+        "image_url": "https://down-id.img.susercontent.com/file/id-11134201-822wg-mnjnzr61h0xw21",
+        "rating": 4.9,
+        "reviews": 29100,
+        "comments": 14550,
+        "liked": 3037
+      },
+      "image_local": "img/products/13_body_wash.jpg",
+      "shop_id": 1517647103,
+      "item_id": 44423089445
+    },
+    {
+      "id": 47,
+      "category": "body_care",
+      "sub": "body_wash",
+      "name": "Lifebuoy Sabun Mandi Cair Lemon Fresh 800 mL x4",
+      "short_name": "Lifebuoy Lemon Fresh 800ml x4",
+      "price": 125300,
+      "affiliate_link": "https://s.shopee.co.id/7AalnPz8NA",
+      "scraped": {
+        "image_url": "https://down-id.img.susercontent.com/file/id-11134201-822wg-mnjnzpn0mgao48",
+        "rating": 4.9,
+        "reviews": 35686,
+        "comments": 17843,
+        "liked": 3798
+      },
+      "image_local": "img/products/14_body_wash.jpg",
+      "shop_id": 1517647103,
+      "item_id": 40023123807
+    },
+    {
+      "id": 48,
+      "category": "parfum",
+      "sub": "women",
+      "name": "Inspired Scarlet Extrait De Parfum 30 ml",
+      "short_name": "Inspired Scarlet EDP 30ml",
+      "price": 11000,
+      "affiliate_link": "https://s.shopee.co.id/9zuxAZWaNp",
+      "scraped": {
+        "image_url": "https://down-id.img.susercontent.com/file/id-11134207-822wr-mmqv4j8fzim8b6",
+        "rating": 4.3,
+        "reviews": 4320,
+        "comments": 2161,
+        "liked": 1495
+      },
+      "image_local": "img/products/15_women.jpg",
+      "shop_id": 1560241666,
+      "item_id": 51458316235
+    },
+    {
+      "id": 49,
+      "category": "parfum",
+      "sub": "unisex",
+      "name": "KYZA X Finesy Parfume Premium 30ml",
+      "short_name": "KYZA X Finesy Premium 30ml",
+      "price": 50000,
+      "affiliate_link": "https://s.shopee.co.id/8V69Nt549a",
+      "scraped": {
+        "image_url": "https://down-id.img.susercontent.com/file/id-11134207-822wk-mnmnvwexq0w195",
+        "rating": 4.9,
+        "reviews": 7602,
+        "comments": 3611,
+        "liked": 953
+      },
+      "image_local": "img/products/16_unisex.jpg",
+      "shop_id": 380573150,
+      "item_id": 24112011973
+    },
+    {
+      "id": 50,
+      "category": "parfum",
+      "sub": "unisex",
+      "name": "Eskulin Eau De Parfum 30ml EDP",
+      "short_name": "Eskulin EDP 30ml",
+      "price": 33500,
+      "affiliate_link": "https://s.shopee.co.id/902PyouN6M",
+      "scraped": {
+        "image_url": "https://down-id.img.susercontent.com/file/id-11134207-82252-mgol5daabkso46",
+        "rating": 4.9,
+        "reviews": 8596,
+        "comments": 4298,
+        "liked": 6408
+      },
+      "image_local": "img/products/17_unisex.jpg",
+      "shop_id": 1346168602,
+      "item_id": 51750038246
     },
     {
       "id": 51,
-      "category": "skincare",
-      "sub": "eye_cream",
-      "name": "ST.TREE Multi Peptides Anti-Wrinkle Eye Cream 15gr",
-      "short_name": "ST.TREE Peptide Eye Cream 15gr",
-      "price": 31534,
-      "affiliate_link": "https://s.shopee.co.id/AAENTEExhX",
+      "category": "parfum",
+      "sub": "women",
+      "name": "Parfume Baccarat Parfume Wanita 35ml",
+      "short_name": "Parfume Baccarat Wanita 35ml",
+      "price": 9339,
+      "affiliate_link": "https://s.shopee.co.id/7pqSajbXgg",
       "scraped": {
-        "image_url": "https://down-id.img.susercontent.com/file/id-11134207-8224r-mhvqyf9i0pog6d",
-        "rating": 4.8,
-        "reviews": 74904,
-        "comments": 36158,
-        "liked": 36284
+        "image_url": "https://down-id.img.susercontent.com/file/id-11134207-822wm-moii57kc1dsd8c",
+        "rating": 4.6,
+        "reviews": 7536,
+        "comments": 3768,
+        "liked": 691
       },
-      "image_local": "img/products/51_eye_cream.jpg",
-      "shop_id": 1052905325,
-      "item_id": 20785280323
-    },
-    {
-      "id": 52,
-      "category": "skincare",
-      "sub": "eye_cream",
-      "name": "FFY OATstanding Retinal 2in1 Eye & Face Cream 20ml",
-      "short_name": "FFY OATstanding Retinal Eye Cream",
-      "price": 159000,
-      "affiliate_link": "https://s.shopee.co.id/7pqSgx3qee",
-      "scraped": {
-        "image_url": "https://down-id.img.susercontent.com/file/id-11134207-81ztc-mf3ie01r41l598",
-        "rating": 4.9,
-        "reviews": 60222,
-        "comments": 28992,
-        "liked": 56517
-      },
-      "image_local": "img/products/52_eye_cream.jpg",
-      "shop_id": 856580029,
-      "item_id": 23487862662
-    },
-    {
-      "id": 53,
-      "category": "skincare",
-      "sub": "eye_cream",
-      "name": "Beauty of Joseon Revive Eye Serum Ginseng + Retinal 30ml",
-      "short_name": "Beauty of Joseon Eye Serum 30ml",
-      "price": 174200,
-      "affiliate_link": "https://s.shopee.co.id/3B4d8Nztn9",
-      "scraped": {
-        "image_url": "https://down-id.img.susercontent.com/file/id-11134207-82250-mjtme8a86gat52",
-        "rating": 4.9,
-        "reviews": 23198,
-        "comments": 11293,
-        "liked": 37534
-      },
-      "image_local": "img/products/53_eye_cream.jpg",
-      "shop_id": 931785217,
-      "item_id": 22716762362
-    },
-    {
-      "id": 54,
-      "category": "skincare",
-      "sub": "set",
-      "name": "SKINTIFIC 2pcs Barrier Set Cleanser + Moisturizer Gel",
-      "short_name": "SKINTIFIC 2pcs Barrier Basic Set",
-      "price": 96000,
-      "affiliate_link": "https://s.shopee.co.id/60Opxk9ogQ",
-      "scraped": {
-        "image_url": "https://down-id.img.susercontent.com/file/id-11134207-81ztg-mdyfxe9p67eu5c",
-        "rating": 4.9,
-        "reviews": 75034,
-        "comments": 36468,
-        "liked": 15798
-      },
-      "image_local": "img/products/54_set.jpg",
-      "shop_id": 380266264,
-      "item_id": 13110328114
-    },
-    {
-      "id": 55,
-      "category": "skincare",
-      "sub": "set",
-      "name": "ELFORMULA Bundle 5in1 Complete Basic Skincare",
-      "short_name": "ELFORMULA 5in1 Complete Skincare Bundle",
-      "price": 442000,
-      "affiliate_link": "https://s.shopee.co.id/3LO4n4P2NO",
-      "scraped": {
-        "image_url": "https://down-id.img.susercontent.com/file/id-11134207-822wp-mnvkivd7qgaw03",
-        "rating": 4.9,
-        "reviews": 928,
-        "comments": 464,
-        "liked": 939
-      },
-      "image_local": "img/products/55_set.jpg",
-      "shop_id": 600719961,
-      "item_id": 43708609546
+      "image_local": "img/products/18_women.jpg",
+      "shop_id": 1428678800,
+      "item_id": 41750026477
     }
-  ]
+  ],
+  "fetched_at": "2026-05-30T11:55:22Z",
+  "total": 51,
+  "with_meta": 51,
+  "with_image": 51
 }

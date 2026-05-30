@@ -27,7 +27,7 @@ def product_card(p):
     liked = s.get("liked", 0)
     img = s.get("image_url", p.get("image_local", ""))
 
-    badge = {"skincare":"🧴","makeup":"💄","body_care":"🧴","parfum":"🌸","skintific":"💎","cleansing":"🫧"}.get(p["category"], "🛒")
+    badge = {"skincare":"🧴","makeup":"💄","body_care":"🧴","parfum":"🌸","set_bundle":"💎","cleansing":"🫧"}.get(p["category"], "🛒")
 
     return f'''
     <a href="{p['affiliate_link']}" target="_blank" rel="noopener noreferrer" class="product-card" data-category="{p['category']}">
@@ -106,6 +106,7 @@ def generate_page_html(page_num, total_pages, products_on_page, all_products, ca
         "body_care": "🧴 Body Care",
         "cleansing": "🫧 Cleansing",
         "parfum": "🌸 Parfum",
+        "set_bundle": "📦 Set & Bundle",
     }.get(category_filter, "🔥 All Products")
 
     # Sub-category labels
@@ -128,6 +129,7 @@ def generate_page_html(page_num, total_pages, products_on_page, all_products, ca
         ("body_care", "🧴", "Body Care"),
         ("cleansing", "🫧", "Cleansing"),
         ("parfum", "🌸", "Parfum"),
+        ("set_bundle", "📦", "Set & Bundle"),
     ]
 
     cat_nav = ""
