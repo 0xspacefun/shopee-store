@@ -647,6 +647,30 @@
       "short_name": "Facetology Triple Care Facial Gel Cleanser",
       "affiliate_link": "https://s.shopee.co.id/50WHLIzNK0",
       "price": 51900
+    },
+    {
+      "id": 82,
+      "category": "hair_care",
+      "sub": "serum",
+      "short_name": "L'Oreal Elseve Aminexil Serum 102ml",
+      "price": 140010,
+      "affiliate_link": "https://s.shopee.co.id/gNKnHTdOH"
+    },
+    {
+      "id": 83,
+      "category": "hair_care",
+      "sub": "tonic",
+      "short_name": "Putri Anti Hairfall Hair Tonic 200mL",
+      "price": 29500,
+      "affiliate_link": "https://s.shopee.co.id/3VhWAWYsnT"
+    },
+    {
+      "id": 84,
+      "category": "hair_care",
+      "sub": "serum",
+      "short_name": "Lab On Hair Anti Hair Fall Ampoule Serum",
+      "price": 177900,
+      "affiliate_link": "https://s.shopee.co.id/3B4flwqwVv"
     }
   ]
 }

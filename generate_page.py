@@ -27,7 +27,7 @@ def product_card(p):
     liked = s.get("liked", 0)
     img = s.get("image_url", p.get("image_local", ""))
 
-    badge = {"skincare":"🧴","makeup":"💄","body_care":"🧴","parfum":"🌸","set_bundle":"💎","cleansing":"🫧"}.get(p["category"], "🛒")
+    badge = {"skincare":"🧴","makeup":"💄","body_care":"🧴","parfum":"🌸","set_bundle":"💎","cleansing":"🫧","hair_care":"💇‍♀️"}.get(p["category"], "🛒")
 
     return f'''
     <a href="{p['affiliate_link']}" target="_blank" rel="noopener noreferrer" class="product-card" data-category="{p['category']}">
@@ -107,6 +107,7 @@ def generate_page_html(page_num, total_pages, products_on_page, all_products, ca
         "cleansing": "🫧 Cleansing",
         "parfum": "🌸 Parfum",
         "set_bundle": "📦 Set & Bundle",
+        "hair_care": "💇‍♀️ Hair Care",
     }.get(category_filter, "🔥 All Products")
 
     # Sub-category labels
@@ -120,6 +121,7 @@ def generate_page_html(page_num, total_pages, products_on_page, all_products, ca
         "cleansing_oil": "Cleansing Oil", "cleansing_balm": "Cleansing Balm",
         "micellar": "Micellar Water", "toner": "Toner",
         "body_scrub": "Body Scrub", "setting_spray": "Setting Spray",
+        "serum": "Serum", "tonic": "Hair Tonic",
     }
 
     # Category nav
@@ -131,6 +133,7 @@ def generate_page_html(page_num, total_pages, products_on_page, all_products, ca
         ("cleansing", "🫧", "Cleansing"),
         ("parfum", "🌸", "Parfum"),
         ("set_bundle", "📦", "Set & Bundle"),
+        ("hair_care", "💇‍♀️", "Hair Care"),
     ]
 
     cat_nav = ""
