@@ -1,266 +1,244 @@
 #!/usr/bin/env python3
-"""Generate paginated static HTML pages from products_data.json"""
-import json, math
+"""SweetFinds v2 -- Premium affiliate store generator"""
+import json, math, html as h
 from pathlib import Path
 
 SCRIPT_DIR = Path(__file__).parent
 DATA_JSON = SCRIPT_DIR / "data" / "products_data.json"
 OUTPUT_DIR = SCRIPT_DIR
-PER_PAGE = 10
+CSS_FILE = SCRIPT_DIR / "style.css"
+PER_PAGE = 12
 
-def fmt_num(n):
-    if n >= 1_000_000:
-        v = n / 1_000_000
-        return f"{v:.1f}jt".replace(".0jt", "jt")
-    if n >= 1_000:
-        v = n / 1_000
+CATS = [
+    ("", "🔥", "All", "Semua Produk"),
+    ("skincare", "🧴", "Skincare", "Perawatan Wajah"),
+    ("makeup", "💄", "Makeup", "Riasan Cantik"),
+    ("body_care", "🫧", "Body Care", "Perawatan Tubuh"),
+    ("hair_care", "💇‍♀️", "Hair Care", "Perawatan Rambut"),
+    ("parfum", "🌸", "Parfum", "Wangi Tahan Lama"),
+    ("set_bundle", "💎", "Bundle", "Paket Hemat"),
+]
+
+CAT_D = {
+    "skincare": "🧴 Skincare", "makeup": "💄 Makeup",
+    "body_care": "🫧 Body Care", "cleansing": "🫧 Cleansing",
+    "parfum": "🌸 Parfum", "set_bundle": "💎 Bundle",
+    "hair_care": "💇‍♀️ Hair Care",
+}
+
+CAT_SUB = {
+    None: "Koleksi produk kecantikan pilihan — harga terjangkau, kualitas terjamin ✨",
+    "skincare": "Kulit sehat & glowing dimulai dari sini ✨",
+    "makeup": "Riasan flawless untuk setiap momen 💋",
+    "body_care": "Perawatan tubuh lembut & wangi sepanjang hari 🫧",
+    "hair_care": "Rambut sehat, kuat, & berkilau 💆‍♀️",
+    "parfum": "Wangi tahan lama yang bikin pede seharian 🌸",
+    "set_bundle": "Paket hemat, hasil maksimal 💎",
+}
+
+BADGE = {
+    "skincare": "🧴", "makeup": "💄", "body_care": "🫧",
+    "parfum": "🌸", "set_bundle": "💎", "cleansing": "🫧",
+    "hair_care": "💇‍♀️",
+}
+
+
+def fmt_n(n):
+    if n >= 1e6:
+        return f"{n / 1e6:.1f}jt".replace(".0jt", "jt")
+    if n >= 1e3:
+        v = n / 1e3
         return f"{v:.1f}rb".replace(".0rb", "rb") if v != int(v) else f"{int(v)}rb"
     return str(n)
 
-def fmt_price(p):
+
+def fmt_p(p):
     return f"Rp{p:,.0f}".replace(",", ".")
 
-def product_card(p):
+
+def stars(r):
+    s = int(round(r))
+    out = []
+    for i in range(5):
+        if i < s:
+            out.append('<span class="sf">★</span>')
+        else:
+            out.append('<span class="se">★</span>')
+    return "".join(out)
+
+
+def card(p):
     s = p.get("scraped", {}) or {}
-    rating = s.get("rating", 0)
-    comments = s.get("comments", 0)
-    liked = s.get("liked", 0)
-    img = s.get("image_url", p.get("image_local", ""))
+    r = s.get("rating", 0)
+    c = s.get("comments", 0)
+    l = s.get("liked", 0)
+    rv = s.get("reviews", 0)
+    img = s.get("image_url", "")
+    b = BADGE.get(p["category"], "🛒")
+    nm = h.escape(p["short_name"])
+    hot = '<span class="hot">🔥 Hot</span>' if l > 50000 else ""
+    return (
+        '<a href="' + p["affiliate_link"] + '" target="_blank" rel="noopener" class="pc" '
+        'data-cat="' + p["category"] + '" data-nm="' + p["short_name"].lower() + '">'
+        '<div class="pi"><img src="' + img + '" alt="' + nm + '" loading="lazy"/>'
+        '<span class="badge">' + b + '</span>' + hot + '</div>'
+        '<div class="pb"><h3 class="pn">' + nm + '</h3>'
+        '<div class="pp">' + fmt_p(p.get("price", 0)) + '</div>'
+        '<div class="pm"><div class="pr">' + stars(r)
+        + '<span class="rv">' + str(r) + '</span>'
+        '<span class="rc">(' + fmt_n(rv) + ')</span></div>'
+        '<div class="ps"><span>💬 ' + fmt_n(c) + '</span>'
+        '<span>❤️ ' + fmt_n(l) + '</span></div></div>'
+        '<div class="cta"><span>Beli di Shopee</span>'
+        '<svg width="13" height="13" viewBox="0 0 24 24" fill="none" '
+        'stroke="currentColor" stroke-width="2.5" stroke-linecap="round">'
+        '<path d="M5 12h14M12 5l7 7-7 7"/></svg></div></div></a>'
+    )
 
-    badge = {"skincare":"🧴","makeup":"💄","body_care":"🧴","parfum":"🌸","set_bundle":"💎","cleansing":"🫧","hair_care":"💇‍♀️"}.get(p["category"], "🛒")
-
-    return f'''
-    <a href="{p['affiliate_link']}" target="_blank" rel="noopener noreferrer" class="product-card" data-category="{p['category']}">
-      <div class="product-img-wrap">
-        <img src="{img}" alt="{p['short_name']}" loading="lazy" />
-        <span class="badge-cat">{badge}</span>
-      </div>
-      <div class="product-info">
-        <h3 class="product-name">{p['short_name']}</h3>
-        <div class="product-price">{fmt_price(p.get('price', 0))}</div>
-        <div class="product-meta">
-          <div class="rating">
-            <span class="stars">{'★' * int(round(rating))}</span>
-            <span class="rating-num">{rating}</span>
-          </div>
-          <div class="stats">
-            <span class="sold">💬 {fmt_num(comments)}</span>
-            <span class="liked">❤️ {fmt_num(liked)}</span>
-          </div>
-        </div>
-        <div class="product-cta">Beli di Shopee →</div>
-      </div>
-    </a>'''
 
 def get_css():
-    return '''
-    * { margin: 0; padding: 0; box-sizing: border-box; }
-    body { font-family: 'Inter', -apple-system, sans-serif; background: #f5f5f5; color: #333; }
-    .header { background: linear-gradient(135deg, #e91e63 0%, #f06292 50%, #f8bbd0 100%); position: sticky; top: 0; z-index: 100; box-shadow: 0 2px 12px rgba(233,30,99,0.3); }
-    .header-inner { max-width: 1200px; margin: 0 auto; padding: 12px 20px; display: flex; align-items: center; gap: 16px; }
-    .logo { font-size: 20px; font-weight: 800; color: #fff; text-shadow: 1px 1px 2px rgba(0,0,0,0.2); white-space: nowrap; text-decoration: none; }
-    .logo span { font-weight: 400; font-size: 13px; opacity: 0.85; }
-    .banner { background: linear-gradient(135deg, #e91e63, #f06292, #f8bbd0); padding: 24px 20px; text-align: center; }
-    .banner h1 { font-size: 24px; font-weight: 800; color: #fff; text-shadow: 2px 2px 4px rgba(0,0,0,0.2); margin-bottom: 4px; }
-    .banner p { color: rgba(255,255,255,0.85); font-size: 13px; }
-    .cat-nav { background: #fff; border-bottom: 1px solid #eee; position: sticky; top: 48px; z-index: 99; }
-    .cat-nav-inner { max-width: 1200px; margin: 0 auto; display: flex; gap: 8px; padding: 10px 20px; overflow-x: auto; scrollbar-width: none; }
-    .cat-nav-inner::-webkit-scrollbar { display: none; }
-    .cat-pill { display: flex; align-items: center; gap: 6px; padding: 8px 16px; border-radius: 24px; background: #fce4ec; color: #e91e63; font-size: 13px; font-weight: 600; text-decoration: none; white-space: nowrap; border: 1px solid #f8bbd0; transition: all 0.2s; cursor: pointer; }
-    .cat-pill:hover, .cat-pill.active { background: #e91e63; color: #fff; }
-    .cat-emoji { font-size: 16px; }
-    .page-header { max-width: 1200px; margin: 0 auto; padding: 16px 20px 0; display: flex; align-items: center; justify-content: space-between; }
-    .page-header h2 { font-size: 18px; font-weight: 700; color: #222; }
-    .page-header .count { font-size: 13px; color: #999; }
-    .products-grid { max-width: 1200px; margin: 0 auto; padding: 12px 20px 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(170px, 1fr)); gap: 12px; }
-    @media (max-width: 480px) { .products-grid { grid-template-columns: repeat(2, 1fr); gap: 8px; } }
-    .product-card { background: #fff; border-radius: 8px; overflow: hidden; text-decoration: none; color: inherit; border: 1px solid #f0f0f0; transition: all 0.25s ease; display: flex; flex-direction: column; }
-    .product-card:hover { transform: translateY(-3px); box-shadow: 0 8px 24px rgba(0,0,0,0.1); }
-    .product-img-wrap { position: relative; width: 100%; aspect-ratio: 1; background: #fafafa; overflow: hidden; }
-    .product-img-wrap img { width: 100%; height: 100%; object-fit: cover; transition: transform 0.3s; }
-    .product-card:hover .product-img-wrap img { transform: scale(1.05); }
-    .badge-cat { position: absolute; top: 6px; left: 6px; background: rgba(255,255,255,0.9); border-radius: 50%; width: 28px; height: 28px; font-size: 14px; display: flex; align-items: center; justify-content: center; box-shadow: 0 1px 4px rgba(0,0,0,0.1); }
-    .product-info { padding: 10px; flex: 1; display: flex; flex-direction: column; }
-    .product-name { font-size: 12px; font-weight: 500; color: #333; line-height: 1.4; min-height: 34px; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
-    .product-price { font-size: 16px; font-weight: 700; color: #e91e63; margin-top: 6px; }
-    .product-meta { margin-top: 6px; display: flex; flex-direction: column; gap: 3px; }
-    .rating { display: flex; align-items: center; gap: 4px; font-size: 11px; }
-    .stars { color: #ffce3d; letter-spacing: -1px; }
-    .star-empty { color: #ddd; }
-    .rating-num { color: #e91e63; font-weight: 600; }
-    .stats { display: flex; gap: 10px; font-size: 10px; color: #999; }
-    .product-cta { margin-top: 8px; padding: 6px 0; text-align: center; font-size: 11px; font-weight: 600; color: #fff; background: #e91e63; border-radius: 4px; transition: background 0.2s; }
-    .product-card:hover .product-cta { background: #c2185b; }
-    .pagination { max-width: 1200px; margin: 24px auto; padding: 0 20px; display: flex; justify-content: center; gap: 6px; flex-wrap: wrap; }
-    .pagination a, .pagination span { padding: 8px 14px; border-radius: 6px; font-size: 13px; font-weight: 600; text-decoration: none; border: 1px solid #ddd; color: #333; transition: all 0.2s; }
-    .pagination a:hover { background: #e91e63; color: #fff; border-color: #e91e63; }
-    .pagination .current { background: #e91e63; color: #fff; border-color: #e91e63; }
-    .footer { max-width: 1200px; margin: 20px auto 0; padding: 20px; text-align: center; color: #999; font-size: 12px; border-top: 1px solid #eee; }
-    '''
+    if CSS_FILE.exists():
+        return CSS_FILE.read_text()
+    return ""
 
-def generate_page_html(page_num, total_pages, products_on_page, all_products, category_filter=None):
-    cat_name = category_filter or "All Products"
-    cat_display = {
-        "skincare": "🧴 Skincare",
-        "makeup": "💄 Makeup",
-        "body_care": "🧴 Body Care",
-        "cleansing": "🫧 Cleansing",
-        "parfum": "🌸 Parfum",
-        "set_bundle": "📦 Set & Bundle",
-        "hair_care": "💇‍♀️ Hair Care",
-    }.get(category_filter, "🔥 All Products")
 
-    # Sub-category labels
-    sub_labels = {
-        "cleanser": "Cleanser", "sunscreen": "Sunscreen", "mask": "Masker",
-        "moisturizer": "Moisturizer", "serum": "Serum", "eye_cream": "Eye Cream",
-        "set": "Paket", "liptint": "Lip Tint", "cushion": "Cushion",
-        "powder": "Powder", "skin_tint": "Skin Tint", "eyebrow": "Eyebrow",
-        "body_lotion": "Body Lotion", "body_wash": "Body Wash",
-        "women": "Women", "unisex": "Unisex",
-        "cleansing_oil": "Cleansing Oil", "cleansing_balm": "Cleansing Balm",
-        "micellar": "Micellar Water", "toner": "Toner",
-        "body_scrub": "Body Scrub", "setting_spray": "Setting Spray",
-        "serum": "Serum", "tonic": "Hair Tonic",
-    }
+JS_CODE = """const prog=document.getElementById("prog");
+window.addEventListener("scroll",function(){var h=document.documentElement;var s=h.scrollTop/(h.scrollHeight-h.clientHeight)*100;prog.style.width=s+"%"});
+var search=document.getElementById("search");var grid=document.getElementById("product-grid");
+search.addEventListener("input",function(){var q=search.value.toLowerCase();grid.querySelectorAll(".pc").forEach(function(c){var nm=c.dataset.nm||"";var cat=c.dataset.cat||"";c.style.display=(nm.includes(q)||cat.includes(q))?"":"none"})});
+document.querySelectorAll(".pi img").forEach(function(img){img.onerror=function(){this.style.background="#f5f5f5";this.style.objectFit="contain"}});"""
 
-    # Category nav
-    cats = [
-        ("", "🔥", "All"),
-        ("skincare", "🧴", "Skincare"),
-        ("makeup", "💄", "Makeup"),
-        ("body_care", "🧴", "Body Care"),
-        ("cleansing", "🫧", "Cleansing"),
-        ("parfum", "🌸", "Parfum"),
-        ("set_bundle", "📦", "Set & Bundle"),
-        ("hair_care", "💇‍♀️", "Hair Care"),
-    ]
 
-    cat_nav = ""
-    for c in cats:
-        prefix = f"{c[0]}_" if c[0] else ""
-        active = "active" if c[0] == (category_filter or "") else ""
-        cat_nav += f'<a href="{prefix}page1.html" class="cat-pill {active}"><span class="cat-emoji">{c[1]}</span><span>{c[2]}</span></a>'
+def gen_page(page_num, total_pages, products_on_page, all_products, cat_filter=None):
+    cat_disp = CAT_D.get(cat_filter, "🔥 All Products")
+    cat_sub = CAT_SUB.get(cat_filter, CAT_SUB[None])
 
-    # Pagination
-    pagination = ""
+    cats_html = ""
+    for c in CATS:
+        prefix = c[0] + "_" if c[0] else ""
+        act = "a" if c[0] == (cat_filter or "") else ""
+        cats_html += '<a href="' + prefix + 'page1.html" class="cp ' + act + '">' \
+                     '<span>' + c[1] + '</span><span>' + c[2] + '</span></a>'
+
+    pgn_html = ""
     if total_pages > 1:
-        prefix = f"{category_filter}_" if category_filter else ""
+        prefix = cat_filter + "_" if cat_filter else ""
         for p in range(1, total_pages + 1):
             if p == page_num:
-                pagination += f'<span class="current">{p}</span>'
+                pgn_html += '<span class="cur">' + str(p) + '</span>'
             else:
-                pagination += f'<a href="{prefix}page{p}.html">{p}</a>'
+                pgn_html += '<a href="' + prefix + 'page' + str(p) + '.html">' + str(p) + '</a>'
 
-    # Product cards
-    cards = "".join(product_card(p) for p in products_on_page)
-
-    # Stats
+    cards = "".join(card(p) for p in products_on_page)
     start = (page_num - 1) * PER_PAGE + 1
     end = min(page_num * PER_PAGE, len(all_products))
     total = len(all_products)
+    filename = cat_filter + "_page" + str(page_num) + ".html" if cat_filter else "page" + str(page_num) + ".html"
 
-    filename = f"{category_filter}_page{page_num}.html" if category_filter else f"page{page_num}.html"
+    no_results = ""
+    if not products_on_page:
+        no_results = '<div class="no-results"><div class="emoji">🔍</div><p>Produk tidak ditemukan</p></div>'
 
-    return f'''<!DOCTYPE html>
-<html lang="id">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>SweetFinds — {cat_display}</title>
-  <meta name="description" content="SweetFinds — curated {cat_name} picks. Harga terjangkau, kualitas terjamin!">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
-  <style>{get_css()}</style>
-</head>
-<body>
+    html = '<!DOCTYPE html>\n<html lang="id">\n<head>\n'
+    html += '<meta charset="UTF-8">\n'
+    html += '<meta name="viewport" content="width=device-width,initial-scale=1.0">\n'
+    html += '<title>SweetFinds — ' + cat_disp + '</title>\n'
+    html += '<meta name="description" content="SweetFinds — ' + cat_sub + '">\n'
+    html += '<link rel="preconnect" href="https://fonts.googleapis.com">\n'
+    html += '<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>\n'
+    html += '<style>' + get_css() + '</style>\n'
+    html += '</head>\n<body>\n'
+    html += '<div class="prog" id="prog"></div>\n'
 
-<header class="header">
-  <div class="header-inner">
-    <a href="page1.html" class="logo">SWEETFINDS <span>Beauty Picks</span></a>
-  </div>
-</header>
+    # Header
+    html += '<header class="hdr"><div class="hi">\n'
+    html += '<a href="page1.html" class="lw"><div class="li">S</div>'
+    html += '<div><div class="lt">SWEET<span>FINDS</span></div>'
+    html += '<div class="ls">Beauty Picks</div></div></a>\n'
+    html += '<div class="sw"><svg class="sico" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">'
+    html += '<circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35"/></svg>'
+    html += '<input type="text" class="si" placeholder="Cari produk..." id="search" autocomplete="off"/></div>\n'
+    html += '</div></header>\n'
 
-<section class="banner">
-  <h1>✨ SWEETFINDS ✨</h1>
-  <p>Curated Beauty Picks • Harga Terjangkau • Kualitas Terjamin</p>
-</section>
+    # Hero
+    html += '<section class="hero">\n'
+    html += '<span class="hd">✨</span><span class="hd">💄</span><span class="hd">🌸</span><span class="hd">💎</span>\n'
+    html += '<div class="hc">\n'
+    html += '<div class="hbadge">✨ Curated Beauty Picks</div>\n'
+    html += '<h1>Temukan Produk <span class="ac">Kecantikan Terbaik</span><br/>Harga Terjangkau</h1>\n'
+    html += '<p class="hsub">' + cat_sub + '</p>\n'
+    html += '<div class="hstats">'
+    html += '<div><div class="hsn">' + str(total) + '</div><div class="hsl">Produk</div></div>'
+    html += '<div><div class="hsn">7</div><div class="hsl">Kategori</div></div>'
+    html += '<div><div class="hsn">⭐ 4.8+</div><div class="hsl">Rating</div></div>'
+    html += '</div>\n</div>\n</section>\n'
 
-<nav class="cat-nav">
-  <div class="cat-nav-inner">
-    {cat_nav}
-  </div>
-</nav>
+    # Nav
+    html += '<nav class="cnav"><div class="cni">' + cats_html + '</div></nav>\n'
 
-<div class="page-header">
-  <h2>{cat_display}</h2>
-  <span class="count">Menampilkan {start}–{end} dari {total} produk</span>
-</div>
+    # Section
+    html += '<section class="sec">\n'
+    html += '<div class="sh"><div>'
+    html += '<div class="st">' + cat_disp + '</div>'
+    html += '<div class="ss">Menampilkan ' + str(start) + '–' + str(end) + ' dari ' + str(total) + ' produk</div>'
+    html += '</div><span class="cb">' + str(total) + ' produk</span></div>\n'
+    html += '<div class="pg" id="product-grid">' + cards + no_results + '</div>\n'
+    html += '</section>\n'
 
-<div class="products-grid">
-  {cards}
-</div>
+    # Pagination
+    html += '<div class="pgn">' + pgn_html + '</div>\n'
 
-<div class="pagination">
-  {pagination}
-</div>
+    # Footer
+    html += '<footer class="ftr">'
+    html += '<div class="ftr-brand">SWEET<span>FINDS</span></div>'
+    html += '<p>Shopee Affiliate Picks • Halaman ' + str(page_num) + '/' + str(total_pages) + ' • ' + str(total) + ' produk</p>'
+    html += '<p style="margin-top:4px;font-size:11px;color:#bbb">Harga dan ketersediaan dapat berubah sewaktu-waktu</p>'
+    html += '</footer>\n'
 
-<footer class="footer">
-  <p>SweetFinds — Shopee Affiliate Picks</p>
-  <p style="margin-top:4px">Halaman {page_num}/{total_pages} • {total} produk</p>
-</footer>
+    # JS
+    html += '<script>' + JS_CODE + '</script>\n'
+    html += '</body></html>'
 
-<script>
-document.querySelectorAll('.product-img-wrap img').forEach(img => {{
-  img.onerror = function() {{ this.style.background='#f5f5f5'; this.style.objectFit='contain'; }};
-}});
-</script>
-
-</body>
-</html>''', filename
+    return html, filename
 
 
 def main():
     with open(DATA_JSON) as f:
         data = json.load(f)
-
     products = data["products"]
     total = len(products)
     total_pages = math.ceil(total / PER_PAGE)
-
-    # Group by category
     categories = {}
     for p in products:
         cat = p["category"]
         if cat not in categories:
             categories[cat] = []
         categories[cat].append(p)
-
     generated = []
 
-    # Generate "All" pages
+    # All pages
     for page_num in range(1, total_pages + 1):
         start = (page_num - 1) * PER_PAGE
         end = start + PER_PAGE
-        page_products = products[start:end]
-        html, filename = generate_page_html(page_num, total_pages, page_products, products)
-        (OUTPUT_DIR / filename).write_text(html)
+        html_content, filename = gen_page(page_num, total_pages, products[start:end], products)
+        (OUTPUT_DIR / filename).write_text(html_content, encoding="utf-8")
         generated.append(filename)
 
-    # Generate category pages
+    # Category pages
     for cat, cat_products in categories.items():
         cat_pages = math.ceil(len(cat_products) / PER_PAGE)
         for page_num in range(1, cat_pages + 1):
             start = (page_num - 1) * PER_PAGE
             end = start + PER_PAGE
-            page_products = cat_products[start:end]
-            html, filename = generate_page_html(page_num, cat_pages, page_products, cat_products, category_filter=cat)
-            (OUTPUT_DIR / filename).write_text(html)
+            html_content, filename = gen_page(page_num, cat_pages, cat_products[start:end], cat_products, cat_filter=cat)
+            (OUTPUT_DIR / filename).write_text(html_content, encoding="utf-8")
             generated.append(filename)
 
-    # Redirect index.html to page1.html
-    (OUTPUT_DIR / "index.html").write_text('''<!DOCTYPE html>
-<html><head><meta http-equiv="refresh" content="0;url=page1.html"></head></html>''')
+    # Index redirect
+    (OUTPUT_DIR / "index.html").write_text(
+        '<!DOCTYPE html>\n<html><head><meta http-equiv="refresh" content="0;url=page1.html"></head></html>',
+        encoding="utf-8"
+    )
 
     print(f"✅ Generated {len(generated)} pages for {total} products")
     for f in sorted(generated):

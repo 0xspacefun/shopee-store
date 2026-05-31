@@ -1,309 +1,107 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>SweetFinds — 🧴 Skincare</title>
-  <meta name="description" content="SweetFinds — curated skincare picks. Harga terjangkau, kualitas terjamin!">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
-  <style>
-    * { margin: 0; padding: 0; box-sizing: border-box; }
-    body { font-family: 'Inter', -apple-system, sans-serif; background: #f5f5f5; color: #333; }
-    .header { background: linear-gradient(135deg, #e91e63 0%, #f06292 50%, #f8bbd0 100%); position: sticky; top: 0; z-index: 100; box-shadow: 0 2px 12px rgba(233,30,99,0.3); }
-    .header-inner { max-width: 1200px; margin: 0 auto; padding: 12px 20px; display: flex; align-items: center; gap: 16px; }
-    .logo { font-size: 20px; font-weight: 800; color: #fff; text-shadow: 1px 1px 2px rgba(0,0,0,0.2); white-space: nowrap; text-decoration: none; }
-    .logo span { font-weight: 400; font-size: 13px; opacity: 0.85; }
-    .banner { background: linear-gradient(135deg, #e91e63, #f06292, #f8bbd0); padding: 24px 20px; text-align: center; }
-    .banner h1 { font-size: 24px; font-weight: 800; color: #fff; text-shadow: 2px 2px 4px rgba(0,0,0,0.2); margin-bottom: 4px; }
-    .banner p { color: rgba(255,255,255,0.85); font-size: 13px; }
-    .cat-nav { background: #fff; border-bottom: 1px solid #eee; position: sticky; top: 48px; z-index: 99; }
-    .cat-nav-inner { max-width: 1200px; margin: 0 auto; display: flex; gap: 8px; padding: 10px 20px; overflow-x: auto; scrollbar-width: none; }
-    .cat-nav-inner::-webkit-scrollbar { display: none; }
-    .cat-pill { display: flex; align-items: center; gap: 6px; padding: 8px 16px; border-radius: 24px; background: #fce4ec; color: #e91e63; font-size: 13px; font-weight: 600; text-decoration: none; white-space: nowrap; border: 1px solid #f8bbd0; transition: all 0.2s; cursor: pointer; }
-    .cat-pill:hover, .cat-pill.active { background: #e91e63; color: #fff; }
-    .cat-emoji { font-size: 16px; }
-    .page-header { max-width: 1200px; margin: 0 auto; padding: 16px 20px 0; display: flex; align-items: center; justify-content: space-between; }
-    .page-header h2 { font-size: 18px; font-weight: 700; color: #222; }
-    .page-header .count { font-size: 13px; color: #999; }
-    .products-grid { max-width: 1200px; margin: 0 auto; padding: 12px 20px 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(170px, 1fr)); gap: 12px; }
-    @media (max-width: 480px) { .products-grid { grid-template-columns: repeat(2, 1fr); gap: 8px; } }
-    .product-card { background: #fff; border-radius: 8px; overflow: hidden; text-decoration: none; color: inherit; border: 1px solid #f0f0f0; transition: all 0.25s ease; display: flex; flex-direction: column; }
-    .product-card:hover { transform: translateY(-3px); box-shadow: 0 8px 24px rgba(0,0,0,0.1); }
-    .product-img-wrap { position: relative; width: 100%; aspect-ratio: 1; background: #fafafa; overflow: hidden; }
-    .product-img-wrap img { width: 100%; height: 100%; object-fit: cover; transition: transform 0.3s; }
-    .product-card:hover .product-img-wrap img { transform: scale(1.05); }
-    .badge-cat { position: absolute; top: 6px; left: 6px; background: rgba(255,255,255,0.9); border-radius: 50%; width: 28px; height: 28px; font-size: 14px; display: flex; align-items: center; justify-content: center; box-shadow: 0 1px 4px rgba(0,0,0,0.1); }
-    .product-info { padding: 10px; flex: 1; display: flex; flex-direction: column; }
-    .product-name { font-size: 12px; font-weight: 500; color: #333; line-height: 1.4; min-height: 34px; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
-    .product-price { font-size: 16px; font-weight: 700; color: #e91e63; margin-top: 6px; }
-    .product-meta { margin-top: 6px; display: flex; flex-direction: column; gap: 3px; }
-    .rating { display: flex; align-items: center; gap: 4px; font-size: 11px; }
-    .stars { color: #ffce3d; letter-spacing: -1px; }
-    .star-empty { color: #ddd; }
-    .rating-num { color: #e91e63; font-weight: 600; }
-    .stats { display: flex; gap: 10px; font-size: 10px; color: #999; }
-    .product-cta { margin-top: 8px; padding: 6px 0; text-align: center; font-size: 11px; font-weight: 600; color: #fff; background: #e91e63; border-radius: 4px; transition: background 0.2s; }
-    .product-card:hover .product-cta { background: #c2185b; }
-    .pagination { max-width: 1200px; margin: 24px auto; padding: 0 20px; display: flex; justify-content: center; gap: 6px; flex-wrap: wrap; }
-    .pagination a, .pagination span { padding: 8px 14px; border-radius: 6px; font-size: 13px; font-weight: 600; text-decoration: none; border: 1px solid #ddd; color: #333; transition: all 0.2s; }
-    .pagination a:hover { background: #e91e63; color: #fff; border-color: #e91e63; }
-    .pagination .current { background: #e91e63; color: #fff; border-color: #e91e63; }
-    .footer { max-width: 1200px; margin: 20px auto 0; padding: 20px; text-align: center; color: #999; font-size: 12px; border-top: 1px solid #eee; }
-    </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>SweetFinds — 🧴 Skincare</title>
+<meta name="description" content="SweetFinds — Kulit sehat & glowing dimulai dari sini ✨">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<style>@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap');
+:root{--p50:#fdf2f8;--p100:#fce7f3;--p200:#fbcfe8;--p300:#f9a8d4;--p400:#f472b6;--p500:#ec4899;--p600:#db2777;--p700:#be185d;--g50:#fafafa;--g100:#f5f5f5;--g200:#e5e5e5;--g300:#d4d4d4;--g400:#a3a3a3;--g500:#737373;--g700:#404040;--g800:#262626;--g900:#171717;--r10:10px;--r12:12px;--rf:9999px;--shp:0 4px 20px rgba(236,72,153,.2)}
+*{margin:0;padding:0;box-sizing:border-box}html{scroll-behavior:smooth}
+body{font-family:'Plus Jakarta Sans','Inter',-apple-system,sans-serif;background:var(--g50);color:var(--g800);-webkit-font-smoothing:antialiased;line-height:1.5}
+.prog{position:fixed;top:0;left:0;height:3px;background:linear-gradient(90deg,var(--p400),var(--p600),var(--p400));z-index:9999;width:0;transition:width .1s}
+.hdr{position:sticky;top:0;z-index:100;background:rgba(255,255,255,.82);backdrop-filter:blur(20px) saturate(180%);-webkit-backdrop-filter:blur(20px) saturate(180%);border-bottom:1px solid rgba(236,72,153,.08);box-shadow:0 1px 3px rgba(0,0,0,.03)}
+.hi{max-width:1320px;margin:0 auto;padding:10px 24px;display:flex;align-items:center;justify-content:space-between;gap:16px}
+.lw{display:flex;align-items:center;gap:10px;text-decoration:none}
+.li{width:38px;height:38px;border-radius:var(--r10);background:linear-gradient(135deg,var(--p500),var(--p700));display:flex;align-items:center;justify-content:center;font-size:18px;box-shadow:var(--shp);color:#fff;font-weight:800}
+.lt{font-size:20px;font-weight:800;color:var(--g900);letter-spacing:-.5px}.lt span{color:var(--p500)}
+.ls{font-size:9px;color:var(--g400);font-weight:600;letter-spacing:1.5px;text-transform:uppercase}
+.sw{flex:1;max-width:420px;position:relative}
+.si{width:100%;padding:10px 16px 10px 42px;border-radius:var(--rf);border:1.5px solid var(--g200);background:var(--g50);font-size:13px;font-family:inherit;color:var(--g800);transition:all .2s;outline:none}
+.si:focus{border-color:var(--p400);background:#fff;box-shadow:0 0 0 3px rgba(236,72,153,.08)}
+.si::placeholder{color:var(--g400)}
+.sico{position:absolute;left:14px;top:50%;transform:translateY(-50%);color:var(--g400);pointer-events:none}
+.hero{background:linear-gradient(135deg,var(--p700) 0%,var(--p600) 25%,var(--p500) 50%,var(--p400) 75%,var(--p300) 100%);padding:56px 24px 48px;text-align:center;position:relative;overflow:hidden}
+.hero::before{content:'';position:absolute;inset:0;background:radial-gradient(ellipse 600px 400px at 20% 40%,rgba(255,255,255,.12),transparent),radial-gradient(ellipse 500px 300px at 80% 70%,rgba(255,255,255,.08),transparent);animation:shm 10s ease-in-out infinite alternate}
+@keyframes shm{from{opacity:.6}to{opacity:1}}
+.hc{position:relative;z-index:1}
+.hbadge{display:inline-flex;align-items:center;gap:6px;padding:6px 16px;border-radius:var(--rf);background:rgba(255,255,255,.18);backdrop-filter:blur(10px);color:#fff;font-size:12px;font-weight:600;margin-bottom:16px;border:1px solid rgba(255,255,255,.2)}
+.hero h1{font-size:clamp(28px,5vw,44px);font-weight:800;color:#fff;line-height:1.12;margin-bottom:12px;letter-spacing:-1.5px;text-shadow:0 2px 20px rgba(0,0,0,.15)}
+.hero h1 .ac{background:linear-gradient(90deg,#fff,var(--p100));-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text}
+.hsub{color:rgba(255,255,255,.88);font-size:clamp(13px,2vw,15px);max-width:520px;margin:0 auto}
+.hstats{display:flex;justify-content:center;gap:40px;margin-top:28px}
+.hsn{font-size:28px;font-weight:800;color:#fff;line-height:1}
+.hsl{font-size:11px;color:rgba(255,255,255,.7);text-transform:uppercase;letter-spacing:.5px;margin-top:2px}
+.hd{position:absolute;font-size:48px;opacity:.12;pointer-events:none;animation:fl 7s ease-in-out infinite}
+.hd:nth-child(1){top:12%;left:6%}.hd:nth-child(2){bottom:20%;left:12%;animation-delay:2s;font-size:36px}
+.hd:nth-child(3){top:18%;right:8%;animation-delay:1s;font-size:40px}.hd:nth-child(4){bottom:10%;right:10%;animation-delay:3.5s;font-size:44px}
+@keyframes fl{0%,100%{transform:translateY(0) rotate(0deg)}50%{transform:translateY(-18px) rotate(6deg)}}
+.cnav{background:#fff;border-bottom:1px solid var(--g100);position:sticky;top:58px;z-index:99}
+.cni{max-width:1320px;margin:0 auto;display:flex;gap:6px;padding:10px 24px;overflow-x:auto;scrollbar-width:none}
+.cni::-webkit-scrollbar{display:none}
+.cp{display:flex;align-items:center;gap:6px;padding:7px 14px;border-radius:var(--rf);background:var(--p50);color:var(--p600);font-size:12px;font-weight:600;text-decoration:none;white-space:nowrap;border:1.5px solid var(--p100);transition:all .2s}
+.cp:hover{background:var(--p100);border-color:var(--p200);transform:translateY(-1px)}
+.cp.a{background:var(--p500);color:#fff;border-color:var(--p500);box-shadow:var(--shp)}
+.cp .cn{background:rgba(0,0,0,.06);border-radius:var(--rf);padding:1px 7px;font-size:10px;font-weight:700}
+.cp.a .cn{background:rgba(255,255,255,.25)}
+.sec{max-width:1320px;margin:0 auto;padding:24px 24px 0}
+.sh{display:flex;align-items:flex-end;justify-content:space-between;margin-bottom:20px;flex-wrap:wrap;gap:12px}
+.st{font-size:22px;font-weight:800;color:var(--g900);letter-spacing:-.3px}
+.ss{font-size:13px;color:var(--g400);margin-top:2px}
+.cb{padding:5px 14px;border-radius:var(--rf);background:var(--p50);color:var(--p600);font-size:12px;font-weight:600;border:1px solid var(--p100)}
+.pg{display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:16px}
+@media(max-width:640px){.pg{grid-template-columns:repeat(2,1fr);gap:10px}}
+@media(min-width:1024px){.pg{grid-template-columns:repeat(auto-fill,minmax(230px,1fr))}}
+.pc{background:#fff;border-radius:var(--r12);overflow:hidden;text-decoration:none;color:inherit;border:1px solid var(--g100);transition:all .3s cubic-bezier(.4,0,.2,1);display:flex;flex-direction:column}
+.pc:hover{transform:translateY(-4px);box-shadow:0 12px 40px rgba(0,0,0,.1);border-color:var(--p200)}
+.pi{position:relative;width:100%;aspect-ratio:1;background:var(--g50);overflow:hidden}
+.pi img{width:100%;height:100%;object-fit:cover;transition:transform .4s}
+.pc:hover .pi img{transform:scale(1.06)}
+.badge{position:absolute;top:8px;left:8px;background:rgba(255,255,255,.92);border-radius:50%;width:30px;height:30px;font-size:15px;display:flex;align-items:center;justify-content:center;box-shadow:0 2px 8px rgba(0,0,0,.1)}
+.hot{position:absolute;top:8px;right:8px;padding:3px 8px;border-radius:var(--rf);background:linear-gradient(135deg,#ff6b35,#ff3d00);color:#fff;font-size:10px;font-weight:700;box-shadow:0 2px 8px rgba(255,61,0,.3)}
+.pb{padding:12px;flex:1;display:flex;flex-direction:column}
+.pn{font-size:12.5px;font-weight:600;color:var(--g800);line-height:1.4;min-height:35px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.pp{font-size:17px;font-weight:800;color:var(--p600);margin-top:8px;letter-spacing:-.3px}
+.pm{margin-top:6px;display:flex;flex-direction:column;gap:4px}
+.pr{display:flex;align-items:center;gap:3px;font-size:11px}.sf{color:#ffce3d}.se{color:var(--g300)}.rv{color:var(--p500);font-weight:700;margin-left:2px}.rc{color:var(--g400)}
+.ps{display:flex;gap:10px;font-size:10px;color:var(--g400)}
+.cta{margin-top:auto;padding:8px 0;text-align:center;font-size:12px;font-weight:700;color:#fff;background:linear-gradient(135deg,var(--p500),var(--p600));border-radius:var(--r10);transition:all .2s;display:flex;align-items:center;justify-content:center;gap:4px}
+.pc:hover .cta{background:linear-gradient(135deg,var(--p600),var(--p700));box-shadow:var(--shp)}
+.pgn{max-width:1320px;margin:28px auto;padding:0 24px;display:flex;justify-content:center;gap:6px;flex-wrap:wrap}
+.pgn a,.pgn span{padding:8px 14px;border-radius:var(--r10);font-size:13px;font-weight:600;text-decoration:none;border:1px solid var(--g200);color:var(--g700);transition:all .2s}
+.pgn a:hover{background:var(--p500);color:#fff;border-color:var(--p500)}
+.pgn .cur{background:var(--p500);color:#fff;border-color:var(--p500);box-shadow:var(--shp)}
+.ftr{max-width:1320px;margin:32px auto 0;padding:24px;text-align:center;color:var(--g400);font-size:12px;border-top:1px solid var(--g100)}
+.ftr-brand{font-size:16px;font-weight:800;color:var(--g800);margin-bottom:4px}.ftr-brand span{color:var(--p500)}
+.no-results{text-align:center;padding:60px 20px;color:var(--g400)}.no-results .emoji{font-size:48px;margin-bottom:12px}.no-results p{font-size:14px}</style>
 </head>
 <body>
-
-<header class="header">
-  <div class="header-inner">
-    <a href="page1.html" class="logo">SWEETFINDS <span>Beauty Picks</span></a>
-  </div>
-</header>
-
-<section class="banner">
-  <h1>✨ SWEETFINDS ✨</h1>
-  <p>Curated Beauty Picks • Harga Terjangkau • Kualitas Terjamin</p>
+<div class="prog" id="prog"></div>
+<header class="hdr"><div class="hi">
+<a href="page1.html" class="lw"><div class="li">S</div><div><div class="lt">SWEET<span>FINDS</span></div><div class="ls">Beauty Picks</div></div></a>
+<div class="sw"><svg class="sico" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35"/></svg><input type="text" class="si" placeholder="Cari produk..." id="search" autocomplete="off"/></div>
+</div></header>
+<section class="hero">
+<span class="hd">✨</span><span class="hd">💄</span><span class="hd">🌸</span><span class="hd">💎</span>
+<div class="hc">
+<div class="hbadge">✨ Curated Beauty Picks</div>
+<h1>Temukan Produk <span class="ac">Kecantikan Terbaik</span><br/>Harga Terjangkau</h1>
+<p class="hsub">Kulit sehat & glowing dimulai dari sini ✨</p>
+<div class="hstats"><div><div class="hsn">45</div><div class="hsl">Produk</div></div><div><div class="hsn">7</div><div class="hsl">Kategori</div></div><div><div class="hsn">⭐ 4.8+</div><div class="hsl">Rating</div></div></div>
+</div>
 </section>
-
-<nav class="cat-nav">
-  <div class="cat-nav-inner">
-    <a href="page1.html" class="cat-pill "><span class="cat-emoji">🔥</span><span>All</span></a><a href="skincare_page1.html" class="cat-pill active"><span class="cat-emoji">🧴</span><span>Skincare</span></a><a href="makeup_page1.html" class="cat-pill "><span class="cat-emoji">💄</span><span>Makeup</span></a><a href="body_care_page1.html" class="cat-pill "><span class="cat-emoji">🧴</span><span>Body Care</span></a><a href="cleansing_page1.html" class="cat-pill "><span class="cat-emoji">🫧</span><span>Cleansing</span></a><a href="parfum_page1.html" class="cat-pill "><span class="cat-emoji">🌸</span><span>Parfum</span></a><a href="set_bundle_page1.html" class="cat-pill "><span class="cat-emoji">📦</span><span>Set & Bundle</span></a><a href="hair_care_page1.html" class="cat-pill "><span class="cat-emoji">💇‍♀️</span><span>Hair Care</span></a>
-  </div>
-</nav>
-
-<div class="page-header">
-  <h2>🧴 Skincare</h2>
-  <span class="count">Menampilkan 1–10 dari 45 produk</span>
-</div>
-
-<div class="products-grid">
-  
-    <a href="https://s.shopee.co.id/5VSXo1KuBB" target="_blank" rel="noopener noreferrer" class="product-card" data-category="skincare">
-      <div class="product-img-wrap">
-        <img src="https://down-id.img.susercontent.com/file/sg-11134201-821f9-mgorrkk31vda91" alt="WARDAH Crystal Secret Foaming Cleanser" loading="lazy" />
-        <span class="badge-cat">🧴</span>
-      </div>
-      <div class="product-info">
-        <h3 class="product-name">WARDAH Crystal Secret Foaming Cleanser</h3>
-        <div class="product-price">Rp28.710</div>
-        <div class="product-meta">
-          <div class="rating">
-            <span class="stars">★★★★★</span>
-            <span class="rating-num">4.9</span>
-          </div>
-          <div class="stats">
-            <span class="sold">💬 22.2rb</span>
-            <span class="liked">❤️ 9.2rb</span>
-          </div>
-        </div>
-        <div class="product-cta">Beli di Shopee →</div>
-      </div>
-    </a>
-    <a href="https://s.shopee.co.id/5AphPZvjRw" target="_blank" rel="noopener noreferrer" class="product-card" data-category="skincare">
-      <div class="product-img-wrap">
-        <img src="https://down-id.img.susercontent.com/file/sg-11134201-7rdwl-m0so3ewaubmtd5" alt="Emina Sun Battle SPF 35 PA+++" loading="lazy" />
-        <span class="badge-cat">🧴</span>
-      </div>
-      <div class="product-info">
-        <h3 class="product-name">Emina Sun Battle SPF 35 PA+++</h3>
-        <div class="product-price">Rp19.740</div>
-        <div class="product-meta">
-          <div class="rating">
-            <span class="stars">★★★★★</span>
-            <span class="rating-num">4.9</span>
-          </div>
-          <div class="stats">
-            <span class="sold">💬 28.6rb</span>
-            <span class="liked">❤️ 9.1rb</span>
-          </div>
-        </div>
-        <div class="product-cta">Beli di Shopee →</div>
-      </div>
-    </a>
-    <a href="https://s.shopee.co.id/4Va0cNkkCc" target="_blank" rel="noopener noreferrer" class="product-card" data-category="skincare">
-      <div class="product-img-wrap">
-        <img src="https://down-id.img.susercontent.com/file/id-11134207-822ws-modp2ffrti4s63" alt="Kahf Oil and Acne Care Face Wash" loading="lazy" />
-        <span class="badge-cat">🧴</span>
-      </div>
-      <div class="product-info">
-        <h3 class="product-name">Kahf Oil and Acne Care Face Wash</h3>
-        <div class="product-price">Rp40.700</div>
-        <div class="product-meta">
-          <div class="rating">
-            <span class="stars">★★★★★</span>
-            <span class="rating-num">4.9</span>
-          </div>
-          <div class="stats">
-            <span class="sold">💬 16.8rb</span>
-            <span class="liked">❤️ 8.1rb</span>
-          </div>
-        </div>
-        <div class="product-cta">Beli di Shopee →</div>
-      </div>
-    </a>
-    <a href="https://s.shopee.co.id/6L1enn78Vh" target="_blank" rel="noopener noreferrer" class="product-card" data-category="skincare">
-      <div class="product-img-wrap">
-        <img src="https://down-id.img.susercontent.com/file/id-11134207-8224v-mjin7pzt2w3mb8" alt="Fav Beauty Yogurt Peel Off Mask 50gr" loading="lazy" />
-        <span class="badge-cat">🧴</span>
-      </div>
-      <div class="product-info">
-        <h3 class="product-name">Fav Beauty Yogurt Peel Off Mask 50gr</h3>
-        <div class="product-price">Rp35.000</div>
-        <div class="product-meta">
-          <div class="rating">
-            <span class="stars">★★★★★</span>
-            <span class="rating-num">4.8</span>
-          </div>
-          <div class="stats">
-            <span class="sold">💬 9.2rb</span>
-            <span class="liked">❤️ 8.8rb</span>
-          </div>
-        </div>
-        <div class="product-cta">Beli di Shopee →</div>
-      </div>
-    </a>
-    <a href="https://s.shopee.co.id/AUrExpTYZT" target="_blank" rel="noopener noreferrer" class="product-card" data-category="skincare">
-      <div class="product-img-wrap">
-        <img src="https://down-id.img.susercontent.com/file/id-11134207-7r98u-lwdrhiynbsfg70" alt="Minimalist 5% Marula Moisturizer" loading="lazy" />
-        <span class="badge-cat">🧴</span>
-      </div>
-      <div class="product-info">
-        <h3 class="product-name">Minimalist 5% Marula Moisturizer</h3>
-        <div class="product-price">Rp90.000</div>
-        <div class="product-meta">
-          <div class="rating">
-            <span class="stars">★★★★★</span>
-            <span class="rating-num">4.9</span>
-          </div>
-          <div class="stats">
-            <span class="sold">💬 1.6rb</span>
-            <span class="liked">❤️ 4.1rb</span>
-          </div>
-        </div>
-        <div class="product-cta">Beli di Shopee →</div>
-      </div>
-    </a>
-    <a href="https://s.shopee.co.id/2BC72aCeSy" target="_blank" rel="noopener noreferrer" class="product-card" data-category="skincare">
-      <div class="product-img-wrap">
-        <img src="https://down-id.img.susercontent.com/file/id-11134207-822wp-mnk711kd2dxgc8" alt="ELFORMULA CeraHydro Barrier Repair Gel" loading="lazy" />
-        <span class="badge-cat">🧴</span>
-      </div>
-      <div class="product-info">
-        <h3 class="product-name">ELFORMULA CeraHydro Barrier Repair Gel</h3>
-        <div class="product-price">Rp128.000</div>
-        <div class="product-meta">
-          <div class="rating">
-            <span class="stars">★★★★★</span>
-            <span class="rating-num">4.9</span>
-          </div>
-          <div class="stats">
-            <span class="sold">💬 127.7rb</span>
-            <span class="liked">❤️ 97.1rb</span>
-          </div>
-        </div>
-        <div class="product-cta">Beli di Shopee →</div>
-      </div>
-    </a>
-    <a href="https://s.shopee.co.id/1gFqRjkHU1" target="_blank" rel="noopener noreferrer" class="product-card" data-category="skincare">
-      <div class="product-img-wrap">
-        <img src="https://down-id.img.susercontent.com/file/id-11134207-822wj-mlrl7wahwkcj94" alt="Facetology Panthenol Barrier Boost" loading="lazy" />
-        <span class="badge-cat">🧴</span>
-      </div>
-      <div class="product-info">
-        <h3 class="product-name">Facetology Panthenol Barrier Boost</h3>
-        <div class="product-price">Rp36.900</div>
-        <div class="product-meta">
-          <div class="rating">
-            <span class="stars">★★★★★</span>
-            <span class="rating-num">4.9</span>
-          </div>
-          <div class="stats">
-            <span class="sold">💬 39.1rb</span>
-            <span class="liked">❤️ 21.1rb</span>
-          </div>
-        </div>
-        <div class="product-cta">Beli di Shopee →</div>
-      </div>
-    </a>
-    <a href="https://s.shopee.co.id/50WHDM3hEC" target="_blank" rel="noopener noreferrer" class="product-card" data-category="skincare">
-      <div class="product-img-wrap">
-        <img src="https://down-id.img.susercontent.com/file/id-11134207-822wr-moqbl73phu6l81" alt="SKINTIFIC Serum Matte Cushion SPF50" loading="lazy" />
-        <span class="badge-cat">🧴</span>
-      </div>
-      <div class="product-info">
-        <h3 class="product-name">SKINTIFIC Serum Matte Cushion SPF50</h3>
-        <div class="product-price">Rp162.000</div>
-        <div class="product-meta">
-          <div class="rating">
-            <span class="stars">★★★★★</span>
-            <span class="rating-num">5.0</span>
-          </div>
-          <div class="stats">
-            <span class="sold">💬 1.9rb</span>
-            <span class="liked">❤️ 3.4rb</span>
-          </div>
-        </div>
-        <div class="product-cta">Beli di Shopee →</div>
-      </div>
-    </a>
-    <a href="https://s.shopee.co.id/7pqSefJCmx" target="_blank" rel="noopener noreferrer" class="product-card" data-category="skincare">
-      <div class="product-img-wrap">
-        <img src="https://down-id.img.susercontent.com/file/id-11134207-8224s-mfukpyyk7fuy02" alt="SKINTIFIC Outdoor Sunscreen Spray SPF50+" loading="lazy" />
-        <span class="badge-cat">🧴</span>
-      </div>
-      <div class="product-info">
-        <h3 class="product-name">SKINTIFIC Outdoor Sunscreen Spray SPF50+</h3>
-        <div class="product-price">Rp144.000</div>
-        <div class="product-meta">
-          <div class="rating">
-            <span class="stars">★★★★★</span>
-            <span class="rating-num">4.9</span>
-          </div>
-          <div class="stats">
-            <span class="sold">💬 20.9rb</span>
-            <span class="liked">❤️ 32rb</span>
-          </div>
-        </div>
-        <div class="product-cta">Beli di Shopee →</div>
-      </div>
-    </a>
-    <a href="https://s.shopee.co.id/3VhTUiUtkr" target="_blank" rel="noopener noreferrer" class="product-card" data-category="skincare">
-      <div class="product-img-wrap">
-        <img src="https://down-id.img.susercontent.com/file/id-11134207-8224o-mi9mijcqtvrcc9" alt="SKINTIFIC Lifting Eye Cream 20ml" loading="lazy" />
-        <span class="badge-cat">🧴</span>
-      </div>
-      <div class="product-info">
-        <h3 class="product-name">SKINTIFIC Lifting Eye Cream 20ml</h3>
-        <div class="product-price">Rp169.000</div>
-        <div class="product-meta">
-          <div class="rating">
-            <span class="stars">★★★★★</span>
-            <span class="rating-num">4.9</span>
-          </div>
-          <div class="stats">
-            <span class="sold">💬 21.3rb</span>
-            <span class="liked">❤️ 19.7rb</span>
-          </div>
-        </div>
-        <div class="product-cta">Beli di Shopee →</div>
-      </div>
-    </a>
-</div>
-
-<div class="pagination">
-  <span class="current">1</span><a href="skincare_page2.html">2</a><a href="skincare_page3.html">3</a><a href="skincare_page4.html">4</a><a href="skincare_page5.html">5</a>
-</div>
-
-<footer class="footer">
-  <p>SweetFinds — Shopee Affiliate Picks</p>
-  <p style="margin-top:4px">Halaman 1/5 • 45 produk</p>
-</footer>
-
-<script>
-document.querySelectorAll('.product-img-wrap img').forEach(img => {
-  img.onerror = function() { this.style.background='#f5f5f5'; this.style.objectFit='contain'; };
-});
-</script>
-
-</body>
-</html>
+<nav class="cnav"><div class="cni"><a href="page1.html" class="cp "><span>🔥</span><span>All</span></a><a href="skincare_page1.html" class="cp a"><span>🧴</span><span>Skincare</span></a><a href="makeup_page1.html" class="cp "><span>💄</span><span>Makeup</span></a><a href="body_care_page1.html" class="cp "><span>🫧</span><span>Body Care</span></a><a href="hair_care_page1.html" class="cp "><span>💇‍♀️</span><span>Hair Care</span></a><a href="parfum_page1.html" class="cp "><span>🌸</span><span>Parfum</span></a><a href="set_bundle_page1.html" class="cp "><span>💎</span><span>Bundle</span></a></div></nav>
+<section class="sec">
+<div class="sh"><div><div class="st">🧴 Skincare</div><div class="ss">Menampilkan 1–12 dari 45 produk</div></div><span class="cb">45 produk</span></div>
+<div class="pg" id="product-grid"><a href="https://s.shopee.co.id/5VSXo1KuBB" target="_blank" rel="noopener" class="pc" data-cat="skincare" data-nm="wardah crystal secret foaming cleanser"><div class="pi"><img src="https://down-id.img.susercontent.com/file/sg-11134201-821f9-mgorrkk31vda91" alt="WARDAH Crystal Secret Foaming Cleanser" loading="lazy"/><span class="badge">🧴</span></div><div class="pb"><h3 class="pn">WARDAH Crystal Secret Foaming Cleanser</h3><div class="pp">Rp28.710</div><div class="pm"><div class="pr"><span class="sf">★</span><span class="sf">★</span><span class="sf">★</span><span class="sf">★</span><span class="sf">★</span><span class="rv">4.9</span><span class="rc">(44.4rb)</span></div><div class="ps"><span>💬 22.2rb</span><span>❤️ 9.2rb</span></div></div><div class="cta"><span>Beli di Shopee</span><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg></div></div></a><a href="https://s.shopee.co.id/5AphPZvjRw" target="_blank" rel="noopener" class="pc" data-cat="skincare" data-nm="emina sun battle spf 35 pa+++"><div class="pi"><img src="https://down-id.img.susercontent.com/file/sg-11134201-7rdwl-m0so3ewaubmtd5" alt="Emina Sun Battle SPF 35 PA+++" loading="lazy"/><span class="badge">🧴</span></div><div class="pb"><h3 class="pn">Emina Sun Battle SPF 35 PA+++</h3><div class="pp">Rp19.740</div><div class="pm"><div class="pr"><span class="sf">★</span><span class="sf">★</span><span class="sf">★</span><span class="sf">★</span><span class="sf">★</span><span class="rv">4.9</span><span class="rc">(57.1rb)</span></div><div class="ps"><span>💬 28.6rb</span><span>❤️ 9.1rb</span></div></div><div class="cta"><span>Beli di Shopee</span><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg></div></div></a><a href="https://s.shopee.co.id/4Va0cNkkCc" target="_blank" rel="noopener" class="pc" data-cat="skincare" data-nm="kahf oil and acne care face wash"><div class="pi"><img src="https://down-id.img.susercontent.com/file/id-11134207-822ws-modp2ffrti4s63" alt="Kahf Oil and Acne Care Face Wash" loading="lazy"/><span class="badge">🧴</span></div><div class="pb"><h3 class="pn">Kahf Oil and Acne Care Face Wash</h3><div class="pp">Rp40.700</div><div class="pm"><div class="pr"><span class="sf">★</span><span class="sf">★</span><span class="sf">★</span><span class="sf">★</span><span class="sf">★</span><span class="rv">4.9</span><span class="rc">(33.6rb)</span></div><div class="ps"><span>💬 16.8rb</span><span>❤️ 8.1rb</span></div></div><div class="cta"><span>Beli di Shopee</span><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg></div></div></a><a href="https://s.shopee.co.id/6L1enn78Vh" target="_blank" rel="noopener" class="pc" data-cat="skincare" data-nm="fav beauty yogurt peel off mask 50gr"><div class="pi"><img src="https://down-id.img.susercontent.com/file/id-11134207-8224v-mjin7pzt2w3mb8" alt="Fav Beauty Yogurt Peel Off Mask 50gr" loading="lazy"/><span class="badge">🧴</span></div><div class="pb"><h3 class="pn">Fav Beauty Yogurt Peel Off Mask 50gr</h3><div class="pp">Rp35.000</div><div class="pm"><div class="pr"><span class="sf">★</span><span class="sf">★</span><span class="sf">★</span><span class="sf">★</span><span class="sf">★</span><span class="rv">4.8</span><span class="rc">(18.4rb)</span></div><div class="ps"><span>💬 9.2rb</span><span>❤️ 8.8rb</span></div></div><div class="cta"><span>Beli di Shopee</span><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg></div></div></a><a href="https://s.shopee.co.id/AUrExpTYZT" target="_blank" rel="noopener" class="pc" data-cat="skincare" data-nm="minimalist 5% marula moisturizer"><div class="pi"><img src="https://down-id.img.susercontent.com/file/id-11134207-7r98u-lwdrhiynbsfg70" alt="Minimalist 5% Marula Moisturizer" loading="lazy"/><span class="badge">🧴</span></div><div class="pb"><h3 class="pn">Minimalist 5% Marula Moisturizer</h3><div class="pp">Rp90.000</div><div class="pm"><div class="pr"><span class="sf">★</span><span class="sf">★</span><span class="sf">★</span><span class="sf">★</span><span class="sf">★</span><span class="rv">4.9</span><span class="rc">(3.2rb)</span></div><div class="ps"><span>💬 1.6rb</span><span>❤️ 4.1rb</span></div></div><div class="cta"><span>Beli di Shopee</span><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg></div></div></a><a href="https://s.shopee.co.id/2BC72aCeSy" target="_blank" rel="noopener" class="pc" data-cat="skincare" data-nm="elformula cerahydro barrier repair gel"><div class="pi"><img src="https://down-id.img.susercontent.com/file/id-11134207-822wp-mnk711kd2dxgc8" alt="ELFORMULA CeraHydro Barrier Repair Gel" loading="lazy"/><span class="badge">🧴</span><span class="hot">🔥 Hot</span></div><div class="pb"><h3 class="pn">ELFORMULA CeraHydro Barrier Repair Gel</h3><div class="pp">Rp128.000</div><div class="pm"><div class="pr"><span class="sf">★</span><span class="sf">★</span><span class="sf">★</span><span class="sf">★</span><span class="sf">★</span><span class="rv">4.9</span><span class="rc">(271.2rb)</span></div><div class="ps"><span>💬 127.7rb</span><span>❤️ 97.1rb</span></div></div><div class="cta"><span>Beli di Shopee</span><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg></div></div></a><a href="https://s.shopee.co.id/1gFqRjkHU1" target="_blank" rel="noopener" class="pc" data-cat="skincare" data-nm="facetology panthenol barrier boost"><div class="pi"><img src="https://down-id.img.susercontent.com/file/id-11134207-822wj-mlrl7wahwkcj94" alt="Facetology Panthenol Barrier Boost" loading="lazy"/><span class="badge">🧴</span></div><div class="pb"><h3 class="pn">Facetology Panthenol Barrier Boost</h3><div class="pp">Rp36.900</div><div class="pm"><div class="pr"><span class="sf">★</span><span class="sf">★</span><span class="sf">★</span><span class="sf">★</span><span class="sf">★</span><span class="rv">4.9</span><span class="rc">(78.1rb)</span></div><div class="ps"><span>💬 39.1rb</span><span>❤️ 21.1rb</span></div></div><div class="cta"><span>Beli di Shopee</span><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg></div></div></a><a href="https://s.shopee.co.id/50WHDM3hEC" target="_blank" rel="noopener" class="pc" data-cat="skincare" data-nm="skintific serum matte cushion spf50"><div class="pi"><img src="https://down-id.img.susercontent.com/file/id-11134207-822wr-moqbl73phu6l81" alt="SKINTIFIC Serum Matte Cushion SPF50" loading="lazy"/><span class="badge">🧴</span></div><div class="pb"><h3 class="pn">SKINTIFIC Serum Matte Cushion SPF50</h3><div class="pp">Rp162.000</div><div class="pm"><div class="pr"><span class="sf">★</span><span class="sf">★</span><span class="sf">★</span><span class="sf">★</span><span class="sf">★</span><span class="rv">5.0</span><span class="rc">(3.9rb)</span></div><div class="ps"><span>💬 1.9rb</span><span>❤️ 3.4rb</span></div></div><div class="cta"><span>Beli di Shopee</span><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg></div></div></a><a href="https://s.shopee.co.id/7pqSefJCmx" target="_blank" rel="noopener" class="pc" data-cat="skincare" data-nm="skintific outdoor sunscreen spray spf50+"><div class="pi"><img src="https://down-id.img.susercontent.com/file/id-11134207-8224s-mfukpyyk7fuy02" alt="SKINTIFIC Outdoor Sunscreen Spray SPF50+" loading="lazy"/><span class="badge">🧴</span></div><div class="pb"><h3 class="pn">SKINTIFIC Outdoor Sunscreen Spray SPF50+</h3><div class="pp">Rp144.000</div><div class="pm"><div class="pr"><span class="sf">★</span><span class="sf">★</span><span class="sf">★</span><span class="sf">★</span><span class="sf">★</span><span class="rv">4.9</span><span class="rc">(44.1rb)</span></div><div class="ps"><span>💬 20.9rb</span><span>❤️ 32rb</span></div></div><div class="cta"><span>Beli di Shopee</span><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg></div></div></a><a href="https://s.shopee.co.id/3VhTUiUtkr" target="_blank" rel="noopener" class="pc" data-cat="skincare" data-nm="skintific lifting eye cream 20ml"><div class="pi"><img src="https://down-id.img.susercontent.com/file/id-11134207-8224o-mi9mijcqtvrcc9" alt="SKINTIFIC Lifting Eye Cream 20ml" loading="lazy"/><span class="badge">🧴</span></div><div class="pb"><h3 class="pn">SKINTIFIC Lifting Eye Cream 20ml</h3><div class="pp">Rp169.000</div><div class="pm"><div class="pr"><span class="sf">★</span><span class="sf">★</span><span class="sf">★</span><span class="sf">★</span><span class="sf">★</span><span class="rv">4.9</span><span class="rc">(44.5rb)</span></div><div class="ps"><span>💬 21.3rb</span><span>❤️ 19.7rb</span></div></div><div class="cta"><span>Beli di Shopee</span><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg></div></div></a><a href="https://s.shopee.co.id/20sfhyZnBP" target="_blank" rel="noopener" class="pc" data-cat="skincare" data-nm="skintific uv protect & tone up set"><div class="pi"><img src="https://down-id.img.susercontent.com/file/id-11134207-8224w-mjtqgvr36waq06" alt="SKINTIFIC UV Protect &amp; Tone Up Set" loading="lazy"/><span class="badge">🧴</span></div><div class="pb"><h3 class="pn">SKINTIFIC UV Protect &amp; Tone Up Set</h3><div class="pp">Rp222.000</div><div class="pm"><div class="pr"><span class="sf">★</span><span class="sf">★</span><span class="sf">★</span><span class="sf">★</span><span class="sf">★</span><span class="rv">4.9</span><span class="rc">(334)</span></div><div class="ps"><span>💬 167</span><span>❤️ 83</span></div></div><div class="cta"><span>Beli di Shopee</span><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg></div></div></a><a href="https://s.shopee.co.id/6VL54JSryQ" target="_blank" rel="noopener" class="pc" data-cat="skincare" data-nm="skintific outdoor ready set"><div class="pi"><img src="https://down-id.img.susercontent.com/file/id-11134207-822wu-mom6lrf5fvv22f" alt="SKINTIFIC Outdoor Ready Set" loading="lazy"/><span class="badge">🧴</span></div><div class="pb"><h3 class="pn">SKINTIFIC Outdoor Ready Set</h3><div class="pp">Rp146.000</div><div class="pm"><div class="pr"><span class="sf">★</span><span class="sf">★</span><span class="sf">★</span><span class="sf">★</span><span class="sf">★</span><span class="rv">4.9</span><span class="rc">(56)</span></div><div class="ps"><span>💬 28</span><span>❤️ 52</span></div></div><div class="cta"><span>Beli di Shopee</span><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg></div></div></a></div>
+</section>
+<div class="pgn"><span class="cur">1</span><a href="skincare_page2.html">2</a><a href="skincare_page3.html">3</a><a href="skincare_page4.html">4</a></div>
+<footer class="ftr"><div class="ftr-brand">SWEET<span>FINDS</span></div><p>Shopee Affiliate Picks • Halaman 1/4 • 45 produk</p><p style="margin-top:4px;font-size:11px;color:#bbb">Harga dan ketersediaan dapat berubah sewaktu-waktu</p></footer>
+<script>const prog=document.getElementById("prog");
+window.addEventListener("scroll",function(){var h=document.documentElement;var s=h.scrollTop/(h.scrollHeight-h.clientHeight)*100;prog.style.width=s+"%"});
+var search=document.getElementById("search");var grid=document.getElementById("product-grid");
+search.addEventListener("input",function(){var q=search.value.toLowerCase();grid.querySelectorAll(".pc").forEach(function(c){var nm=c.dataset.nm||"";var cat=c.dataset.cat||"";c.style.display=(nm.includes(q)||cat.includes(q))?"":"none"})});
+document.querySelectorAll(".pi img").forEach(function(img){img.onerror=function(){this.style.background="#f5f5f5";this.style.objectFit="contain"}});</script>
+</body></html>
